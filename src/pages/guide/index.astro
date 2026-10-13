@@ -5,12 +5,12 @@ import chapters from '../../data/chapters.json';
 import { SITE_NAME, SITE_URL, YEAR, crumbs } from '../../data/site';
 const schema = [{ '@context': 'https://schema.org', '@type': 'ItemList', name: 'The Recruitment AI Handbook', itemListElement: chapters.map((c) => ({ '@type': 'ListItem', position: c.num, name: c.title, url: `${SITE_URL}/guide/${c.slug}/` })) }, crumbs([{ name: 'Home', path: '/' }, { name: 'Handbook', path: '/guide/' }])];
 ---
-<Base title={`The Recruitment AI Handbook: 9 Chapters (${YEAR}) | ${SITE_NAME}`} description="A nine-chapter plain-English handbook on AI in recruiting: definitions, how it works, the seven types, use cases, benefits and limits, regulation, evaluation, implementation and what comes next." path="/guide/" schema={schema}>
+<Base title={`The Recruitment AI Handbook: 10 Chapters (${YEAR}) | ${SITE_NAME}`} description="A ten-chapter plain-English handbook on AI in recruiting: definitions, how it works, the seven types, use cases, benefits and limits, regulation, evaluation, implementation and what comes next." path="/guide/" schema={schema}>
   <div class="wrap doc"><Toc />
     <article class="prose">
       <p class="crumbs"><a href="/">Home</a> › Handbook</p>
       <h1>The Recruitment AI Handbook</h1>
-      <p>Nine chapters, written to be read in order or dipped into. Total reading time about an hour.</p>
+      <p>Ten chapters, written to be read in order or dipped into. Total reading time about an hour.</p>
       <ol class="steps">{chapters.map((c) => <li><b><a href={`/guide/${c.slug}/`}>{c.title}</a></b>{c.description} <span class="muted">· {c.minutes} min</span></li>)}</ol>
     </article>
   </div>

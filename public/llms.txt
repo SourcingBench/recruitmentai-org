@@ -14,6 +14,7 @@
 - [Ch. 7: How to evaluate a recruitment AI product](https://recruitmentai.org/guide/how-to-evaluate-recruitment-ai/) — Twenty questions to ask a vendor, a four-week pilot design, and the red flags that should end a conversation.
 - [Ch. 8: Implementing recruitment AI: a practical sequence](https://recruitmentai.org/guide/implementing-recruitment-ai/) — The order in which to introduce AI into a recruiting process, what to fix first, and how to bring hiring managers and candidates along.
 - [Ch. 9: Where recruitment AI is going](https://recruitmentai.org/guide/the-future-of-recruitment-ai/) — Agents that run whole requisitions, candidate-side AI, the end of Boolean, and what will not change.
+- [Ch. 10: How AI candidate screening works, and where it fails](https://recruitmentai.org/guide/how-ai-candidate-screening-works/) — What happens between an application arriving and a shortlist appearing: parsing, knockout rules, matching, criteria-based ranking, and the four places the process breaks.
 
 ## Vendor landscape (https://recruitmentai.org/vendors/)
 
