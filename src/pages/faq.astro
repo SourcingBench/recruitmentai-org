@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import Toc from '../components/Toc.astro';
+import Faq from '../components/Faq.astro';
+import faq from '../data/faq.json';
+import { SITE_NAME, YEAR, faqLd, crumbs } from '../data/site';
+const schema = [faqLd(faq), crumbs([{ name: 'Home', path: '/' }, { name: 'FAQ', path: '/faq/' }])];
+---
+<Base title={`Recruitment AI FAQ: ${faq.length} Straight Answers (${YEAR}) | ${SITE_NAME}`} description="Straight answers to the questions people ask about AI in recruiting: what it is, how companies use it, bias, legality, cost, whether it replaces recruiters, and how job seekers should respond." path="/faq/" schema={schema}>
+  <div class="wrap doc"><Toc current="faq" />
+    <article class="prose">
+      <p class="crumbs"><a href="/">Home</a> › FAQ</p>
+      <h1>Recruitment AI: frequently asked questions</h1>
+      <p>Short answers; each links to the chapter with the long version.</p>
+      <Faq items={faq} title="" />
+    </article>
+  </div>
+</Base>

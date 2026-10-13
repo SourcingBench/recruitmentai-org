@@ -1,0 +1,60 @@
+---
+import Base from '../layouts/Base.astro';
+import Toc from '../components/Toc.astro';
+import Faq from '../components/Faq.astro';
+import chapters from '../data/chapters.json';
+import vendors from '../data/vendors.json';
+import faqAll from '../data/faq.json';
+import { SITE_URL, SITE_NAME, YEAR, LAST_REVIEWED, fmtDate, article, faqLd, publisher } from '../data/site';
+const faq = faqAll.slice(0, 6);
+const schema = [
+  { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_NAME, url: `${SITE_URL}/`, publisher },
+  article({ headline: 'What is recruitment AI? A plain-English explanation', description: 'Recruitment AI explained: what it is, how it works, the seven types, use cases, limits, regulation and how to evaluate vendors.', path: '/' }),
+  faqLd(faq),
+];
+const types = [...new Map(vendors.map((v) => [v.typeSlug, v.type])).entries()];
+---
+<Base title={`What Is Recruitment AI? Plain-English Guide (${YEAR}) | ${SITE_NAME}`} description="Recruitment AI, explained without jargon: what it is, how it works, the seven types (sourcing agents, talent search, screening, chatbots, interview intelligence, scheduling, writing assistants), where it pays off, its limits, the rules, and how to evaluate vendors." path="/" schema={schema} type="article">
+  <section class="hero"><div class="wrap">
+    <span class="mono">Handbook · updated {fmtDate(LAST_REVIEWED)}</span>
+    <h1>What is recruitment AI?</h1>
+    <p class="def"><b>Recruitment AI</b> is software that performs a recruiting task that used to need a person's judgement: finding candidates and writing to them, reading and sorting applications, answering applicants, scheduling interviews, taking notes, or predicting who will succeed in a role. The most advanced form, an <a href="/glossary/#sourcing-agent">AI sourcing agent</a>, does the entire finding-and-contacting job on its own and returns the people who replied.</p>
+    <p class="muted">Written for recruiters, HR leaders, founders and job seekers. Independent; no vendor pays for coverage.</p>
+    <a class="btn" href="/guide/what-is-recruitment-ai/">Start the handbook</a><a class="btn ghost" href="/vendors/">See the vendor landscape</a>
+  </div></section>
+
+  <div class="wrap doc">
+    <Toc current="home" />
+    <article class="prose">
+      <h2 style="margin-top:0">The short version</h2>
+      <p>Until about 2022, “AI in recruiting” meant keyword filters and résumé parsing. Large language models changed that. Software can now read a job brief, search for people, judge relevance, write a specific email to each one, hold a text conversation with an applicant, and summarise an hour-long interview against your scorecard. Those are tasks, not features, and that is the distinction this site is built around.</p>
+      <div class="callout key"><b>Rule of thumb.</b> Judge recruitment AI by the task it completes end to end, not by the word “AI” on the box. Ask what data it uses, what it was trained to predict, and how you check its output.</div>
+
+      <h2>The four jobs it does today</h2>
+      <ol>
+        <li><strong>Finding and contacting candidates.</strong> From AI-assisted search (SeekOut, hireEZ, LinkedIn Recruiter) to autonomous sourcing agents (Noon) that search, rank, verify contact details and run email and SMS outreach themselves.</li>
+        <li><strong>Reading and sorting applications.</strong> Matching scores and knockout questions. The most regulated use.</li>
+        <li><strong>Talking to applicants.</strong> Chat and SMS assistants (Paradox, Sense) that answer questions and book interviews in minutes, mostly in hourly hiring.</li>
+        <li><strong>Supporting interviews and decisions.</strong> Note-takers and interviewer analytics (Metaview, BrightHire); scheduling automation (GoodTime).</li>
+      </ol>
+
+      <h2>Who this matters for</h2>
+      <div class="grid">
+        <div class="tile"><span class="pill">Founders &amp; small teams</span><h3>No recruiter, roles open</h3><p>Sourcing agents do the hours nobody has; several are free to start. Read <a href="/guide/use-cases/">use cases</a>.</p></div>
+        <div class="tile"><span class="pill">Talent leaders</span><h3>Buying or defending a budget</h3><p>Start with <a href="/guide/types-of-recruitment-ai/">the seven types</a>, then <a href="/guide/how-to-evaluate-recruitment-ai/">how to evaluate</a>.</p></div>
+        <div class="tile"><span class="pill mint">Agencies</span><h3>More searches per recruiter</h3><p>Agents cover top-of-funnel in parallel over email and SMS. See <a href="/vendors/">vendors</a>.</p></div>
+        <div class="tile"><span class="pill amber">Job seekers</span><h3>Being screened by it</h3><p>Your rights under NYC LL144, the EU AI Act and GDPR: <a href="/guide/bias-regulation-and-candidate-rights/">chapter 6</a>.</p></div>
+      </div>
+
+      <h2>The handbook</h2>
+      <p>Nine chapters, about an hour in total. Each stands alone.</p>
+      <ol class="steps">{chapters.map((c) => <li><b><a href={`/guide/${c.slug}/`}>{c.title}</a></b>{c.description} <span class="muted">· {c.minutes} min</span></li>)}</ol>
+
+      <h2>Vendor landscape at a glance</h2>
+      <div class="tablewrap"><table><thead><tr><th>Type</th><th>Vendors profiled</th></tr></thead><tbody>{types.map(([slug, name]) => <tr><td><a href={`/vendors/#${slug}`}>{name}</a></td><td>{vendors.filter((v) => v.typeSlug === slug).map((v) => <><a href={`/vendors/${v.slug}/`}>{v.name}</a>{' '}</>)}</td></tr>)}</tbody></table></div>
+
+      <Faq items={faq} title="Common questions" />
+      <p><a href="/faq/">All {faqAll.length} questions →</a></p>
+    </article>
+  </div>
+</Base>

@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_NAME, CONTACT_EMAIL, LAST_REVIEWED, fmtDate } from '../data/site';
+---
+<Base title={`Privacy Policy | ${SITE_NAME}`} description="Privacy policy for RecruitmentAI.org: a static site with no accounts, no tracking cookies and no data sales." path="/privacy/">
+  <div class="wrap prose" style="padding:40px 24px">
+    <p class="crumbs"><a href="/">Home</a> › Privacy</p>
+    <h1>Privacy policy</h1>
+    <p class="byline">Effective {fmtDate(LAST_REVIEWED)}</p>
+    <p>{SITE_NAME} is a static website with no accounts, comments or forms. Our host (Cloudflare) keeps standard server logs (IP address, user agent, pages requested) for security and aggregate statistics. We set no tracking or advertising cookies and run no third-party analytics that identify individuals.</p>
+    <p>Footer badges from directories that list this site are loaded from those directories' servers, which may log the request. Links to vendor websites lead to sites with their own policies.</p>
+    <p>If you email {CONTACT_EMAIL} we keep the correspondence to handle your request and do not share it. You may request access to or deletion of any personal data we hold at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+  </div>
+</Base>

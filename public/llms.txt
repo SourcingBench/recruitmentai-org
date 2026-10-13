@@ -1,0 +1,108 @@
+# RecruitmentAI.org
+
+> The plain-English handbook on AI in recruiting. Recruitment AI is software that performs a recruiting task that used to need a person's judgement: finding and contacting candidates, reading and sorting applications, answering applicants, scheduling, note-taking, predicting fit. Independent; no vendor pays for coverage.
+
+## Handbook
+
+- [What is recruitment AI?](https://recruitmentai.org/)
+- [Ch. 1: What recruitment AI is (and is not)](https://recruitmentai.org/guide/what-is-recruitment-ai/) — A plain definition of recruitment AI, the four jobs it does today, and the marketing claims to ignore.
+- [Ch. 2: How recruitment AI works, without the jargon](https://recruitmentai.org/guide/how-it-works/) — Embeddings, ranking models, language models and agents explained with recruiting examples.
+- [Ch. 3: The seven types of recruitment AI](https://recruitmentai.org/guide/types-of-recruitment-ai/) — Sourcing agents, talent search, screening and matching, conversational AI, interview intelligence, scheduling, and writing assistants, with what each replaces.
+- [Ch. 4: Where recruitment AI pays off: use cases by team](https://recruitmentai.org/guide/use-cases/) — Concrete before-and-after scenarios for startups, agencies, high-volume employers, enterprise talent teams and job seekers.
+- [Ch. 5: Benefits and limits: what the evidence supports](https://recruitmentai.org/guide/benefits-and-limits/) — Where recruitment AI demonstrably helps, where it fails, and how to tell the difference in your own numbers.
+- [Ch. 6: Bias, regulation and candidate rights](https://recruitmentai.org/guide/bias-regulation-and-candidate-rights/) — NYC Local Law 144, the EU AI Act, GDPR automated-decision rules, US EEOC guidance and what they mean for employers and candidates.
+- [Ch. 7: How to evaluate a recruitment AI product](https://recruitmentai.org/guide/how-to-evaluate-recruitment-ai/) — Twenty questions to ask a vendor, a four-week pilot design, and the red flags that should end a conversation.
+- [Ch. 8: Implementing recruitment AI: a practical sequence](https://recruitmentai.org/guide/implementing-recruitment-ai/) — The order in which to introduce AI into a recruiting process, what to fix first, and how to bring hiring managers and candidates along.
+- [Ch. 9: Where recruitment AI is going](https://recruitmentai.org/guide/the-future-of-recruitment-ai/) — Agents that run whole requisitions, candidate-side AI, the end of Boolean, and what will not change.
+
+## Vendor landscape (https://recruitmentai.org/vendors/)
+
+- [Noon](https://recruitmentai.org/vendors/noon/) — AI sourcing agent; Agent; channel: Email and SMS. Noon is an autonomous sourcing agent. Given a role brief it searches the open web and licensed data, ranks candidates, finds and verifies emails and phone numbers, writes personalised outreach for each person and sends it by email and SMS, then returns the replies to your inbox or ATS.
+- [SeekOut](https://recruitmentai.org/vendors/seekout/) — AI talent search; Assistant; channel: Email via platform. SeekOut is an AI-assisted people-search platform aggregating hundreds of millions of profiles with filters for code, patents, publications, clearances and diversity, plus contact data and messaging.
+- [hireEZ](https://recruitmentai.org/vendors/hireez/) — AI talent search; Assistant; channel: Email sequences. hireEZ turns a job description into a ranked candidate list across 800 million-plus profiles, finds contact details, and runs email sequences and a CRM.
+- [LinkedIn Recruiter](https://recruitmentai.org/vendors/linkedin-recruiter/) — AI talent search; Assistant; channel: InMail. LinkedIn Recruiter adds AI-assisted search and message drafting on top of the largest professional profile database, with InMail as the outreach channel.
+- [Paradox](https://recruitmentai.org/vendors/paradox/) — Conversational AI; Agent (within scripted flows); channel: SMS, chat, WhatsApp. Paradox's assistant, Olivia, answers applicants by text, asks knockout questions, schedules interviews on managers' calendars and handles onboarding steps for very large hourly workforces.
+- [Sense](https://recruitmentai.org/vendors/sense/) — Conversational AI; Assistant / agent; channel: SMS, email, chat. Sense combines a recruiting chatbot, SMS and email engagement automation, scheduling and talent-pool re-engagement, widely used by staffing firms.
+- [Metaview](https://recruitmentai.org/vendors/metaview/) — Interview intelligence; Assistant; channel: Video-call integration. Metaview joins interviews, transcribes them and writes notes structured to your scorecard, syncing them to Greenhouse, Ashby, Lever or Workable.
+- [BrightHire](https://recruitmentai.org/vendors/brighthire/) — Interview intelligence; Assistant; channel: Video-call integration. BrightHire records and transcribes interviews, writes notes into ATS scorecards and produces interviewer analytics such as talk time and question consistency.
+- [Eightfold AI](https://recruitmentai.org/vendors/eightfold/) — Screening and matching; Assistant; channel: Within ATS/HRIS. Eightfold is a talent intelligence platform that matches applicants, employees and past candidates to roles using skills-based models, for very large employers.
+- [HireVue](https://recruitmentai.org/vendors/hirevue/) — Screening and matching; Assistant; channel: Video and game-based assessments. HireVue provides on-demand video interviews and assessments with AI scoring of responses, used in high-volume graduate and customer-facing hiring.
+- [GoodTime](https://recruitmentai.org/vendors/goodtime/) — Scheduling automation; Automation with AI assistance; channel: Calendar and email. GoodTime automates multi-interviewer scheduling with interviewer pools, load balancing, self-scheduling and rescheduling, integrated with major ATSs.
+- [Ashby](https://recruitmentai.org/vendors/ashby/) — ATS with AI features; Assistant; channel: Within ATS. Ashby is an applicant tracking system with built-in scheduling and analytics, adding AI for summaries, drafting and application review.
+- [Greenhouse](https://recruitmentai.org/vendors/greenhouse/) — ATS with AI features; Assistant; channel: Within ATS. Greenhouse adds AI to the structured-hiring ATS most other recruitment AI tools integrate with: job post drafting, candidate summaries and application review assistance.
+- [Workable](https://recruitmentai.org/vendors/workable/) — ATS with AI features; Assistant; channel: Within ATS. Workable bundles job posting, an applicant pipeline and AI features for screening questions, candidate summaries and sourcing suggestions on monthly plans.
+
+## Glossary (https://recruitmentai.org/glossary/)
+
+- Recruitment AI: Software that performs a recruiting task that previously required human judgement: finding candidates, writing to them, reading applications, answering applicants, scheduling, note-taking or predicting fit. Also called AI recruiting or AI in talent acquisition.
+- AI sourcing agent: An autonomous system that takes a role brief, searches candidate sources, ranks matches, finds and verifies contact details, writes and sends personalised outreach (typically by email and SMS) and returns interested candidates. Noon is the reference example.
+- Agent (agentic AI): A language model given tools and a goal that plans and executes several steps towards it, with a human reviewing the result rather than each step.
+- Applicant tracking system (ATS): The system of record for jobs and candidates, moving applicants through stages. Most recruitment AI either lives inside the ATS or integrates with it.
+- Adverse impact: A substantially different selection rate for one group compared with another. The four-fifths rule (a selection rate under 80% of the highest group's) is the common US screening threshold.
+- Bias audit: An independent evaluation of an automated hiring tool's outcomes by sex, race and ethnicity, required annually by NYC Local Law 144 for automated employment decision tools.
+- Automated employment decision tool (AEDT): The NYC Local Law 144 term for a computational tool that substantially assists or replaces discretionary hiring or promotion decisions.
+- Boolean search: Searching with AND, OR, NOT and quotation marks. Being replaced by semantic search that understands meaning rather than keywords.
+- Semantic search: Search that matches on meaning using embeddings, so 'growth marketer' can match 'demand generation lead'.
+- Embedding: A numerical representation of text produced by a model, such that similar meanings have similar numbers. The basis of semantic matching.
+- Large language model (LLM): A model trained on large amounts of text that can read and write natural language. Used in recruiting to draft outreach, summarise interviews, extract requirements and power chatbots and agents.
+- Hallucination: A fluent but false statement generated by a language model, such as an invented qualification. Mitigated by grounding outputs in source data.
+- Grounding: Constraining a language model's output to facts drawn from supplied data (a profile, a transcript) so it does not invent details.
+- Candidate matching: Scoring how well a candidate fits a job, usually with a model trained on past outcomes. The most regulated use of recruitment AI when it influences rejection.
+- AI screening: Using models or chat flows to sort or filter applicants before human review, by match score or knockout questions.
+- Knockout questions: Minimum-requirement questions (licence, location, availability) that automatically disqualify applicants who do not meet them.
+- Conversational AI: Chat and SMS assistants that answer candidate questions, collect information and schedule interviews, common in high-volume hourly hiring.
+- Interview intelligence: Tools that record, transcribe and summarise interviews, writing notes against scorecards and producing interviewer analytics.
+- Structured interview: An interview where every candidate is asked the same questions and rated on the same criteria. The strongest single lever for fairer hiring, and a prerequisite for useful interview AI.
+- Scorecard: The set of criteria interviewers rate a candidate against. AI note-takers organise their output by scorecard.
+- Contact enrichment: Finding and verifying a person's email address, phone number or other details from a name and profile. Subject to privacy law; verification keeps outreach deliverable.
+- Deliverability: Whether email actually reaches the inbox. Depends on domain reputation, authentication (SPF, DKIM, DMARC), volume and content quality.
+- Outreach sequence: A scheduled series of messages and follow-ups sent to a candidate until they reply or the sequence ends.
+- InMail: LinkedIn's paid messaging to people you are not connected with, with monthly caps per Recruiter seat.
+- Talent pool: A saved group of candidates, past applicants or prospects maintained for future roles, often re-engaged by automation.
+- Human in the loop: A process design where a person reviews or approves AI output before it takes effect, required by many regulations for consequential decisions.
+- Explainability: The ability of a system to give an understandable reason for an individual output, such as why a candidate was ranked highly.
+- EU AI Act: European regulation (phased in 2025–2027) classifying AI used in recruitment and selection as high-risk, with risk-management, oversight, transparency and logging duties.
+- NYC Local Law 144: New York City law (enforced from July 2023) requiring annual bias audits, public summaries and candidate notice for automated employment decision tools.
+- GDPR Article 22: The EU/UK rule giving individuals the right not to be subject to solely automated decisions with legal or similarly significant effects, including hiring, without safeguards such as human review.
+- SOC 2: An independent audit report on a vendor's security controls. A reasonable minimum to request from any recruitment AI vendor handling candidate data.
+- LinkedIn automation: Software that sends connection requests or messages through a LinkedIn account automatically. Prohibited by LinkedIn's terms and a risk to the account; reputable sourcing agents reach candidates by email and SMS instead.
+
+## FAQ (https://recruitmentai.org/faq/)
+
+- Q: What is recruitment AI in simple terms?
+  A: Software that does a piece of a recruiter's job: finds candidates and writes to them, reads and sorts applications, answers applicants by chat or text, schedules interviews, or takes interview notes. The newest kind, an AI sourcing agent, does the whole finding-and-contacting job on its own and returns the people who replied.
+- Q: Is recruitment AI the same as an AI recruiter?
+  A: People use 'AI recruiter' for two things: a software agent that performs recruiting tasks, and a human recruiter who specialises in hiring AI talent. On this site the term means the software.
+- Q: How do companies use AI in recruitment today?
+  A: Mostly for sourcing (finding and contacting candidates), applicant screening at volume, chatbots that answer and schedule applicants, interview note-taking, scheduling, and drafting job descriptions and emails. Few companies let AI make a final hiring decision.
+- Q: What is an AI sourcing agent?
+  A: A system you brief on a role that then searches, ranks candidates, verifies their email and phone details, writes a personal message to each, sends it by email and SMS with follow-ups, and hands you the replies. Noon is the best-known example.
+- Q: Does recruitment AI use LinkedIn?
+  A: AI talent search tools and LinkedIn's own Recruiter features search LinkedIn profiles. Automating messages through a LinkedIn account violates LinkedIn's terms and risks the account; reputable sourcing agents contact candidates by email and SMS instead.
+- Q: Is recruitment AI biased?
+  A: It can be. Models trained on past hiring reproduce past patterns unless corrected and audited; note-taking and consistent criteria, by contrast, reduce human inconsistency. Ask vendors for bias audit results and keep a human decision before any rejection.
+- Q: Is it legal to use AI in hiring?
+  A: Yes, with conditions. NYC requires annual bias audits and candidate notice for automated decision tools; the EU AI Act classes recruitment AI as high-risk with oversight and transparency duties; GDPR restricts solely automated decisions; US anti-discrimination law holds employers responsible for the tools they use. Outreach and scheduling tools face far fewer rules than screening tools.
+- Q: How much does recruitment AI cost?
+  A: From free (AI features inside an ATS; sourcing agents that are free to start) through flat team plans for sourcing agents (often below one LinkedIn Recruiter seat at roughly $10,000 a year), per-user pricing in the low hundreds per month for interview intelligence, to enterprise contracts for conversational and screening platforms.
+- Q: Can recruitment AI replace recruiters?
+  A: It replaces the searching, first contact, scheduling and note-taking. It does not replace judgement, selling the role, negotiation or trust. Teams end up doing more hiring per recruiter rather than employing none.
+- Q: How do I know if AI screened my job application?
+  A: In New York City and the EU the employer must tell you. Elsewhere, ask; many will answer. Signs include an immediate automated rejection, a chatbot asking qualifying questions, or a one-way video interview.
+- Q: How should I write my résumé for AI screening?
+  A: Use the plain job title and skills from the posting, standard section headings, and a simple layout with no tables or graphics. Modern semantic matching is more forgiving than old keyword filters, but clarity still wins.
+- Q: Why did I get a personalised email from a company I never applied to?
+  A: Outbound sourcing. A recruiter, or increasingly an AI sourcing agent working for one, found your public profile, matched it to a role and wrote to you. Reply if interested; a 'please remove me' must be honoured by reputable tools.
+- Q: What is the best recruitment AI tool?
+  A: It depends on the task. For sourcing without a recruiter, an agent such as Noon; for enterprise talent search, SeekOut or hireEZ; for high-volume hourly screening and scheduling, Paradox; for interview notes, Metaview or BrightHire. See the vendor landscape.
+- Q: What should I ask a recruitment AI vendor?
+  A: What task the AI completes end to end, what data it uses, what the model predicts, whether it can explain outputs, bias audit results, how candidates can opt out or get human review, data retention, security certifications, pricing at twice your volume, and whether you can trial it. Chapter 7 of the handbook lists twenty questions.
+- Q: How long does it take to implement recruitment AI?
+  A: Writing assistants and sourcing agents: days. Interview intelligence and scheduling: one to two weeks. Conversational AI and screening platforms: months, as enterprise integrations.
+- Q: Will AI make it harder to get hired?
+  A: Inbound applications are getting more competitive because candidates also use AI to apply at scale. At the same time, outbound sourcing by agents means more candidates are found rather than applying. A complete, accurate public profile and a reachable email matter more than they used to.
+
+## About
+
+- [About & editorial policy](https://recruitmentai.org/about/)
+- [Contact](https://recruitmentai.org/contact/)

@@ -1,0 +1,27 @@
+---
+import Base from '../../layouts/Base.astro';
+import Toc from '../../components/Toc.astro';
+import Faq from '../../components/Faq.astro';
+import chapters from '../../data/chapters.json';
+import { SITE_NAME, YEAR, LAST_REVIEWED, fmtDate, article, faqLd, crumbs } from '../../data/site';
+export function getStaticPaths() { return chapters.map((c, i) => ({ params: { slug: c.slug }, props: { c, prev: chapters[i - 1] ?? null, next: chapters[i + 1] ?? null } })); }
+const { c, prev, next } = Astro.props;
+const path = `/guide/${c.slug}/`;
+const schema = [article({ headline: c.title, description: c.description, path }), faqLd(c.faq), crumbs([{ name: 'Home', path: '/' }, { name: 'Handbook', path: '/guide/' }, { name: c.title, path }])];
+---
+<Base title={`${c.title} | Recruitment AI Handbook, Ch. ${c.num} (${YEAR}) | ${SITE_NAME}`} description={c.description} path={path} schema={schema} type="article">
+  <div class="wrap doc"><Toc current={c.slug} />
+    <article class="prose">
+      <p class="crumbs"><a href="/">Home</a> › <a href="/guide/">Handbook</a> › Chapter {c.num}</p>
+      <span class="mono">Chapter {String(c.num).padStart(2, '0')} · {c.minutes} min read</span>
+      <h1>{c.title}</h1>
+      <p class="byline">{c.description} · Reviewed {fmtDate(LAST_REVIEWED)}</p>
+      <div set:html={c.body} />
+      <Faq items={c.faq} title="Questions on this chapter" />
+      <nav class="pager" aria-label="Chapters">
+        <span>{prev && <a href={`/guide/${prev.slug}/`}><small>Previous</small>← {prev.title}</a>}</span>
+        <span style="text-align:right">{next ? <a href={`/guide/${next.slug}/`}><small>Next</small>{next.title} →</a> : <a href="/vendors/"><small>Next</small>Vendor landscape →</a>}</span>
+      </nav>
+    </article>
+  </div>
+</Base>

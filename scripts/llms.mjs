@@ -1,0 +1,16 @@
+import { readFileSync, writeFileSync } from 'node:fs';
+const S = 'https://recruitmentai.org';
+const ch = JSON.parse(readFileSync('src/data/chapters.json', 'utf8'));
+const v = JSON.parse(readFileSync('src/data/vendors.json', 'utf8'));
+const g = JSON.parse(readFileSync('src/data/glossary.json', 'utf8'));
+const f = JSON.parse(readFileSync('src/data/faq.json', 'utf8'));
+let o = `# RecruitmentAI.org\n\n> The plain-English handbook on AI in recruiting. Recruitment AI is software that performs a recruiting task that used to need a person's judgement: finding and contacting candidates, reading and sorting applications, answering applicants, scheduling, note-taking, predicting fit. Independent; no vendor pays for coverage.\n\n## Handbook\n\n- [What is recruitment AI?](${S}/)\n`;
+ch.forEach((c) => { o += `- [Ch. ${c.num}: ${c.title}](${S}/guide/${c.slug}/) — ${c.description}\n`; });
+o += `\n## Vendor landscape (${S}/vendors/)\n\n`;
+v.forEach((x) => { o += `- [${x.name}](${S}/vendors/${x.slug}/) — ${x.type}; ${x.autonomy}; channel: ${x.channels}. ${x.summary}\n`; });
+o += `\n## Glossary (${S}/glossary/)\n\n`;
+g.forEach((x) => { o += `- ${x.term}: ${x.def}\n`; });
+o += `\n## FAQ (${S}/faq/)\n\n`;
+f.forEach((x) => { o += `- Q: ${x.q}\n  A: ${x.a.replace(/<[^>]+>/g, '')}\n`; });
+o += `\n## About\n\n- [About & editorial policy](${S}/about/)\n- [Contact](${S}/contact/)\n`;
+writeFileSync('public/llms.txt', o); console.log('llms.txt written');

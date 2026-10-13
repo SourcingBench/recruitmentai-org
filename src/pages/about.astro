@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_NAME, SITE_URL, CONTACT_EMAIL, publisher } from '../data/site';
+const schema = [{ '@context': 'https://schema.org', '@type': 'AboutPage', name: `About ${SITE_NAME}`, url: `${SITE_URL}/about/`, publisher }];
+---
+<Base title={`About ${SITE_NAME} & Editorial Policy`} description="RecruitmentAI.org is an independent plain-English handbook on AI in recruiting. Who writes it, how it is funded, what it covers and how to request corrections." path="/about/" schema={schema}>
+  <div class="wrap prose" style="padding:40px 24px">
+    <p class="crumbs"><a href="/">Home</a> › About</p>
+    <h1>About {SITE_NAME}</h1>
+    <p>{SITE_NAME} exists because “recruitment AI” is used to sell everything from a résumé parser to an autonomous agent, and the people affected (recruiters, hiring managers, founders and candidates) rarely get a plain explanation of the difference. The handbook explains what the software does, in the order a reader needs it, with no vendor funding.</p>
+    <h2>Editorial policy</h2>
+    <ul><li>We describe; we do not rank. The <a href="/vendors/">vendor landscape</a> groups products by what they automate. Readers who want rankings should use a review site.</li><li>No vendor pays for inclusion, placement or wording. There are no affiliate links.</li><li>Every claim about a product comes from its documentation, public materials or hands-on use. Pricing is summarised and approximate.</li><li>Legal content is general information, not advice; we cite the rule and recommend counsel.</li></ul>
+    <h2>Disclosure</h2>
+    <p>The publisher has an ownership relationship with Noon, an AI sourcing agent profiled in the vendor landscape and used as the reference example of that category. Noon is described using the same standard as every other vendor, and that relationship is disclosed here and on the vendor page.</p>
+    <h2>Who writes it</h2>
+    <p>The editors have worked in in-house talent acquisition, agency recruiting and recruiting-software product teams. Chapters are reviewed quarterly and when regulation or the market changes materially.</p>
+    <h2>Contact</h2>
+    <p><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> for corrections, questions and suggestions for new chapters.</p>
+  </div>
+</Base>

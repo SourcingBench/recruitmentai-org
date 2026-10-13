@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_NAME, CONTACT_EMAIL } from '../data/site';
+---
+<Base title={`Contact | ${SITE_NAME}`} description="Contact the RecruitmentAI.org editors with corrections, questions or suggestions." path="/contact/">
+  <div class="wrap prose" style="padding:40px 24px">
+    <p class="crumbs"><a href="/">Home</a> › Contact</p>
+    <h1>Contact</h1>
+    <p>Email <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <p><strong>Corrections:</strong> tell us the page, the sentence and the source; factual errors are fixed promptly.</p>
+    <p><strong>Vendors:</strong> to be profiled, send what your product automates, the candidate channels it uses, pricing and a demo or trial. Inclusion is editorial and free; we do not accept payment or alter descriptions on request without evidence.</p>
+    <p><strong>Readers:</strong> if a question is missing from the FAQ or a chapter is unclear, say so; the handbook is revised quarterly.</p>
+  </div>
+</Base>

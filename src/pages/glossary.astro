@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import Toc from '../components/Toc.astro';
+import glossary from '../data/glossary.json';
+import { SITE_NAME, SITE_URL, YEAR, crumbs } from '../data/site';
+const sorted = [...glossary].sort((a, b) => a.term.localeCompare(b.term));
+const schema = [{ '@context': 'https://schema.org', '@type': 'DefinedTermSet', name: 'Recruitment AI glossary', url: `${SITE_URL}/glossary/`, hasDefinedTerm: sorted.map((g) => ({ '@type': 'DefinedTerm', name: g.term, description: g.def, url: `${SITE_URL}/glossary/#${g.id}` })) }, crumbs([{ name: 'Home', path: '/' }, { name: 'Glossary', path: '/glossary/' }])];
+---
+<Base title={`Recruitment AI Glossary: ${glossary.length} Terms Defined (${YEAR}) | ${SITE_NAME}`} description="Plain definitions of recruitment AI terms: sourcing agent, embedding, semantic search, adverse impact, bias audit, AEDT, EU AI Act, interview intelligence, grounding, hallucination and more." path="/glossary/" schema={schema}>
+  <div class="wrap doc"><Toc current="glossary" />
+    <article class="prose">
+      <p class="crumbs"><a href="/">Home</a> › Glossary</p>
+      <h1>Recruitment AI glossary</h1>
+      <p>{glossary.length} terms, defined in one or two sentences each. Link directly to any term with <code>#id</code>.</p>
+      <p class="muted">{sorted.map((g) => <><a href={`#${g.id}`}>{g.term}</a>{' · '}</>)}</p>
+      <dl class="gl">{sorted.map((g) => <><dt id={g.id}>{g.term}</dt><dd>{g.def}</dd></>)}</dl>
+    </article>
+  </div>
+</Base>

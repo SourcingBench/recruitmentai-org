@@ -1,0 +1,49 @@
+---
+import '../styles/global.css';
+import { SITE_URL, SITE_NAME, TAGLINE, LAST_REVIEWED, fmtDate, YEAR } from '../data/site';
+interface Props { title: string; description: string; path: string; schema?: any[]; type?: string }
+const { title, description, path, schema = [], type = 'website' } = Astro.props;
+const canonical = `${SITE_URL}${path}`;
+const cur = (p: string) => (path === p || (p !== '/' && path.startsWith(p)) ? { 'aria-current': 'page' as const } : {});
+const nav = [['/', 'What is recruitment AI?'], ['/guide/', 'Handbook'], ['/vendors/', 'Vendor landscape'], ['/glossary/', 'Glossary'], ['/faq/', 'FAQ']];
+const badges = [
+  ['https://superlaunchlist.com', 'https://superlaunchlist.com/badge.svg', 'Featured on SuperLaunch List'],
+  ['https://smollaunch.com', 'https://smollaunch.com/badges/featured.svg', 'Featured on Smol Launch'],
+  ['https://scrolllaunch.com', 'https://www.scrolllaunch.com/api/badge/recruitmentai-org?variant=launched&theme=light', 'Featured on ScrollLaunch'],
+  ['https://deeplaunch.io', 'https://deeplaunch.io/badge/badge_light.svg', 'Featured on DeepLaunch'],
+  ['https://tooldirs.com', 'https://tooldirs.com/badge/badge_light.svg', 'Featured on ToolDirs'],
+  ['https://firstlook.tools', 'https://firstlook.tools/badge/badge_light.svg', 'Featured on First Look'],
+  ['https://gets.tools', 'https://gets.tools/badge/badge_light.svg', 'Featured on Gets.Tools'],
+  ['https://launchaf.com', 'https://launchaf.com/api/badge/light?v=launchaf-blue-2026-2', 'Featured on LaunchAF'],
+  ['https://fazier.com', 'https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=featured&theme=light', 'Featured on Fazier'],
+];
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title><meta name="description" content={description} />
+  <link rel="canonical" href={canonical} /><link rel="icon" href="/favicon.svg" type="image/svg+xml" /><link rel="sitemap" href="/sitemap-index.xml" />
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large" />
+  <meta property="og:site_name" content={SITE_NAME} /><meta property="og:type" content={type} /><meta property="og:title" content={title} /><meta property="og:description" content={description} /><meta property="og:url" content={canonical} /><meta property="og:image" content={`${SITE_URL}/og.png`} />
+  <meta name="twitter:card" content="summary_large_image" /><meta name="theme-color" content="#4338ca" />
+  {schema.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
+</head>
+<body>
+  <header class="topbar"><div class="wrap">
+    <a class="brand" href="/"><i></i>RecruitmentAI<span>.org</span></a>
+    <label class="menu-btn" for="menu">Menu</label><input type="checkbox" id="menu" class="menu-toggle" hidden />
+    <nav class="topnav" aria-label="Primary">{nav.map(([h, l]) => <a href={h} {...cur(h)}>{l}</a>)}</nav>
+  </div></header>
+  <main><slot /></main>
+  <footer class="site"><div class="wrap">
+    <div class="cols">
+      <div><b>{SITE_NAME}</b><p>{TAGLINE}. Written for recruiters, HR leaders, founders and job seekers who want to understand what AI in recruiting actually does before buying, using or being screened by it. Last reviewed {fmtDate(LAST_REVIEWED)}. Independent; no vendor pays for coverage.</p></div>
+      <div><b>Read</b><a href="/">What is recruitment AI?</a><a href="/guide/">The handbook, chapter by chapter</a><a href="/vendors/">Vendor landscape</a><a href="/glossary/">Glossary</a><a href="/faq/">Frequently asked questions</a></div>
+      <div><b>Site</b><a href="/about/">About &amp; editorial policy</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a></div>
+    </div>
+    <div class="featured-on" aria-label="Featured on">{badges.map(([h, s, a]) => <a href={h} target="_blank" rel="noopener"><img src={s} alt={a} loading="lazy" height="40" /></a>)}</div>
+    <p class="listed-on">Also listed on <a href="https://aitoolzdir.com" target="_blank" rel="noopener">AI Toolz Dir</a>, <a href="https://aitooltrek.com" target="_blank" rel="noopener">AI Tool Trek</a>, <a href="https://aitop10.tools" target="_blank" rel="noopener">AiTop10 Tools</a> and <a href="https://develif.com" target="_blank" rel="noopener">DevElif</a>.</p>
+    <div class="legal"><span>© {YEAR} {SITE_NAME}. Vendor names belong to their owners.</span><a href="/sitemap-index.xml">Sitemap</a><a href="/llms.txt">llms.txt</a></div>
+  </div></footer>
+</body></html>

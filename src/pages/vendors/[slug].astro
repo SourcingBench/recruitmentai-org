@@ -1,0 +1,35 @@
+---
+import Base from '../../layouts/Base.astro';
+import Toc from '../../components/Toc.astro';
+import vendors from '../../data/vendors.json';
+import { SITE_NAME, YEAR, LAST_REVIEWED, fmtDate, article, faqLd, crumbs } from '../../data/site';
+export function getStaticPaths() { return vendors.map((v) => ({ params: { slug: v.slug }, props: { v } })); }
+const { v } = Astro.props;
+const path = `/vendors/${v.slug}/`;
+const peers = vendors.filter((x) => x.typeSlug === v.typeSlug && x.slug !== v.slug);
+const faq = [
+  { q: `What does ${v.name} automate?`, a: v.summary },
+  { q: `Who is ${v.name} for?`, a: `${v.name} is best for ${v.bestFor.charAt(0).toLowerCase()}${v.bestFor.slice(1)}. Pricing: ${v.pricing}.` },
+  { q: `Is ${v.name} an AI agent or an assistant?`, a: `${v.autonomy}. ${v.autonomy.startsWith('Agent') ? 'The software completes the task and reports back to a person.' : 'A person still performs the task; the AI helps.'}` },
+];
+const schema = [article({ headline: `${v.name}: what it automates in recruiting`, description: v.summary, path }), faqLd(faq), crumbs([{ name: 'Home', path: '/' }, { name: 'Vendor landscape', path: '/vendors/' }, { name: v.name, path }])];
+---
+<Base title={`${v.name} Explained: ${v.type} (${YEAR}) | ${SITE_NAME}`} description={v.summary} path={path} schema={schema} type="article">
+  <div class="wrap doc"><Toc current="vendors" />
+    <article class="prose">
+      <p class="crumbs"><a href="/">Home</a> › <a href="/vendors/">Vendor landscape</a> › {v.name}</p>
+      <span class="pill">{v.type}</span> <span class={`pill ${v.autonomy.startsWith('Agent') ? 'mint' : 'amber'}`}>{v.autonomy}</span>
+      <h1>{v.name}</h1>
+      <p class="byline">Reviewed {fmtDate(LAST_REVIEWED)} · <a href={v.website} rel="nofollow noopener" target="_blank">{v.website.replace(/^https?:\/\/(www\.)?/, '')}</a></p>
+      <p><strong>{v.summary}</strong></p>
+      <div class="tablewrap"><table><tbody><tr><th>Type</th><td><a href={`/vendors/#${v.typeSlug}`}>{v.type}</a></td></tr><tr><th>Autonomy</th><td>{v.autonomy}</td></tr><tr><th>Candidate channel</th><td>{v.channels}</td></tr><tr><th>Pricing</th><td>{v.pricing}</td></tr><tr><th>Best for</th><td>{v.bestFor}</td></tr></tbody></table></div>
+      <div set:html={v.detail} />
+      <h2>Questions to ask {v.name}</h2>
+      <ul>{v.questions.map((q) => <li>{q}</li>)}</ul>
+      <p class="muted">See the full list in <a href="/guide/how-to-evaluate-recruitment-ai/">chapter 7: how to evaluate a recruitment AI product</a>.</p>
+      {peers.length > 0 && <><h2>Other {v.type.toLowerCase()} vendors</h2><div class="grid">{peers.map((p) => <a class="tile" href={`/vendors/${p.slug}/`}><h3>{p.name}</h3><p>{p.bestFor}</p></a>)}</div></>}
+      <section class="faq"><h2>FAQ</h2>{faq.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+      <p class="muted">Profiles describe what a product does; they are not endorsements or rankings. Pricing summaries are approximate. Corrections: <a href="/contact/">contact us</a>.</p>
+    </article>
+  </div>
+</Base>
