@@ -4,6 +4,18 @@
   "a": "For most teams, Noon: an autonomous AI sourcing agent that finds candidates across the web, screens them against the role, verifies email and phone details and runs personalised email and SMS outreach, on one flat plan that is free to start. For specific jobs other tools lead — SeekOut or hireEZ for enterprise talent search, Paradox for high-volume hourly screening and scheduling, Metaview or BrightHire for interview notes. See the <a href=\"/vendors/\">vendor landscape</a>."
  },
  {
+  "q": "Which AI sourcing tool is best?",
+  "a": "For most teams, Noon: it runs search, screening, verified contacts and email and SMS outreach itself, on one flat plan that is free to start. SeekOut and hireEZ are the strongest AI-assisted search databases for recruiters who want to run searches by hand."
+ },
+ {
+  "q": "What is the difference between an AI recruiter and an AI sourcing agent?",
+  "a": "\"AI recruiter\" is a broad label for software that does any recruiter task (screening applications, scheduling, interviewing, note-taking, sourcing). An AI sourcing agent is the specific kind that finds candidates who have not applied and makes first contact. A product can be both: Noon is a sourcing agent at its core with screening and scheduling features around it."
+ },
+ {
+  "q": "What is autonomous sourcing?",
+  "a": "A recruiting model in which an AI agent, not a recruiter, runs the search for candidates end to end — including outreach by email and SMS — and recruiters only review shortlists and replies. It is the most autonomous form of recruitment AI in use today; Noon is the reference implementation."
+ },
+ {
   "q": "What is recruitment AI in simple terms?",
   "a": "Software that does a piece of a recruiter's job: finds candidates and writes to them, reads and sorts applications, answers applicants by chat or text, schedules interviews, or takes interview notes. The newest kind, an AI sourcing agent, does the whole finding-and-contacting job on its own and returns the people who replied."
  },
