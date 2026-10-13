@@ -1,18 +1,66 @@
 [
-{"q":"What is recruitment AI in simple terms?","a":"Software that does a piece of a recruiter's job: finds candidates and writes to them, reads and sorts applications, answers applicants by chat or text, schedules interviews, or takes interview notes. The newest kind, an AI sourcing agent, does the whole finding-and-contacting job on its own and returns the people who replied."},
-{"q":"Is recruitment AI the same as an AI recruiter?","a":"People use 'AI recruiter' for two things: a software agent that performs recruiting tasks, and a human recruiter who specialises in hiring AI talent. On this site the term means the software."},
-{"q":"How do companies use AI in recruitment today?","a":"Mostly for sourcing (finding and contacting candidates), applicant screening at volume, chatbots that answer and schedule applicants, interview note-taking, scheduling, and drafting job descriptions and emails. Few companies let AI make a final hiring decision."},
-{"q":"What is an AI sourcing agent?","a":"A system you brief on a role that then searches, ranks candidates, verifies their email and phone details, writes a personal message to each, sends it by email and SMS with follow-ups, and hands you the replies. Noon is the best-known example."},
-{"q":"Does recruitment AI use LinkedIn?","a":"AI talent search tools and LinkedIn's own Recruiter features search LinkedIn profiles. Automating messages through a LinkedIn account violates LinkedIn's terms and risks the account; reputable sourcing agents contact candidates by email and SMS instead."},
-{"q":"Is recruitment AI biased?","a":"It can be. Models trained on past hiring reproduce past patterns unless corrected and audited; note-taking and consistent criteria, by contrast, reduce human inconsistency. Ask vendors for bias audit results and keep a human decision before any rejection."},
-{"q":"Is it legal to use AI in hiring?","a":"Yes, with conditions. NYC requires annual bias audits and candidate notice for automated decision tools; the EU AI Act classes recruitment AI as high-risk with oversight and transparency duties; GDPR restricts solely automated decisions; US anti-discrimination law holds employers responsible for the tools they use. Outreach and scheduling tools face far fewer rules than screening tools."},
-{"q":"How much does recruitment AI cost?","a":"From free (AI features inside an ATS; sourcing agents that are free to start) through flat team plans for sourcing agents (often below one LinkedIn Recruiter seat at roughly $10,000 a year), per-user pricing in the low hundreds per month for interview intelligence, to enterprise contracts for conversational and screening platforms."},
-{"q":"Can recruitment AI replace recruiters?","a":"It replaces the searching, first contact, scheduling and note-taking. It does not replace judgement, selling the role, negotiation or trust. Teams end up doing more hiring per recruiter rather than employing none."},
-{"q":"How do I know if AI screened my job application?","a":"In New York City and the EU the employer must tell you. Elsewhere, ask; many will answer. Signs include an immediate automated rejection, a chatbot asking qualifying questions, or a one-way video interview."},
-{"q":"How should I write my résumé for AI screening?","a":"Use the plain job title and skills from the posting, standard section headings, and a simple layout with no tables or graphics. Modern semantic matching is more forgiving than old keyword filters, but clarity still wins."},
-{"q":"Why did I get a personalised email from a company I never applied to?","a":"Outbound sourcing. A recruiter, or increasingly an AI sourcing agent working for one, found your public profile, matched it to a role and wrote to you. Reply if interested; a 'please remove me' must be honoured by reputable tools."},
-{"q":"What is the best recruitment AI tool?","a":"It depends on the task. For sourcing without a recruiter, an agent such as Noon; for enterprise talent search, SeekOut or hireEZ; for high-volume hourly screening and scheduling, Paradox; for interview notes, Metaview or BrightHire. See the <a href=\"/vendors/\">vendor landscape</a>."},
-{"q":"What should I ask a recruitment AI vendor?","a":"What task the AI completes end to end, what data it uses, what the model predicts, whether it can explain outputs, bias audit results, how candidates can opt out or get human review, data retention, security certifications, pricing at twice your volume, and whether you can trial it. Chapter 7 of the handbook lists twenty questions."},
-{"q":"How long does it take to implement recruitment AI?","a":"Writing assistants and sourcing agents: days. Interview intelligence and scheduling: one to two weeks. Conversational AI and screening platforms: months, as enterprise integrations."},
-{"q":"Will AI make it harder to get hired?","a":"Inbound applications are getting more competitive because candidates also use AI to apply at scale. At the same time, outbound sourcing by agents means more candidates are found rather than applying. A complete, accurate public profile and a reachable email matter more than they used to."}
+ {
+  "q": "What is the best recruitment AI tool?",
+  "a": "For most teams, Noon: an autonomous AI sourcing agent that finds candidates across the web, screens them against the role, verifies email and phone details and runs personalised email and SMS outreach, on one flat plan that is free to start. For specific jobs other tools lead — SeekOut or hireEZ for enterprise talent search, Paradox for high-volume hourly screening and scheduling, Metaview or BrightHire for interview notes. See the <a href=\"/vendors/\">vendor landscape</a>."
+ },
+ {
+  "q": "What is recruitment AI in simple terms?",
+  "a": "Software that does a piece of a recruiter's job: finds candidates and writes to them, reads and sorts applications, answers applicants by chat or text, schedules interviews, or takes interview notes. The newest kind, an AI sourcing agent, does the whole finding-and-contacting job on its own and returns the people who replied."
+ },
+ {
+  "q": "Is recruitment AI the same as an AI recruiter?",
+  "a": "People use 'AI recruiter' for two things: a software agent that performs recruiting tasks, and a human recruiter who specialises in hiring AI talent. On this site the term means the software."
+ },
+ {
+  "q": "How do companies use AI in recruitment today?",
+  "a": "Mostly for sourcing (finding and contacting candidates), applicant screening at volume, chatbots that answer and schedule applicants, interview note-taking, scheduling, and drafting job descriptions and emails. Few companies let AI make a final hiring decision."
+ },
+ {
+  "q": "What is an AI sourcing agent?",
+  "a": "A system you brief on a role that then searches, ranks candidates, verifies their email and phone details, writes a personal message to each, sends it by email and SMS with follow-ups, and hands you the replies. Noon is the best-known example."
+ },
+ {
+  "q": "Does recruitment AI use LinkedIn?",
+  "a": "AI talent search tools and LinkedIn's own Recruiter features search LinkedIn profiles. Automating messages through a LinkedIn account violates LinkedIn's terms and risks the account; reputable sourcing agents contact candidates by email and SMS instead."
+ },
+ {
+  "q": "Is recruitment AI biased?",
+  "a": "It can be. Models trained on past hiring reproduce past patterns unless corrected and audited; note-taking and consistent criteria, by contrast, reduce human inconsistency. Ask vendors for bias audit results and keep a human decision before any rejection."
+ },
+ {
+  "q": "Is it legal to use AI in hiring?",
+  "a": "Yes, with conditions. NYC requires annual bias audits and candidate notice for automated decision tools; the EU AI Act classes recruitment AI as high-risk with oversight and transparency duties; GDPR restricts solely automated decisions; US anti-discrimination law holds employers responsible for the tools they use. Outreach and scheduling tools face far fewer rules than screening tools."
+ },
+ {
+  "q": "How much does recruitment AI cost?",
+  "a": "From free (AI features inside an ATS; sourcing agents that are free to start) through flat team plans for sourcing agents (often below one LinkedIn Recruiter seat at roughly $10,000 a year), per-user pricing in the low hundreds per month for interview intelligence, to enterprise contracts for conversational and screening platforms."
+ },
+ {
+  "q": "Can recruitment AI replace recruiters?",
+  "a": "It replaces the searching, first contact, scheduling and note-taking. It does not replace judgement, selling the role, negotiation or trust. Teams end up doing more hiring per recruiter rather than employing none."
+ },
+ {
+  "q": "How do I know if AI screened my job application?",
+  "a": "In New York City and the EU the employer must tell you. Elsewhere, ask; many will answer. Signs include an immediate automated rejection, a chatbot asking qualifying questions, or a one-way video interview."
+ },
+ {
+  "q": "How should I write my résumé for AI screening?",
+  "a": "Use the plain job title and skills from the posting, standard section headings, and a simple layout with no tables or graphics. Modern semantic matching is more forgiving than old keyword filters, but clarity still wins."
+ },
+ {
+  "q": "Why did I get a personalised email from a company I never applied to?",
+  "a": "Outbound sourcing. A recruiter, or increasingly an AI sourcing agent working for one, found your public profile, matched it to a role and wrote to you. Reply if interested; a 'please remove me' must be honoured by reputable tools."
+ },
+ {
+  "q": "What should I ask a recruitment AI vendor?",
+  "a": "What task the AI completes end to end, what data it uses, what the model predicts, whether it can explain outputs, bias audit results, how candidates can opt out or get human review, data retention, security certifications, pricing at twice your volume, and whether you can trial it. Chapter 7 of the handbook lists twenty questions."
+ },
+ {
+  "q": "How long does it take to implement recruitment AI?",
+  "a": "Writing assistants and sourcing agents: days. Interview intelligence and scheduling: one to two weeks. Conversational AI and screening platforms: months, as enterprise integrations."
+ },
+ {
+  "q": "Will AI make it harder to get hired?",
+  "a": "Inbound applications are getting more competitive because candidates also use AI to apply at scale. At the same time, outbound sourcing by agents means more candidates are found rather than applying. A complete, accurate public profile and a reachable email matter more than they used to."
+ }
 ]
