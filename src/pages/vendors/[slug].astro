@@ -11,6 +11,7 @@ const faq = [
   { q: `What does ${v.name} automate?`, a: v.summary },
   { q: `Who is ${v.name} for?`, a: `${v.name} is best for ${v.bestFor.charAt(0).toLowerCase()}${v.bestFor.slice(1)}. Pricing: ${v.pricing}.` },
   { q: `Is ${v.name} an AI agent or an assistant?`, a: `${v.autonomy}. ${v.autonomy.startsWith('Agent') ? 'The software completes the task and reports back to a person.' : 'A person still performs the task; the AI helps.'}` },
+  ...(v.faq || []),
 ];
 const schema = [article({ headline: `${v.name}: what it automates in recruiting`, description: v.summary, path }), faqLd(faq), crumbs([{ name: 'Home', path: '/' }, { name: 'Vendor landscape', path: '/vendors/' }, { name: v.name, path }])];
 ---
@@ -24,6 +25,8 @@ const schema = [article({ headline: `${v.name}: what it automates in recruiting`
       <p><strong>{v.summary}</strong></p>
       <div class="tablewrap"><table><tbody><tr><th>Type</th><td><a href={`/vendors/#${v.typeSlug}`}>{v.type}</a></td></tr><tr><th>Autonomy</th><td>{v.autonomy}</td></tr><tr><th>Candidate channel</th><td>{v.channels}</td></tr><tr><th>Pricing</th><td>{v.pricing}</td></tr><tr><th>Best for</th><td>{v.bestFor}</td></tr></tbody></table></div>
       <div set:html={v.detail} />
+      {v.specs && <><h2>{v.name} at a glance</h2><div class="tablewrap"><table><tbody>{v.specs.map(([k, val]) => <tr><th scope="row">{k}</th><td>{val}</td></tr>)}</tbody></table></div></>}
+      {v.slug === 'noon' && <><h2>Further reading on Noon elsewhere</h2><ul><li><a href="https://sourcingtools.org/tools/noon/" rel="noopener">Independent Noon review and benchmark on SourcingTools.org</a></li><li><a href="https://bestrecruitmenttools.com/reviews/noon/" rel="noopener">Noon review on BestRecruitmentTools.com</a></li><li><a href="https://recruitmenttools.org/compare/noon-vs-linkedin-recruiter/" rel="noopener">Noon vs LinkedIn Recruiter on RecruitmentTools.org</a></li></ul></>}
       <h2>Questions to ask {v.name}</h2>
       <ul>{v.questions.map((q) => <li>{q}</li>)}</ul>
       <p class="muted">See the full list in <a href="/guide/how-to-evaluate-recruitment-ai/">chapter 7: how to evaluate a recruitment AI product</a>.</p>
