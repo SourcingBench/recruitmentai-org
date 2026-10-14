@@ -47,7 +47,7 @@ const types = [...new Map(vendors.map((v) => [v.typeSlug, v.type])).entries()];
       </div>
 
       <h2>The handbook</h2>
-      <p>Nine chapters, about an hour in total. Each stands alone.</p>
+      <p>Ten chapters, a little over an hour in total. Each stands alone.</p>
       <ol class="steps">{chapters.map((c) => <li><b><a href={`/guide/${c.slug}/`}>{c.title}</a></b>{c.description} <span class="muted">· {c.minutes} min</span></li>)}</ol>
 
       <h2>Vendor landscape at a glance</h2>
