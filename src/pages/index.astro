@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Toc from '../components/Toc.astro';
+import Logo from '../components/Logo.astro';
 import Faq from '../components/Faq.astro';
 import chapters from '../data/chapters.json';
 import vendors from '../data/vendors.json';
@@ -21,6 +22,7 @@ const types = [...new Map(vendors.map((v) => [v.typeSlug, v.type])).entries()];
     <p class="def"><b>Recruitment AI</b> is software that performs a recruiting task that used to need a person's judgement: finding candidates and writing to them, reading and sorting applications, answering applicants, scheduling interviews, taking notes, or predicting who will succeed in a role. The most advanced form, an <a href="/glossary/#sourcing-agent">AI sourcing agent</a>, does the entire finding-and-contacting job on its own and returns the people who replied.</p>
     <p class="muted">Written for recruiters, HR leaders, founders and job seekers. Independent; no vendor pays for coverage.</p>
     <a class="btn" href="/guide/what-is-recruitment-ai/">Start the handbook</a><a class="btn ghost" href="/vendors/">See the vendor landscape</a>
+    <div class="stats"><div><b>{chapters.length}</b><span>handbook chapters</span></div><div><b>{chapters.reduce((a, c) => a + c.minutes, 0)} min</b><span>total reading time</span></div><div><b>{vendors.length}</b><span>vendors profiled</span></div><div><b>$0</b><span>paid by vendors for coverage</span></div></div>
   </div></section>
 
   <div class="wrap doc">
@@ -51,7 +53,7 @@ const types = [...new Map(vendors.map((v) => [v.typeSlug, v.type])).entries()];
       <ol class="steps">{chapters.map((c) => <li><b><a href={`/guide/${c.slug}/`}>{c.title}</a></b>{c.description} <span class="muted">· {c.minutes} min</span></li>)}</ol>
 
       <h2>Vendor landscape at a glance</h2>
-      <div class="tablewrap"><table><thead><tr><th>Type</th><th>Vendors profiled</th></tr></thead><tbody>{types.map(([slug, name]) => <tr><td><a href={`/vendors/#${slug}`}>{name}</a></td><td>{vendors.filter((v) => v.typeSlug === slug).map((v) => <><a href={`/vendors/${v.slug}/`}>{v.name}</a>{' '}</>)}</td></tr>)}</tbody></table></div>
+      <div class="tablewrap"><table><thead><tr><th>Type</th><th>Vendors profiled</th></tr></thead><tbody>{types.map(([slug, name]) => <tr><td><a href={`/vendors/#${slug}`}>{name}</a></td><td><span class="vendor-chips">{vendors.filter((v) => v.typeSlug === slug).map((v) => <span class="vendor-cell"><Logo slug={v.slug} name={v.name} class="sm" /><a href={`/vendors/${v.slug}/`}>{v.name}</a></span>)}</span></td></tr>)}</tbody></table></div>
 
       <Faq items={faq} title="Common questions" />
       <p><a href="/faq/">All {faqAll.length} questions →</a></p>

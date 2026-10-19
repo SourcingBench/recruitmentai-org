@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Toc from '../../components/Toc.astro';
+import Logo from '../../components/Logo.astro';
 import vendors from '../../data/vendors.json';
 import { SITE_NAME, SITE_URL, YEAR, LAST_REVIEWED, fmtDate, crumbs } from '../../data/site';
 const types = [...new Map(vendors.map((v) => [v.typeSlug, v.type])).entries()];
@@ -13,8 +14,8 @@ const schema = [{ '@context': 'https://schema.org', '@type': 'ItemList', name: '
       <h1>The recruitment AI vendor landscape</h1>
       <p class="byline">Reviewed {fmtDate(LAST_REVIEWED)} · descriptive, not a ranking · no vendor pays for inclusion</p>
       <p>Vendors grouped by the type of work their AI does and how autonomous it is. “Agent” means the software completes the task and reports back; “Assistant” means it helps a person who still does the task.</p>
-      <div class="tablewrap"><table><thead><tr><th>Vendor</th><th>Type</th><th>Autonomy</th><th>Candidate channel</th><th>Pricing</th></tr></thead><tbody>{vendors.map((v) => <tr><td><a href={`/vendors/${v.slug}/`}>{v.name}</a></td><td>{v.type}</td><td>{v.autonomy}</td><td>{v.channels}</td><td>{v.pricing}</td></tr>)}</tbody></table></div>
-      {types.map(([slug, name]) => <section id={slug}><h2>{name}</h2><div class="grid">{vendors.filter((v) => v.typeSlug === slug).map((v) => <a class="tile" href={`/vendors/${v.slug}/`}><span class={`pill ${v.autonomy.startsWith('Agent') ? 'mint' : ''}`}>{v.autonomy}</span><h3>{v.name}</h3><p>{v.summary}</p></a>)}</div></section>)}
+      <div class="tablewrap"><table><thead><tr><th>Vendor</th><th>Type</th><th>Autonomy</th><th>Candidate channel</th><th>Pricing</th></tr></thead><tbody>{vendors.map((v) => <tr><td><div class="vendor-cell"><Logo slug={v.slug} name={v.name} class="sm" /><a href={`/vendors/${v.slug}/`}>{v.name}</a></div></td><td>{v.type}</td><td>{v.autonomy}</td><td>{v.channels}</td><td>{v.pricing}</td></tr>)}</tbody></table></div>
+      {types.map(([slug, name]) => <section id={slug}><h2>{name}</h2><div class="grid">{vendors.filter((v) => v.typeSlug === slug).map((v) => <a class="tile has-logo" href={`/vendors/${v.slug}/`}><Logo slug={v.slug} name={v.name} /><div><span class={`pill ${v.autonomy.startsWith('Agent') ? 'mint' : ''}`}>{v.autonomy}</span><h3>{v.name}</h3><p>{v.summary}</p></div></a>)}</div></section>)}
       <div class="callout warn"><b>Not listed:</b> tools whose main claim is LinkedIn automation. Sending automated messages through a LinkedIn account breaches LinkedIn's terms and risks the account; the sourcing agents profiled here contact candidates by email and SMS.</div>
     </article>
   </div>
