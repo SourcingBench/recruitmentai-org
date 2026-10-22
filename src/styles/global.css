@@ -30,7 +30,7 @@ p,li{color:var(--ink2)}a{color:var(--indigo);text-decoration:none;border-bottom:
 .hero .def b{color:var(--ink)}
 .btn{display:inline-block;background:var(--indigo);color:#fff;font-weight:700;padding:13px 22px;border-radius:10px;border:0;font-size:.95rem;margin:10px 10px 0 0;box-shadow:0 8px 18px -8px rgba(67,56,202,.7);transition:transform .15s,background .15s}.btn:hover{background:var(--indigo-dk);transform:translateY(-1px)}
 .btn.ghost{background:#fff;color:var(--indigo-dk);border:1px solid var(--line2);box-shadow:none}.btn.ghost:hover{border-color:var(--indigo);background:#fff}
-.hero .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:40px;max-width:820px}
+.hero .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:40px;max-width:640px}
 .hero .stats div{background:rgba(255,255,255,.75);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;box-shadow:var(--shadow)}
 .hero .stats b{display:block;font-size:1.7rem;color:var(--ink);letter-spacing:-0.03em;line-height:1.1;font-weight:600}
 .hero .stats span{color:var(--ink3);font-size:.82rem;display:block;margin-top:4px}
