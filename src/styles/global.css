@@ -117,3 +117,11 @@ footer.site .legal{margin-top:30px;padding-top:16px;border-top:1px solid #2b2f3a
 .chapters .ch-body span{display:block;font-size:.92rem;color:var(--ink2);line-height:1.5}
 .chapters .ch-body small{display:block;margin-top:10px;font-family:var(--mono);font-size:.7rem;letter-spacing:.04em;text-transform:uppercase;color:var(--ink3)}
 @media(max-width:700px){.chapters{grid-template-columns:1fr}}
+/* vendor profile: reference-style infobox */
+.infobox{border:1px solid var(--line);border-radius:var(--r);background:var(--bg2);overflow:hidden;margin:22px 0;box-shadow:var(--shadow)}
+.infobox .ib-head{display:flex;align-items:center;gap:12px;padding:14px 18px;background:#fff;border-bottom:1px solid var(--line)}.infobox .ib-head b{font-size:1.05rem;color:var(--ink)}
+.infobox dl{margin:0;padding:6px 18px 12px;display:grid;grid-template-columns:auto 1fr;column-gap:16px}
+.infobox dt{font-family:var(--mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--ink3);padding:9px 0;border-bottom:1px solid var(--line)}
+.infobox dd{margin:0;font-size:.9rem;color:var(--ink2);padding:8px 0;border-bottom:1px solid var(--line);line-height:1.45}
+.infobox dt:last-of-type,.infobox dd:last-of-type{border-bottom:0}
+@media(min-width:1100px){.infobox{float:right;width:300px;margin:6px 0 18px 28px}.prose h2{clear:right}}
