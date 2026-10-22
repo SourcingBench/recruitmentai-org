@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Toc from '../../components/Toc.astro';
 import chapters from '../../data/chapters.json';
 import { SITE_NAME, SITE_URL, YEAR, crumbs } from '../../data/site';
+const sectionCount = (c) => (c.body.match(/<h2>/g) ?? []).length;
 const schema = [{ '@context': 'https://schema.org', '@type': 'ItemList', name: 'The Recruitment AI Handbook', itemListElement: chapters.map((c) => ({ '@type': 'ListItem', position: c.num, name: c.title, url: `${SITE_URL}/guide/${c.slug}/` })) }, crumbs([{ name: 'Home', path: '/' }, { name: 'Handbook', path: '/guide/' }])];
 ---
 <Base title={`The Recruitment AI Handbook: 10 Chapters (${YEAR}) | ${SITE_NAME}`} description="A ten-chapter plain-English handbook on AI in recruiting: definitions, how it works, the seven types, use cases, benefits and limits, regulation, evaluation, implementation and what comes next." path="/guide/" schema={schema}>
@@ -11,7 +12,12 @@ const schema = [{ '@context': 'https://schema.org', '@type': 'ItemList', name: '
       <p class="crumbs"><a href="/">Home</a> › Handbook</p>
       <h1>The Recruitment AI Handbook</h1>
       <p>Ten chapters, written to be read in order or dipped into. Total reading time about an hour.</p>
-      <ol class="steps">{chapters.map((c) => <li><b><a href={`/guide/${c.slug}/`}>{c.title}</a></b>{c.description} <span class="muted">· {c.minutes} min</span></li>)}</ol>
+      <ol class="chapters">{chapters.map((c) => (
+        <li><a href={`/guide/${c.slug}/`}>
+          <span class="ch-num">{String(c.num).padStart(2, '0')}</span>
+          <span class="ch-body"><b>{c.title}</b><span>{c.description}</span><small>{c.minutes} min read · {sectionCount(c)} sections · {c.faq.length} questions answered</small></span>
+        </a></li>
+      ))}</ol>
     </article>
   </div>
 </Base>

@@ -42,7 +42,7 @@ p,li{color:var(--ink2)}a{color:var(--indigo);text-decoration:none;border-bottom:
 .toc a{display:block;border:0;color:var(--ink2);padding:6px 10px 6px 12px;border-left:2px solid var(--line);border-radius:0 6px 6px 0;line-height:1.4}
 .toc a:hover{color:var(--indigo);background:var(--bg2)}.toc a[aria-current]{border-left-color:var(--indigo);color:var(--indigo-dk);font-weight:600;background:var(--indigo-lt)}
 .toc .num{font-family:var(--mono);font-size:.7rem;color:var(--ink3);margin-right:8px}
-@media(max-width:920px){.doc{grid-template-columns:1fr;gap:24px;padding-top:28px}.toc{position:static;max-height:none;background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);padding:16px}}
+@media(max-width:920px){.doc{grid-template-columns:minmax(0,1fr);gap:24px;padding-top:28px}.toc{position:static;max-height:none;background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);padding:16px}}
 .prose{max-width:760px}.prose p{font-size:1.05rem}.prose ul,.prose ol{padding-left:22px}.prose li{margin:.3em 0}
 .prose img{max-width:100%;height:auto;border-radius:var(--r)}
 .callout{border-radius:var(--r);padding:18px 22px 18px 54px;margin:26px 0;font-size:.98rem;position:relative}
@@ -92,3 +92,28 @@ footer.site p{color:#aab0bf}footer.site p a{display:inline;text-decoration:under
 .listed-on{font-size:.8rem;color:#aab0bf;margin:12px 0 0}.listed-on a{display:inline}
 footer.site .legal{margin-top:30px;padding-top:16px;border-top:1px solid #2b2f3a;color:#8d93a3;font-size:.82rem;display:flex;flex-wrap:wrap;gap:8px 20px}footer.site .legal a{display:inline}
 @media(max-width:700px){footer.site .cols{grid-template-columns:1fr;gap:24px}.grid{grid-template-columns:1fr}.pager{flex-direction:column}.vendor-head .vendor-logo.lg{width:52px;height:52px}}
+/* handbook: chapter progress, in-chapter contents, right-rail on-this-page */
+.ch-meta{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.ch-progress{flex:0 0 120px;height:4px;border-radius:99px;background:var(--bg3);overflow:hidden}.ch-progress i{display:block;height:100%;background:linear-gradient(90deg,var(--indigo),var(--mint))}
+.in-chapter{border:1px solid var(--line);background:var(--bg2);border-radius:var(--r);padding:16px 22px 12px;margin:22px 0 30px}
+.in-chapter b{display:block;font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ink3);font-weight:500;margin-bottom:6px}
+.in-chapter ol{margin:0;padding-left:20px;columns:2;column-gap:28px}.in-chapter li{font-size:.95rem;margin:.25em 0;break-inside:avoid}.in-chapter a{border:0;color:var(--ink2)}.in-chapter a:hover{color:var(--indigo)}
+.prose h2[id]{scroll-margin-top:84px}
+.onpage{display:none}
+@media(min-width:1280px){
+.doc-3{grid-template-columns:230px minmax(0,1fr) 200px;gap:44px}
+.wrap.doc-3{max-width:1340px}
+.onpage{display:block;position:sticky;top:80px;align-self:start;font-size:.84rem;border-left:1px solid var(--line);padding-left:16px}
+.onpage b{display:block;font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ink3);font-weight:500;margin-bottom:8px}
+.onpage a{display:block;border:0;color:var(--ink3);padding:4px 0;line-height:1.4}.onpage a:hover{color:var(--indigo)}
+.doc-3 .in-chapter{display:none}
+}
+@media(max-width:600px){.in-chapter ol{columns:1}}
+.chapters{list-style:none;padding:0;margin:26px 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.chapters a{display:grid;grid-template-columns:54px 1fr;gap:14px;height:100%;border:1px solid var(--line);border-radius:var(--r);padding:18px 18px 16px;background:#fff;box-shadow:var(--shadow);color:inherit;transition:transform .15s,box-shadow .15s,border-color .15s}
+.chapters a:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg);border-color:#c7c9ff}
+.chapters .ch-num{font-family:var(--mono);font-size:1.6rem;font-weight:500;color:var(--indigo);line-height:1;padding-top:2px}
+.chapters .ch-body b{display:block;color:var(--ink);font-size:1.05rem;line-height:1.3;margin-bottom:4px}
+.chapters .ch-body span{display:block;font-size:.92rem;color:var(--ink2);line-height:1.5}
+.chapters .ch-body small{display:block;margin-top:10px;font-family:var(--mono);font-size:.7rem;letter-spacing:.04em;text-transform:uppercase;color:var(--ink3)}
+@media(max-width:700px){.chapters{grid-template-columns:1fr}}

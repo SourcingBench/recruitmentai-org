@@ -7,21 +7,42 @@ import { SITE_NAME, YEAR, LAST_REVIEWED, fmtDate, article, faqLd, crumbs } from 
 export function getStaticPaths() { return chapters.map((c, i) => ({ params: { slug: c.slug }, props: { c, prev: chapters[i - 1] ?? null, next: chapters[i + 1] ?? null } })); }
 const { c, prev, next } = Astro.props;
 const path = `/guide/${c.slug}/`;
+const slugify = (t) => t.replace(/<[^>]+>/g, '').toLowerCase().replace(/&[a-z]+;/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const sections = [];
+const body = c.body.replace(/<h2>(.*?)<\/h2>/g, (_m, inner) => {
+  const id = slugify(inner);
+  sections.push({ id, text: inner.replace(/<[^>]+>/g, '') });
+  return `<h2 id="${id}">${inner}</h2>`;
+});
+const total = chapters.length;
 const schema = [article({ headline: c.title, description: c.description, path }), faqLd(c.faq), crumbs([{ name: 'Home', path: '/' }, { name: 'Handbook', path: '/guide/' }, { name: c.title, path }])];
 ---
 <Base title={`${c.title} | Recruitment AI Handbook, Ch. ${c.num} (${YEAR}) | ${SITE_NAME}`} description={c.description} path={path} schema={schema} type="article">
-  <div class="wrap doc"><Toc current={c.slug} />
+  <div class="wrap doc doc-3"><Toc current={c.slug} />
     <article class="prose">
       <p class="crumbs"><a href="/">Home</a> › <a href="/guide/">Handbook</a> › Chapter {c.num}</p>
-      <span class="mono">Chapter {String(c.num).padStart(2, '0')} · {c.minutes} min read</span>
+      <div class="ch-meta"><span class="mono">Chapter {String(c.num).padStart(2, '0')} of {total} · {c.minutes} min read</span><span class="ch-progress" aria-hidden="true"><i style={`width:${(Number(c.num) / total) * 100}%`}></i></span></div>
       <h1>{c.title}</h1>
       <p class="byline">{c.description} · Reviewed {fmtDate(LAST_REVIEWED)}</p>
-      <div set:html={c.body} />
+      {sections.length > 1 && (
+        <div class="in-chapter">
+          <b>In this chapter</b>
+          <ol>{sections.map((x) => <li><a href={`#${x.id}`}>{x.text}</a></li>)}</ol>
+        </div>
+      )}
+      <div set:html={body} />
       <Faq items={c.faq} title="Questions on this chapter" />
       <nav class="pager" aria-label="Chapters">
         <span>{prev && <a href={`/guide/${prev.slug}/`}><small>Previous</small>← {prev.title}</a>}</span>
         <span style="text-align:right">{next ? <a href={`/guide/${next.slug}/`}><small>Next</small>{next.title} →</a> : <a href="/vendors/"><small>Next</small>Vendor landscape →</a>}</span>
       </nav>
     </article>
+    {sections.length > 1 && (
+      <aside class="onpage" aria-label="On this page">
+        <b>On this page</b>
+        {sections.map((x) => <a href={`#${x.id}`}>{x.text}</a>)}
+        <a href="#faq">Questions</a>
+      </aside>
+    )}
   </div>
 </Base>
