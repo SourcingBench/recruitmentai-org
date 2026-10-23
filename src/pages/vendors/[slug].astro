@@ -37,7 +37,6 @@ const schema = [article({ headline: `${v.name}: what it automates in recruiting`
       </aside>
       <div set:html={v.detail} />
       {v.specs && <><h2>{v.name} at a glance</h2><div class="tablewrap"><table><tbody>{v.specs.map(([k, val]) => <tr><th scope="row">{k}</th><td>{val}</td></tr>)}</tbody></table></div></>}
-      {v.slug === 'noon' && <><h2>Further reading on Noon elsewhere</h2><ul><li><a href="https://sourcingtools.org/tools/noon/" rel="noopener">Independent Noon review and benchmark on SourcingTools.org</a></li><li><a href="https://bestrecruitmenttools.com/reviews/noon/" rel="noopener">Noon review on BestRecruitmentTools.com</a></li><li><a href="https://recruitmenttools.org/compare/noon-vs-linkedin-recruiter/" rel="noopener">Noon vs LinkedIn Recruiter on RecruitmentTools.org</a></li></ul></>}
       <h2>Questions to ask {v.name}</h2>
       <ul>{v.questions.map((q) => <li>{q}</li>)}</ul>
       <p class="muted">See the full list in <a href="/guide/how-to-evaluate-recruitment-ai/">chapter 7: how to evaluate a recruitment AI product</a>.</p>
