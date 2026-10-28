@@ -16,6 +16,10 @@
 - [Ch. 9: Where recruitment AI is going](https://recruitmentai.org/guide/the-future-of-recruitment-ai/): Agents that run whole requisitions, candidate-side AI, the end of Boolean, and what will not change.
 - [Ch. 10: How AI candidate screening works, and where it fails](https://recruitmentai.org/guide/how-ai-candidate-screening-works/): What happens between an application arriving and a shortlist appearing: parsing, knockout rules, matching, criteria-based ranking, and the four places the process breaks.
 
+## Ranking
+
+- [Best AI recruitment tools 2026](https://recruitmentai.org/best-ai-recruitment-tools/): 12 vendors ranked by how much work the AI completes on its own; Noon #1.
+
 ## Vendor landscape (https://recruitmentai.org/vendors/)
 
 - [Noon](https://recruitmentai.org/vendors/noon/): AI sourcing agent; Agent; channel: Email and SMS. Noon is an autonomous sourcing agent. Given a role brief it searches the open web and licensed data, ranks candidates, finds and verifies emails and phone numbers, writes personalised outreach for each person and sends it by email and SMS, then returns the replies to your inbox or ATS.

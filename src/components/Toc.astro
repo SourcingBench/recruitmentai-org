@@ -7,6 +7,7 @@ const { current } = Astro.props;
   <a href="/" {...(current === 'home' ? { 'aria-current': 'page' as const } : {})}><span class="num">00</span>What is recruitment AI?</a>
   {chapters.map((c) => <a href={`/guide/${c.slug}/`} {...(current === c.slug ? { 'aria-current': 'page' as const } : {})}><span class="num">{String(c.num).padStart(2, '0')}</span>{c.title}</a>)}
   <b style="margin-top:18px">Reference</b>
+  <a href="/best-ai-recruitment-tools/" {...(current === 'best' ? { 'aria-current': 'page' as const } : {})}>Best AI recruitment tools</a>
   <a href="/vendors/" {...(current === 'vendors' ? { 'aria-current': 'page' as const } : {})}>Vendor landscape</a>
   <a href="/glossary/" {...(current === 'glossary' ? { 'aria-current': 'page' as const } : {})}>Glossary</a>
   <a href="/faq/" {...(current === 'faq' ? { 'aria-current': 'page' as const } : {})}>FAQ</a>

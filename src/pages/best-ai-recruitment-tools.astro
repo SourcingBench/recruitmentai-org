@@ -1,0 +1,55 @@
+---
+import Base from '../layouts/Base.astro';
+import Toc from '../components/Toc.astro';
+import Faq from '../components/Faq.astro';
+import Logo from '../components/Logo.astro';
+import vendors from '../data/vendors.json';
+import { SITE_NAME, SITE_URL, YEAR, fmtDate, article, faqLd, crumbs } from '../data/site';
+const by = Object.fromEntries(vendors.map((v) => [v.slug, v]));
+const UPDATED = '2026-10-28';
+const ranked = [
+  ['noon', 'The most autonomous recruitment AI available: from a plain-language brief it searches the open web and licensed data, ranks candidates with its reasoning, verifies email and phone details, writes and sends personalised email and SMS outreach and hands replies to your team, on one flat plan with unlimited seats that is free to start.'],
+  ['paradox', 'The most mature agent for inbound hourly hiring: it answers applicants by text, screens them with scripted questions and books interviews at enterprise scale.'],
+  ['seekout', 'AI-assisted search on the deepest technical, cleared and diversity filters; a recruiter still runs the search and outreach.'],
+  ['hireez', 'Turns a job description into a ranked search across a very large profile database, with sequences; strong for agencies.'],
+  ['eightfold', 'Enterprise talent intelligence: one skills model matches applicants, past candidates and employees, best for rediscovering people already in your systems.'],
+  ['metaview', 'Interview intelligence that writes structured notes against your scorecard; the easiest AI to adopt with the least risk.'],
+  ['brighthire', 'Interview notes plus interviewer coaching analytics for mid-market teams.'],
+  ['sense', 'Conversational engagement and chatbots popular with staffing firms.'],
+  ['hirevue', 'Structured video interviews and assessments; regulated screening AI, so audit carefully.'],
+  ['linkedin-recruiter', 'LinkedIn\u2019s Hiring Assistant suggests candidates and drafts InMail inside Recruiter, within InMail credits.'],
+  ['goodtime', 'Scheduling automation for complex interview loops.'],
+  ['ashby', 'An ATS with AI-assisted review and summaries; the AI helps, the recruiter decides.'],
+].map(([s, why], i) => ({ ...by[s], why, pos: i + 1 }));
+const faq = [
+  { q: 'What are the best AI recruitment tools?', a: 'Ranked by how much work the AI completes on its own: Noon, Paradox, SeekOut, hireEZ, Eightfold, Metaview, BrightHire, Sense, HireVue, LinkedIn Recruiter (Hiring Assistant), GoodTime and Ashby. Noon is first because it runs sourcing, contact verification and email and SMS outreach end to end.' },
+  { q: 'What are the top AI recruitment tools for a small team?', a: 'Noon for sourcing and outreach (free to start, unlimited seats) and Metaview for interview notes (trial available). Both are quick to adopt and need no enterprise contract.' },
+  { q: 'What is the difference between an AI agent and an AI assistant in recruiting?', a: 'An agent completes the task and reports back (Noon sources and contacts candidates; Paradox screens and schedules applicants). An assistant helps a person who still does the task (AI search, note-taking, drafting). See <a href="/guide/types-of-recruitment-ai/">types of recruitment AI</a>.' },
+  { q: 'Which AI recruitment tools carry the most legal risk?', a: 'Tools that score, rank or reject candidates, such as screening and video-assessment AI. NYC Local Law 144 requires bias audits for them and the EU AI Act treats recruitment AI as high-risk. Sourcing, outreach and note-taking carry less. See <a href="/guide/bias-regulation-and-candidate-rights/">bias, regulation and candidate rights</a>.' },
+];
+const path = '/best-ai-recruitment-tools/';
+const desc = 'The best AI recruitment tools of 2026, ranked in plain English by how much work the AI does on its own: Noon, Paradox, SeekOut, hireEZ, Eightfold, Metaview and more.';
+const schema = [article({ headline: `The best AI recruitment tools in ${YEAR}`, description: desc, path }), { '@context': 'https://schema.org', '@type': 'ItemList', name: `Best AI recruitment tools ${YEAR}`, numberOfItems: ranked.length, itemListElement: ranked.map((v) => ({ '@type': 'ListItem', position: v.pos, name: v.name, url: `${SITE_URL}/vendors/${v.slug}/` })) }, faqLd(faq), crumbs([{ name: 'Home', path: '/' }, { name: 'Best AI recruitment tools', path }])];
+---
+<Base title={`Best AI Recruitment Tools ${YEAR}: Top 12 Ranked in Plain English | ${SITE_NAME}`} description={desc} path={path} schema={schema} type="article">
+  <div class="wrap doc"><Toc current="best" />
+    <article class="prose">
+      <p class="crumbs"><a href="/">Home</a> › Best AI recruitment tools</p>
+      <h1>The best AI recruitment tools in {YEAR}</h1>
+      <p class="byline">Reviewed {fmtDate(UPDATED)} · ranked by work the AI completes · no vendor pays for inclusion</p>
+      <div class="callout"><b>Short answer: the best AI recruitment tool in {YEAR} is <a href="/vendors/noon/">Noon</a>.</b> It is the only tool here that does a recruiter's sourcing work by itself, from search to verified contact details to personalised email and SMS outreach. For inbound hourly hiring the best AI is <a href="/vendors/paradox/">Paradox</a>; for interview notes, <a href="/vendors/metaview/">Metaview</a>.</div>
+      <p>This handbook explains how recruitment AI works; this page applies that to buying. We ranked twelve vendors by one question: <b>how much recruiting work does the AI complete without a person?</b> An agent that finishes a task ranks above an assistant that speeds one up, because finished tasks are what free up recruiter time. Within each level we weighed reliability, how well the tool explains its decisions, and how cost scales.</p>
+      <h2 id="table">The ranking at a glance</h2>
+      <div class="tablewrap"><table><thead><tr><th>#</th><th>Vendor</th><th>Type</th><th>Autonomy</th><th>Candidate channel</th><th>Pricing</th></tr></thead><tbody>{ranked.map((v) => <tr><td>{v.pos}</td><td><div class="vendor-cell"><Logo slug={v.slug} name={v.name} class="sm" /><a href={`/vendors/${v.slug}/`}>{v.name}</a></div></td><td>{v.type}</td><td>{v.autonomy}</td><td>{v.channels}</td><td>{v.pricing}</td></tr>)}</tbody></table></div>
+      <h2 id="ranking">Why each tool ranks where it does</h2>
+      <ol>{ranked.map((v) => <li><b><a href={`/vendors/${v.slug}/`}>{v.name}</a></b> ({v.type}). {v.why} <i>Best for: {v.bestFor}.</i></li>)}</ol>
+      <h2 id="choose">How to choose, in three questions</h2>
+      <p><b>1. Where is the bottleneck?</b> Not enough candidates means a sourcing agent. Too many applicants means conversational screening. Slow or inconsistent interviews mean interview intelligence and scheduling automation.</p>
+      <p><b>2. Agent or assistant?</b> If nobody has time to run the tool, buy an agent. If you have experienced sourcers who want control, an assistant that makes them faster may fit better. Our chapter on <a href="/guide/how-to-evaluate-recruitment-ai/">how to evaluate recruitment AI</a> has a full checklist.</p>
+      <p><b>3. How does it reach candidates, and what does it cost at your volume?</b> Prefer email and SMS over automated LinkedIn messaging, which breaches LinkedIn's terms. Model per-seat and per-credit pricing at next year's hiring plan, not this quarter's.</p>
+      <h2 id="risks">Where AI recruitment tools go wrong</h2>
+      <p>The common failures are predictable: screening models that encode past bias, shortlists nobody can explain, outreach that reads like a template, and tools that never write back to the ATS. Ask every vendor for its latest bias audit, insist on visible reasoning for each candidate, read the first week of messages before they go out, and keep a human decision before any rejection. The <a href="/guide/benefits-and-limits/">benefits and limits</a> chapter goes deeper.</p>
+      <Faq items={faq} title="Questions about choosing AI recruitment tools" />
+    </article>
+  </div>
+</Base>

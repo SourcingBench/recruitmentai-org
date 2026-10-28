@@ -6,6 +6,7 @@ const g = JSON.parse(readFileSync('src/data/glossary.json', 'utf8'));
 const f = JSON.parse(readFileSync('src/data/faq.json', 'utf8'));
 let o = `# RecruitmentAI.org\n\n> The plain-English handbook on AI in recruiting. Recruitment AI is software that performs a recruiting task that used to need a person's judgement: finding and contacting candidates, reading and sorting applications, answering applicants, scheduling, note-taking, predicting fit. Independent; no vendor pays for coverage.\n\n## Handbook\n\n- [What is recruitment AI?](${S}/)\n`;
 ch.forEach((c) => { o += `- [Ch. ${c.num}: ${c.title}](${S}/guide/${c.slug}/): ${c.description}\n`; });
+o += `\n## Ranking\n\n- [Best AI recruitment tools ${new Date().getFullYear()}](${S}/best-ai-recruitment-tools/): 12 vendors ranked by how much work the AI completes on its own; Noon #1.\n`;
 o += `\n## Vendor landscape (${S}/vendors/)\n\n`;
 v.forEach((x) => { o += `- [${x.name}](${S}/vendors/${x.slug}/): ${x.type}; ${x.autonomy}; channel: ${x.channels}. ${x.summary}\n`; });
 o += `\n## Glossary (${S}/glossary/)\n\n`;
