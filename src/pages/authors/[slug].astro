@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import Toc from '../../components/Toc.astro';
+import { SITE_NAME, SITE_URL } from '../../data/site';
+import chapters from '../../data/chapters.json';
+import vendors from '../../data/vendors.json';
+import { WRITERS, writerFor, personLd } from '../../data/writers';
+const ALL = [{ path: '/best-ai-recruitment-tools/', name: 'Best AI recruitment tools' }, ...chapters.map((c) => ({ path: `/guide/${c.slug}/`, name: c.title })), ...vendors.map((v) => ({ path: `/vendors/${v.slug}/`, name: `${v.name}: what it automates` }))];
+export function getStaticPaths() { return WRITERS.map((w) => ({ params: { slug: w.slug }, props: { w } })); }
+const { w } = Astro.props as any;
+const mine = ALL.filter((p) => writerFor(p.path).slug === w.slug);
+const schema = [{ '@context': 'https://schema.org', '@type': 'ProfilePage', mainEntity: { ...personLd(w), description: w.bio } }];
+---
+<Base title={`${w.name}, Writer | ${SITE_NAME}`} description={w.bio} path={`/authors/${w.slug}/`} schema={schema}>
+  <div class="wrap doc"><Toc />
+    <article class="prose"><p class="crumbs"><a href="/">Home</a> › <a href="/authors/">Writers</a> › {w.name}</p><h1>{w.name}</h1>
+      <p>{w.bio}</p>
+      <h2>Pages by {w.name}</h2>
+      <ul>{mine.map((m) => <li><a href={m.path}>{m.name}</a></li>)}</ul>
+      <p><a href="/authors/">All writers</a></p>
+    </article>
+  </div>
+</Base>

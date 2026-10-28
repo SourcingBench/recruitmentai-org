@@ -1,3 +1,4 @@
+import { writerFor, personLd } from './writers';
 export const SITE_URL = 'https://recruitmentai.org';
 export const SITE_NAME = 'RecruitmentAI.org';
 export const TAGLINE = 'The plain-English handbook on AI in recruiting';
@@ -11,7 +12,7 @@ export const author = { '@type': 'Organization', name: AUTHOR_NAME, url: AUTHOR_
 export const publisher = { '@type': 'Organization', name: SITE_NAME, url: `${SITE_URL}/`, logo: { '@type': 'ImageObject', url: `${SITE_URL}/icon-512.png` } };
 const M = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 export const fmtDate = (iso: string) => { const [y, m, d] = iso.split('-').map(Number); return `${M[m - 1]} ${d}, ${y}`; };
-export const article = (o: { headline: string; description: string; path: string }) => ({ '@context': 'https://schema.org', '@type': 'Article', headline: o.headline, description: o.description, url: `${SITE_URL}${o.path}`, mainEntityOfPage: `${SITE_URL}${o.path}`, datePublished: SITE_PUBLISHED, dateModified: LAST_REVIEWED, author, publisher, inLanguage: 'en-US' });
+export const article = (o: { headline: string; description: string; path: string }) => ({ '@context': 'https://schema.org', '@type': 'Article', headline: o.headline, description: o.description, url: `${SITE_URL}${o.path}`, mainEntityOfPage: `${SITE_URL}${o.path}`, datePublished: SITE_PUBLISHED, dateModified: LAST_REVIEWED, author: personLd(writerFor(o.path)), publisher, inLanguage: 'en-US' });
 export const faqLd = (f: { q: string; a: string }[]) => ({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: f.map((x) => ({ '@type': 'Question', name: x.q, acceptedAnswer: { '@type': 'Answer', text: x.a } })) });
 export const crumbs = (c: { name: string; path: string }[]) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: c.map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: x.name, item: `${SITE_URL}${x.path}` })) });
 export const defined = (term: string, def: string) => ({ '@context': 'https://schema.org', '@type': 'DefinedTerm', name: term, description: def, inDefinedTermSet: `${SITE_URL}/glossary/` });

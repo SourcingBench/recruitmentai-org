@@ -1,4 +1,5 @@
 ---
+import WriterByline from '../../components/WriterByline.astro';
 import Base from '../../layouts/Base.astro';
 import Toc from '../../components/Toc.astro';
 import Faq from '../../components/Faq.astro';
@@ -23,7 +24,7 @@ const schema = [article({ headline: c.title, description: c.description, path })
       <p class="crumbs"><a href="/">Home</a> › <a href="/guide/">Handbook</a> › Chapter {c.num}</p>
       <div class="ch-meta"><span class="mono">Chapter {String(c.num).padStart(2, '0')} of {total} · {c.minutes} min read</span><span class="ch-progress" aria-hidden="true"><i style={`width:${(Number(c.num) / total) * 100}%`}></i></span></div>
       <h1>{c.title}</h1>
-      <p class="byline">{c.description} · Reviewed {fmtDate(LAST_REVIEWED)}</p>
+      <p class="byline"><WriterByline /> · {c.description} · Reviewed {fmtDate(LAST_REVIEWED)}</p>
       {sections.length > 1 && (
         <div class="in-chapter">
           <b>In this chapter</b>

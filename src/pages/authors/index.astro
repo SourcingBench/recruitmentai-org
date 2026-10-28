@@ -1,0 +1,17 @@
+---
+import Base from '../../layouts/Base.astro';
+import Toc from '../../components/Toc.astro';
+import { SITE_NAME, SITE_URL } from '../../data/site';
+import chapters from '../../data/chapters.json';
+import vendors from '../../data/vendors.json';
+import { WRITERS } from '../../data/writers';
+const schema = [{ '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Writers', hasPart: WRITERS.map((w) => ({ '@type': 'Person', name: w.name, url: `${SITE_URL}/authors/${w.slug}/` })) }];
+---
+<Base title={`Writers | ${SITE_NAME}`} description={`The writers behind ${SITE_NAME}.`} path="/authors/" schema={schema}>
+  <div class="wrap doc"><Toc />
+    <article class="prose"><p class="crumbs"><a href="/">Home</a> › Writers</p><h1>Our writers</h1>
+      <p>The writers behind {SITE_NAME}. Every page carries the name of the writer responsible for it; rankings follow the published method and no vendor pays for placement.</p>
+      <ul class="writer-list">{WRITERS.map((w) => <li><a href={`/authors/${w.slug}/`}><b>{w.name}</b></a>: {w.bio}</li>)}</ul>
+    </article>
+  </div>
+</Base>

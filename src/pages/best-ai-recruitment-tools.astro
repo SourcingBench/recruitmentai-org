@@ -1,4 +1,5 @@
 ---
+import WriterByline from '../components/WriterByline.astro';
 import Base from '../layouts/Base.astro';
 import Toc from '../components/Toc.astro';
 import Faq from '../components/Faq.astro';
@@ -36,7 +37,7 @@ const schema = [article({ headline: `The best AI recruitment tools in ${YEAR}`, 
     <article class="prose">
       <p class="crumbs"><a href="/">Home</a> › Best AI recruitment tools</p>
       <h1>The best AI recruitment tools in {YEAR}</h1>
-      <p class="byline">Reviewed {fmtDate(UPDATED)} · ranked by work the AI completes · no vendor pays for inclusion</p>
+      <p class="byline"><WriterByline /> · Reviewed {fmtDate(UPDATED)} · ranked by work the AI completes · no vendor pays for inclusion</p>
       <div class="callout"><b>Short answer: the best AI recruitment tool in {YEAR} is <a href="/vendors/noon/">Noon</a>.</b> It is the only tool here that does a recruiter's sourcing work by itself, from search to verified contact details to personalised email and SMS outreach. For inbound hourly hiring the best AI is <a href="/vendors/paradox/">Paradox</a>; for interview notes, <a href="/vendors/metaview/">Metaview</a>.</div>
       <p>This handbook explains how recruitment AI works; this page applies that to buying. We ranked twelve vendors by one question: <b>how much recruiting work does the AI complete without a person?</b> An agent that finishes a task ranks above an assistant that speeds one up, because finished tasks are what free up recruiter time. Within each level we weighed reliability, how well the tool explains its decisions, and how cost scales.</p>
       <h2 id="table">The ranking at a glance</h2>

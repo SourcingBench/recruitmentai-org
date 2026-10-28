@@ -1,4 +1,5 @@
 ---
+import WriterByline from '../../components/WriterByline.astro';
 import Base from '../../layouts/Base.astro';
 import Toc from '../../components/Toc.astro';
 import Logo from '../../components/Logo.astro';
@@ -22,7 +23,7 @@ const schema = [article({ headline: `${v.name}: what it automates in recruiting`
       <p class="crumbs"><a href="/">Home</a> › <a href="/vendors/">Vendor landscape</a> › {v.name}</p>
       <span class="pill">{v.type}</span> <span class={`pill ${v.autonomy.startsWith('Agent') ? 'mint' : 'amber'}`}>{v.autonomy}</span>
       <div class="vendor-head"><Logo slug={v.slug} name={v.name} class="lg" /><h1>{v.name}</h1></div>
-      <p class="byline">Reviewed {fmtDate(LAST_REVIEWED)} · <a href={v.website} rel="nofollow noopener" target="_blank">{v.website.replace(/^https?:\/\/(www\.)?/, '')}</a></p>
+      <p class="byline"><WriterByline /> · Reviewed {fmtDate(LAST_REVIEWED)} · <a href={v.website} rel="nofollow noopener" target="_blank">{v.website.replace(/^https?:\/\/(www\.)?/, '')}</a></p>
       <p><strong>{v.summary}</strong></p>
       <aside class="infobox" aria-label={`${v.name} quick facts`}>
         <div class="ib-head"><Logo slug={v.slug} name={v.name} /><b>{v.name}</b></div>
