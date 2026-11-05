@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import Toc from '../../components/Toc.astro';
+import explainers from '../../data/explainers.json';
+import { SITE_NAME, SITE_URL, fmtDate, crumbs } from '../../data/site';
+const sorted = [...explainers].sort((x: any, y: any) => y.date.localeCompare(x.date));
+const schema = [{ '@context': 'https://schema.org', '@type': 'ItemList', name: 'Recruitment AI explainers', itemListElement: sorted.map((e: any, i: number) => ({ '@type': 'ListItem', position: i + 1, name: e.title, url: `${SITE_URL}/explainers/${e.slug}/` })) }, crumbs([{ name: 'Home', path: '/' }, { name: 'Explainers', path: '/explainers/' }])];
+---
+<Base title={`Recruitment AI Explainers: One Question, Answered Plainly | ${SITE_NAME}`} description="Short plain-English explainers on single questions about AI in recruiting: how a given tool works, what the law says, what it costs and where it fails." path="/explainers/" schema={schema}>
+  <div class="wrap doc"><Toc current="explainers" />
+    <article class="prose">
+      <p class="crumbs"><a href="/">Home</a> › Explainers</p>
+      <h1>Explainers</h1>
+      <p>The handbook covers recruitment AI end to end. Explainers take one narrow question at a time and answer it in a few minutes of reading.</p>
+      <div class="grid">{sorted.map((e: any) => <a class="tile" href={`/explainers/${e.slug}/`}><span class="mono">{fmtDate(e.date)}</span><h3>{e.title}</h3><p>{e.description}</p></a>)}</div>
+    </article>
+  </div>
+</Base>
