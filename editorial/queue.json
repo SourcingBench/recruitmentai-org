@@ -1,0 +1,245 @@
+{
+ "note": "Daily article queue. Volumes are US monthly Google searches (DataForSEO, Nov 2026). noon_target is a real noon.ai path; link it in roughly half of articles, never more than once per article.",
+ "items": [
+  {
+   "id": "rai-001",
+   "family": "ai-explainer",
+   "keyword": "ai note takers for interviews",
+   "volume": 22200,
+   "noon_target": "/product/ai-notetaker",
+   "status": "queued"
+  },
+  {
+   "id": "rai-002",
+   "family": "ai-explainer",
+   "keyword": "ai interviewer",
+   "volume": 4400,
+   "noon_target": "/product/ai-interviewer",
+   "status": "queued"
+  },
+  {
+   "id": "rai-003",
+   "family": "ai-explainer",
+   "keyword": "ai recruiter",
+   "volume": 4400,
+   "noon_target": "/product/ai-sourcer",
+   "status": "queued"
+  },
+  {
+   "id": "rai-004",
+   "family": "ai-explainer",
+   "keyword": "ai in hr",
+   "volume": 2900,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-005",
+   "family": "ai-explainer",
+   "keyword": "ai interview practice and candidates",
+   "volume": 1300,
+   "noon_target": "/product/fraud-detection",
+   "status": "queued"
+  },
+  {
+   "id": "rai-006",
+   "family": "ai-explainer",
+   "keyword": "ats resume and ai screening",
+   "volume": 18100,
+   "noon_target": "/learn/what-is-ai-resume-screening",
+   "status": "queued"
+  },
+  {
+   "id": "rai-007",
+   "family": "ai-explainer",
+   "keyword": "deepfake and fraudulent candidates",
+   "volume": null,
+   "noon_target": "/learn/how-to-spot-a-fake-job-application",
+   "status": "queued"
+  },
+  {
+   "id": "rai-008",
+   "family": "ai-explainer",
+   "keyword": "agentic ai vs generative ai in recruiting",
+   "volume": 4400,
+   "noon_target": "/product/ai-sourcer",
+   "status": "queued"
+  },
+  {
+   "id": "rai-009",
+   "family": "ai-explainer",
+   "keyword": "ai for staffing agencies",
+   "volume": 390,
+   "noon_target": "/built-for/staffing-agencies",
+   "status": "queued"
+  },
+  {
+   "id": "rai-010",
+   "family": "ai-explainer",
+   "keyword": "ai for talent acquisition",
+   "volume": 320,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-011",
+   "family": "ai-explainer",
+   "keyword": "ai video interview",
+   "volume": 260,
+   "noon_target": "/product/ai-interviewer",
+   "status": "queued"
+  },
+  {
+   "id": "rai-012",
+   "family": "ai-explainer",
+   "keyword": "ai recruiting agent",
+   "volume": 170,
+   "noon_target": "/product/ai-sourcer",
+   "status": "queued"
+  },
+  {
+   "id": "rai-013",
+   "family": "ai-explainer",
+   "keyword": "ai recruitment statistics",
+   "volume": 170,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-014",
+   "family": "ai-explainer",
+   "keyword": "ai phone screening",
+   "volume": 110,
+   "noon_target": "/product/ai-interviewer",
+   "status": "queued"
+  },
+  {
+   "id": "rai-015",
+   "family": "ai-explainer",
+   "keyword": "ai recruiting assistant",
+   "volume": 110,
+   "noon_target": "/product/ai-scheduler",
+   "status": "queued"
+  },
+  {
+   "id": "rai-016",
+   "family": "ai-explainer",
+   "keyword": "ai sourcing",
+   "volume": 140,
+   "noon_target": "/product/ai-sourcer",
+   "status": "queued"
+  },
+  {
+   "id": "rai-017",
+   "family": "ai-explainer",
+   "keyword": "ai job description generator",
+   "volume": 320,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-018",
+   "family": "ai-explainer",
+   "keyword": "nyc local law 144 bias audits",
+   "volume": null,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-019",
+   "family": "ai-explainer",
+   "keyword": "colorado ai act and hiring",
+   "volume": null,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-020",
+   "family": "ai-explainer",
+   "keyword": "eu ai act and recruitment",
+   "volume": null,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-021",
+   "family": "ai-explainer",
+   "keyword": "will ai replace recruiters",
+   "volume": 4400,
+   "noon_target": "/built-for/recruiters",
+   "status": "queued"
+  },
+  {
+   "id": "rai-022",
+   "family": "ai-explainer",
+   "keyword": "recruiting chatbots",
+   "volume": 140,
+   "noon_target": "/product/inbound-screening",
+   "status": "queued"
+  },
+  {
+   "id": "rai-023",
+   "family": "ai-explainer",
+   "keyword": "ai interview scheduling",
+   "volume": null,
+   "noon_target": "/product/ai-scheduler",
+   "status": "queued"
+  },
+  {
+   "id": "rai-024",
+   "family": "ai-explainer",
+   "keyword": "ai outreach personalization",
+   "volume": null,
+   "noon_target": "/product/ai-outreach",
+   "status": "queued"
+  },
+  {
+   "id": "rai-025",
+   "family": "ai-explainer",
+   "keyword": "ai in applicant tracking systems",
+   "volume": 110,
+   "noon_target": "/product/ats-search",
+   "status": "queued"
+  },
+  {
+   "id": "rai-026",
+   "family": "ai-explainer",
+   "keyword": "skills based hiring and ai",
+   "volume": 720,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-027",
+   "family": "ai-explainer",
+   "keyword": "ai and candidate experience",
+   "volume": null,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-028",
+   "family": "ai-explainer",
+   "keyword": "ai bias in hiring",
+   "volume": null,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-029",
+   "family": "ai-explainer",
+   "keyword": "ai screening for hourly jobs",
+   "volume": null,
+   "noon_target": "/product/inbound-screening",
+   "status": "queued"
+  },
+  {
+   "id": "rai-030",
+   "family": "ai-explainer",
+   "keyword": "ai and linkedin inmail",
+   "volume": null,
+   "noon_target": "/learn/what-is-linkedin-inmail",
+   "status": "queued"
+  }
+ ]
+}

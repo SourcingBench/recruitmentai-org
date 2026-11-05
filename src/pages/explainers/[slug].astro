@@ -1,0 +1,30 @@
+---
+import WriterByline from '../../components/WriterByline.astro';
+import Base from '../../layouts/Base.astro';
+import Toc from '../../components/Toc.astro';
+import Faq from '../../components/Faq.astro';
+import explainers from '../../data/explainers.json';
+import { SITE_NAME, YEAR, fmtDate, article, faqLd, crumbs } from '../../data/site';
+export function getStaticPaths() { return explainers.map((e: any) => ({ params: { slug: e.slug }, props: { e } })); }
+const { e } = Astro.props as { e: any };
+const path = `/explainers/${e.slug}/`;
+const slugify = (t: string) => t.replace(/<[^>]+>/g, '').toLowerCase().replace(/&[a-z]+;/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const sections: { id: string; text: string }[] = [];
+const body = e.body.replace(/<h2>(.*?)<\/h2>/g, (_m: string, inner: string) => { const id = slugify(inner); sections.push({ id, text: inner.replace(/<[^>]+>/g, '') }); return `<h2 id="${id}">${inner}</h2>`; });
+const schema = [{ ...article({ headline: e.title, description: e.description, path }), datePublished: e.date, dateModified: e.updated ?? e.date }, faqLd(e.faq), crumbs([{ name: 'Home', path: '/' }, { name: 'Explainers', path: '/explainers/' }, { name: e.title, path }])];
+---
+<Base title={`${e.seoTitle ?? e.title} (${YEAR}) | ${SITE_NAME}`} description={e.description} path={path} schema={schema} type="article">
+  <div class="wrap doc doc-3"><Toc current="explainers" />
+    <article class="prose">
+      <p class="crumbs"><a href="/">Home</a> › <a href="/explainers/">Explainers</a></p>
+      <p><span class="pill">Explainer</span> <span class="mono">{e.minutes} min read</span></p>
+      <h1>{e.title}</h1>
+      <p class="byline"><WriterByline /> · Published {fmtDate(e.date)}{e.updated && e.updated !== e.date && <> · Updated {fmtDate(e.updated)}</>}</p>
+      <div class="callout key"><b>In short.</b> <span set:html={e.short} /></div>
+      <div set:html={body} />
+      <Faq items={e.faq} title="Common questions" />
+      {e.related && <div class="callout ok"><b>Read next.</b> {e.related.map((r: any, i: number) => <>{i > 0 && ' · '}<a href={r.href}>{r.label}</a></>)}</div>}
+    </article>
+    {sections.length > 1 && (<aside class="onpage" aria-label="On this page"><b>On this page</b>{sections.map((x) => <a href={`#${x.id}`}>{x.text}</a>)}<a href="#faq">Questions</a></aside>)}
+  </div>
+</Base>

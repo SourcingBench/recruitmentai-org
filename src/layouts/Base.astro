@@ -10,7 +10,7 @@ interface Props { title: string; description: string; path: string; schema?: any
 const { title, description, path, schema = [], type = 'website' } = Astro.props;
 const canonical = `${SITE_URL}${path}`;
 const cur = (p: string) => (path === p || (p !== '/' && path.startsWith(p)) ? { 'aria-current': 'page' as const } : {});
-const nav = [['/', 'What is recruitment AI?'], ['/guide/', 'Handbook'], ['/vendors/', 'Vendor landscape'], ['/glossary/', 'Glossary'], ['/faq/', 'FAQ']];
+const nav = [['/', 'What is recruitment AI?'], ['/guide/', 'Handbook'], ['/vendors/', 'Vendor landscape'], ['/explainers/', 'Explainers'], ['/glossary/', 'Glossary'], ['/faq/', 'FAQ']];
 const badges = [
   ['https://superlaunchlist.com', 'https://superlaunchlist.com/badge.svg', 'Featured on SuperLaunch List'],
   ['https://smollaunch.com', 'https://smollaunch.com/badges/featured.svg', 'Featured on Smol Launch'],
@@ -44,7 +44,7 @@ const badges = [
   <footer class="site"><div class="wrap">
     <div class="cols">
       <div><b>{SITE_NAME}</b><p>{TAGLINE}. Written for recruiters, HR leaders, founders and job seekers who want to understand what AI in recruiting actually does before buying, using or being screened by it. Last reviewed {fmtDate(LAST_REVIEWED)}. Independent; no vendor pays for coverage.</p></div>
-      <div><b>Read</b><a href="/">What is recruitment AI?</a><a href="/guide/">The handbook, chapter by chapter</a><a href="/vendors/">Vendor landscape</a><a href="/glossary/">Glossary</a><a href="/faq/">Frequently asked questions</a></div>
+      <div><b>Read</b><a href="/">What is recruitment AI?</a><a href="/guide/">The handbook, chapter by chapter</a><a href="/vendors/">Vendor landscape</a><a href="/explainers/">Explainers</a><a href="/glossary/">Glossary</a><a href="/faq/">Frequently asked questions</a></div>
       <div><b>Site</b><a href="/about/">About &amp; editorial policy</a><a href="/authors/">Our writers</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a></div>
     </div>
     <div class="featured-on" aria-label="Featured on">{badges.map(([h, s, a]) => <a href={h} target="_blank" rel="noopener"><img src={s} alt={a} loading="lazy" height="40" /></a>)}</div>
