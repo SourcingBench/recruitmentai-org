@@ -128,3 +128,4 @@
 ## Explainers
 
 - [AI note takers for interviews: what they capture, what they miss, and the consent rules](https://recruitmentai.org/explainers/ai-note-takers-for-interviews/): How interview note takers work, where summaries go wrong, which U.S. states require all party consent to record, how Metaview, BrightHire, GoodTime and Noon differ, and a five question buying checklist.
+- [AI interviewers: how a machine runs a screening interview, and where it should stop](https://recruitmentai.org/explainers/ai-interviewer/): What an AI interviewer is, how voice screening interviews work, which vendors offer them in 2026, where they help, their limits, and the Illinois, New York City and Colorado rules that apply.
