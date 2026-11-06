@@ -36,5 +36,51 @@
         "label": "Recruitment AI FAQ"
       }
     ]
+  },
+  {
+    "slug": "ai-interviewer",
+    "title": "AI interviewers: how a machine runs a screening interview, and where it should stop",
+    "description": "What an AI interviewer is, how voice screening interviews work, which vendors offer them in 2026, where they help, their limits, and the Illinois, New York City and Colorado rules that apply.",
+    "date": "2026-11-06",
+    "updated": "2026-11-06",
+    "minutes": 8,
+    "short": "An AI interviewer runs a structured screening interview by itself, usually by voice, adapts follow-up questions to each answer and hands recruiters a transcript and recommendation. Use it to narrow a pool, keep humans on final decisions, and tell candidates it is AI.",
+    "body": "<p>A candidate applies for a customer support role at 11pm on a Sunday. Within a minute she gets a link, clicks it, and spends twelve minutes talking to a voice that asks why she left her last job, how she would handle an angry caller, and whether she can work weekends. When she mentions she trained new hires, it asks a follow-up about how many. On Monday morning the recruiter opens a transcript, a summary against the role's criteria and a recommendation on whether to move her forward. That is an AI interviewer.</p>\n<h2>What an AI interviewer is</h2>\n<p>An AI interviewer is software that conducts a structured screening interview by itself, usually by voice and sometimes by video or chat, and then reports back to a human. It differs from an <a href=\"/explainers/ai-note-takers-for-interviews/\">AI note taker</a>, which only records a conversation between people, and from a one-way video tool, which records answers to fixed prompts without responding to them. The defining feature is that the system listens to each answer and decides what to ask next.</p>\n<h2>How the interview actually runs</h2>\n<p>Under the hood most products follow the same loop. The recruiter or hiring manager supplies the job requirements and a set of must-ask questions. The system turns speech into text, uses a language model to judge whether the answer covered what the question was looking for, and either probes deeper or moves on. Text is turned back into speech for the next question. When the call ends, the transcript is scored against the criteria and summarized.</p>\n<p>Our chapter on <a href=\"/guide/how-ai-candidate-screening-works/\">how AI candidate screening works</a> explains the scoring side in more detail. The short version: the quality of the output depends far more on how clearly the criteria are written than on the voice model.</p>\n<h2>Who sells AI interviewers in 2026</h2>\n<p>The category moved quickly from startups into the large hiring platforms this year:</p>\n<ul>\n<li><a href=\"/vendors/hirevue/\">HireVue</a> describes AI screening interviews that run around the clock, evaluate job-relevant competencies and show the evidence behind each recommendation, with voice-based interviews alongside its assessments.</li>\n<li><a href=\"/vendors/greenhouse/\">Greenhouse</a> now lists two-way, voice-based AI interviewing within its hiring platform.</li>\n<li><a href=\"/vendors/ashby/\">Ashby</a> has launched an AI Interviewer inside its all-in-one recruiting suite.</li>\n<li>Phenom offers AI agents for screening and scheduling that operate continuously around the career site.</li>\n<li>Noon offers an <a href=\"https://www.noon.ai/product/ai-interviewer\">AI interviewer for voice screens</a>: candidates join from a link, the agent adapts its questions, and recruiters receive a transcript and a recommendation, as part of a wider sourcing and email and SMS outreach product.</li>\n</ul>\n<p>When the interviewer is built into your applicant tracking system, results land on the candidate record automatically. A standalone tool can be better at the conversation itself but needs an integration to avoid copy and paste.</p>\n<h2>Where an AI interviewer earns its place</h2>\n<ul>\n<li><b>High volume roles.</b> Retail, support, logistics and healthcare employers screening hundreds of applicants a week get the biggest time savings.</li>\n<li><b>Speed to first conversation.</b> Candidates can interview the night they apply instead of waiting days for a phone screen.</li>\n<li><b>Consistency.</b> Every candidate gets the same core questions, which is easier to defend than ad hoc phone screens.</li>\n<li><b>After-hours and multiple time zones.</b> The interview happens when the candidate is free, not when the recruiter is.</li>\n</ul>\n<h2>Where it should stop</h2>\n<p>An AI interviewer is a screening tool. It should narrow a pool, not make the hire. Three limits matter. First, models can misread accents, speech impairments and nervous answers, so offer an alternative format and let candidates request a human. Second, the recommendation is only as fair as the criteria; vague criteria such as \"culture fit\" produce scores nobody can explain. Third, a human should review every rejection the system recommends, at least until you have audited outcomes by group.</p>\n<h2>The rules you need to know</h2>\n<p>Several laws already apply. Since 2020, Illinois' Artificial Intelligence Video Interview Act has regulated how employers use AI to analyze and evaluate applicants' video interviews, including notice and consent, as described in <a href=\"https://en.wikipedia.org/wiki/Artificial_intelligence_in_hiring\">this overview of AI in hiring</a>. New York City's Local Law 144 requires a bias audit and candidate notice before automated employment decision tools are used, as summarized in <a href=\"https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence_in_the_United_States\">this overview of U.S. AI regulation</a>. The <a href=\"https://en.wikipedia.org/wiki/Colorado_AI_Act\">Colorado AI Act</a>, which takes effect on June 30, 2026, treats employment decisions as high risk and places duties on employers that deploy such systems. Our chapter on <a href=\"/guide/bias-regulation-and-candidate-rights/\">bias, regulation and candidate rights</a> covers the obligations in more depth.</p>\n<h2>How to evaluate one</h2>\n<p>Run a pilot on one role with a human screening the same candidates in parallel. Compare who each would advance, read twenty transcripts end to end, and ask the vendor for its most recent bias audit and how often its model is updated. Check how candidates rate the experience and how many drop off mid-interview. If the AI and your recruiters agree on most candidates and the disagreements are explainable, you have a tool worth scaling.</p>",
+    "faq": [
+      {
+        "q": "What is an AI interviewer?",
+        "a": "Software that conducts a screening interview by itself, usually by voice, asks follow-up questions based on each answer, and gives recruiters a transcript, summary and recommendation."
+      },
+      {
+        "q": "Is an AI interviewer the same as a one-way video interview?",
+        "a": "No. A one-way video tool records answers to fixed prompts. An AI interviewer responds to what the candidate says and chooses the next question."
+      },
+      {
+        "q": "Do candidates have to be told they are talking to AI?",
+        "a": "Disclosure is required in some places, such as Illinois for AI analysis of video interviews and New York City for automated employment decision tools, and it is good practice everywhere."
+      },
+      {
+        "q": "Can an AI interviewer reject candidates on its own?",
+        "a": "It can be configured to, but it should not. Have a recruiter review recommended rejections, especially early in a rollout."
+      },
+      {
+        "q": "Which ATS vendors include an AI interviewer?",
+        "a": "In 2026 Greenhouse lists voice-based AI interviewing and Ashby has launched an AI Interviewer, while HireVue offers AI screening interviews as a standalone platform."
+      }
+    ],
+    "related": [
+      {
+        "href": "/guide/how-ai-candidate-screening-works/",
+        "label": "How AI candidate screening works"
+      },
+      {
+        "href": "/guide/bias-regulation-and-candidate-rights/",
+        "label": "Bias, regulation and candidate rights"
+      },
+      {
+        "href": "/vendors/",
+        "label": "Recruitment AI vendor landscape"
+      }
+    ]
   }
 ]

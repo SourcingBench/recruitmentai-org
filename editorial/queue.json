@@ -17,7 +17,9 @@
    "keyword": "ai interviewer",
    "volume": 4400,
    "noon_target": "/product/ai-interviewer",
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-interviewer",
+   "date": "2026-11-06"
   },
   {
    "id": "rai-003",
