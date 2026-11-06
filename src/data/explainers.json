@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "slug": "ai-note-takers-for-interviews",
+    "title": "AI note takers for interviews: what they capture, what they miss, and the consent rules",
+    "description": "How interview note takers work, where summaries go wrong, which U.S. states require all party consent to record, how Metaview, BrightHire, GoodTime and Noon differ, and a five question buying checklist.",
+    "date": "2026-11-06",
+    "updated": "2026-11-06",
+    "minutes": 7,
+    "short": "Yes for most teams, with two conditions: tell candidates the call is recorded, and treat the AI summary as an index into the transcript rather than the evaluation itself.",
+    "body": "<p>An AI note taker for interviews is worth it for most hiring teams, provided the candidate is told before the call and the notes feed a scorecard rather than replace one. The tools are good at capturing what was said. They are not good at deciding what it meant, and that is where buyers get into trouble.</p>\n<h2>What an interview note taker actually does</h2>\n<p>The tool joins a video call as a participant, or captures audio from the desktop, and produces three things: a transcript with speaker labels, a summary organized by topic or by the questions in your interview plan, and in some products a draft scorecard. General meeting tools such as Otter or Fireflies stop at transcript and summary. Hiring specific products, often called interview intelligence, map the conversation to your interview kit and push notes into the applicant tracking system. See the <a href=\"/glossary/\">glossary</a> for how interview intelligence differs from a plain transcription service.</p>\n<h2>Why hiring teams adopt them</h2>\n<ul><li><b>Interviewers listen instead of typing.</b> Eye contact and follow up questions improve when nobody is transcribing.</li><li><b>Feedback arrives faster.</b> Scorecards that start from a summary get submitted the same day instead of after a reminder.</li><li><b>Calibration has evidence.</b> When two interviewers disagree, the debrief can check what the candidate actually said.</li><li><b>Coverage becomes visible.</b> Some tools flag which planned questions were never asked, which is the most common reason structured interviews drift.</li></ul>\n<h2>Where they fall short</h2>\n<p>Summaries compress. A candidate who hedged, corrected themselves or answered a different question can come out sounding more confident in the summary than in the room. Treat the summary as an index into the transcript, not as the record. Accents, crosstalk and poor audio still produce errors, and a wrong word in a technical answer can flip its meaning. Finally, a tool that drafts a score is making an evaluative judgment; that pulls it closer to the territory covered in our chapter on <a href=\"/guide/bias-regulation-and-candidate-rights/\">bias, regulation and candidate rights</a>.</p>\n<h2>Consent and recording law</h2>\n<p>Recording law in the United States varies by state. Most states allow recording when one party to the conversation consents, but a group of states, including California, Florida, Maryland, Massachusetts, Pennsylvania and Washington, generally require every party to agree, and Illinois requires it for in person conversations, according to the <a href=\"https://en.wikipedia.org/wiki/Telephone_call_recording_laws\">summary of U.S. call recording laws</a> maintained on Wikipedia. The California Supreme Court held in 2006 that a caller in a one party state who records someone in California is bound by California's stricter rule. The practical answer for hiring is simple: tell every candidate in the invite that the interview will be recorded and transcribed, say why, and give them a way to opt out. Interviews in the EU or UK add data protection duties on retention and access. This is general information, not legal advice.</p>\n<h2>How the main tools differ</h2>\n<table><thead><tr><th>Tool</th><th>Type</th><th>What stands out</th></tr></thead><tbody><tr><td><a href=\"/vendors/metaview/\">Metaview</a></td><td>Recruiting platform with a note taker</td><td>Can be bought as just the note taker and expanded later; imports transcripts from other platforms when you switch</td></tr><tr><td><a href=\"/vendors/brighthire/\">BrightHire</a></td><td>Interview intelligence</td><td>Customizable note templates, scorecards prefilled into the ATS, fraud signals in live interviews</td></tr><tr><td><a href=\"/vendors/goodtime/\">GoodTime</a></td><td>Scheduling platform</td><td>Added an AI note taker to its scheduling suite, so booking and notes live in one product</td></tr><tr><td>Noon</td><td>Recruiting agent suite</td><td>Its <a href=\"https://noon.ai/product/ai-notetaker\">AI Notetaker</a> transcribes live interviews with speaker labels and attaches a summary of each answer to the candidate record</td></tr><tr><td>Otter, Fireflies</td><td>General meeting assistants</td><td>Cheap and fast to deploy, but no interview kit mapping or ATS scorecards</td></tr></tbody></table>\n<h2>A short buying checklist</h2>\n<ol><li>Does it map notes to your interview plan, or only to the conversation?</li><li>Can interviewers edit the summary before it reaches the ATS, and is the edit logged?</li><li>How does it announce itself on the call, and can you customize the consent language?</li><li>Where is audio stored, for how long, and can a candidate request deletion?</li><li>Does it generate scores? If so, who reviews them, and has the vendor published an audit?</li></ol>\n<p>Run a two week pilot on one role with real interviewers. Measure time to submitted feedback and ask interviewers whether the summaries matched their own memory. If they do not trust the notes, they will keep typing, and the tool will add cost without changing behavior. Our chapter on <a href=\"/guide/how-to-evaluate-recruitment-ai/\">evaluating recruitment AI</a> has a fuller pilot design.</p>",
+    "faq": [
+      {
+        "q": "Do I have to tell candidates an AI note taker is on the call?",
+        "a": "In several U.S. states every party must consent to recording, and disclosure is good practice everywhere. Put it in the invite and repeat it at the start of the call."
+      },
+      {
+        "q": "Is an interview note taker the same as an AI interviewer?",
+        "a": "No. A note taker records a human interviewer's conversation. An AI interviewer asks the questions itself."
+      },
+      {
+        "q": "Can the AI summary replace the interviewer's scorecard?",
+        "a": "It should not. Use the summary to fill the scorecard faster, but the rating should come from the interviewer, checked against the transcript."
+      }
+    ],
+    "related": [
+      {
+        "href": "/guide/how-ai-candidate-screening-works/",
+        "label": "How AI candidate screening works"
+      },
+      {
+        "href": "/vendors/",
+        "label": "Recruitment AI vendor landscape"
+      },
+      {
+        "href": "/faq/",
+        "label": "Recruitment AI FAQ"
+      }
+    ]
+  }
+]
