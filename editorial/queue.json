@@ -35,7 +35,9 @@
    "keyword": "ai in hr",
    "volume": 2900,
    "noon_target": null,
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-in-hr",
+   "date": "2026-11-07"
   },
   {
    "id": "rai-005",
