@@ -82,5 +82,47 @@
         "label": "Recruitment AI vendor landscape"
       }
     ]
+  },
+  {
+    "slug": "ai-in-hr",
+    "title": "AI in HR: what it does across the employee lifecycle, and the rules that now apply",
+    "description": "AI in HR explained for 2026: where it appears from hiring to performance and mobility, the difference between assistants and agents, the EU AI Act and Colorado AI Act, known failures and a safe way to start.",
+    "date": "2026-11-07",
+    "updated": "2026-11-07",
+    "minutes": 7,
+    "short": "AI in HR is software that answers employee questions, drafts reviews, recommends internal moves and screens applicants. It ranges from assistants that suggest to agents that act inside the HR system, and because it touches employment decisions it is now regulated in the EU and in states such as Colorado.",
+    "body": "<p>AI in HR means software that reads, predicts or writes on behalf of a human resources team: answering employee questions, drafting reviews, recommending internal moves, screening applicants and flagging pay or attrition risk. In 2026 the label covers two very different things. One is narrow assistance, such as a chatbot that resolves a benefits question. The other is agents that take actions inside the HR system of record, opening a requisition or updating a record, with a person approving the result. Knowing which one a vendor is selling is the first step in deciding whether it belongs in your department.</p><h2>Where AI shows up across the employee lifecycle</h2><p>Recruiting gets most of the attention, but it is only one stage. A useful way to map the field is by the moment in an employee's tenure the software touches.</p><ul><li><b>Hiring.</b> Conversational tools such as <a href=\"https://www.paradox.ai/\">Paradox</a> handle applications, scheduling and hiring events by chat for frontline roles. Screening, interviewing and note taking tools sit here too; our explainer on <a href=\"/explainers/ai-interviewer/\">AI interviewers</a> covers that slice.</li><li><b>Employee service.</b> <a href=\"https://leena.ai/\">Leena AI</a> sells agents for back office work including HR, and says its deployments auto-resolve more than 70% of tickets, a vendor figure worth testing against your own ticket mix.</li><li><b>Performance and engagement.</b> <a href=\"https://lattice.com/ai\">Lattice</a> adds AI to performance reviews, engagement surveys and one-on-ones, and now offers an HR AI agent that turns people data into coaching suggestions for managers.</li><li><b>Internal mobility and skills.</b> <a href=\"https://gloat.com/\">Gloat</a> describes itself as an agentic HR platform that connects people, jobs and skills, supports career pathing and plugs into Workday, SAP SuccessFactors and Oracle HCM.</li><li><b>The HR system of record.</b> <a href=\"https://www.workday.com/en-us/artificial-intelligence.html\">Workday</a> now lists separate agents for talent acquisition, organization development, workforce management and payroll inside its suite.</li></ul><h2>Assistant or agent: the distinction that matters</h2><p>An assistant suggests and a person acts. A draft review, a summarized survey or a recommended job posting all leave the decision with a human. An agent acts and a person reviews: it routes the ticket, changes the record or messages the candidate, and someone checks a log afterwards. Agents save more time, but they also move risk. When an agent changes payroll data or rejects an applicant, the audit trail, the permissions it holds and the speed at which a person can undo the action matter far more than the quality of its writing.</p><p>Ask every vendor three questions. Which actions can the system take without approval? What data does it read to decide? How is each action logged and reversed? Vague answers to any of the three are a reason to keep the product in assistant mode.</p><h2>The rules HR teams now work under</h2><p>Employment decisions are among the most regulated uses of AI. The <a href=\"https://en.wikipedia.org/wiki/Artificial_Intelligence_Act\">EU AI Act</a> classifies systems used in recruitment and worker management as high risk, which brings obligations for documentation, human oversight and quality management. In the U.S., the <a href=\"https://en.wikipedia.org/wiki/Colorado_AI_Act\">Colorado AI Act</a>, enacted in May 2024, took effect on June 30, 2026 and requires developers and deployers of high-risk systems that make consequential decisions, including employment decisions, to guard against algorithmic discrimination. Illinois has regulated AI analysis of video interviews since 2020, and the EEOC has run an initiative on AI and algorithmic fairness, as summarized in <a href=\"https://en.wikipedia.org/wiki/Artificial_intelligence_in_hiring\">Wikipedia's overview of AI in hiring</a>.</p><p>The practical upshot is the same in every jurisdiction: know which tools influence decisions about people, keep a human accountable for those decisions, tell employees and candidates when AI is involved, and test outcomes for adverse impact. Our guide chapter on <a href=\"/guide/bias-regulation-and-candidate-rights/\">bias, regulation and candidate rights</a> goes deeper on the hiring side.</p><h2>What can go wrong</h2><p>The best known cautionary tale is Amazon's experimental resume screener, used between 2014 and 2018, which learned from past hiring data and downgraded resumes that signaled the applicant was a woman. The lesson generalizes beyond resumes. Any model trained on historical HR decisions will reproduce the patterns in them, whether in performance ratings, promotion recommendations or attrition scores, unless someone checks.</p><p>Quieter failures are more common: a chatbot that answers a leave policy question with last year's rule, a summary that drops the one complaint that mattered, a skills profile inferred from a job title rather than real work. None of these is dramatic, but each erodes trust in HR, which is the asset the department cannot afford to lose.</p><h2>Getting started without creating a mess</h2><p>Start where the work is high in volume and low in consequence, such as policy questions or survey summaries, and measure time saved against a baseline. Write down who owns each tool, what data it may read and when a person must sign off. Move to agents only after the assistant version has run cleanly for a few months. Before buying, use the checklist in <a href=\"/guide/how-to-evaluate-recruitment-ai/\">how to evaluate recruitment AI</a>; most of its questions apply equally to tools outside recruiting.</p><p>Finally, involve the people affected. Employees accept AI in HR far more readily when they know what it does, can reach a human easily and see that it is used to help rather than to watch them.</p>",
+    "faq": [
+      {
+        "q": "What is AI in HR?",
+        "a": "Software that reads, predicts or writes for an HR team, including employee service chatbots, performance and engagement tools, internal mobility platforms, recruiting automation and agents inside HR systems such as Workday."
+      },
+      {
+        "q": "What is the difference between an HR AI assistant and an HR AI agent?",
+        "a": "An assistant drafts or recommends and a person acts. An agent takes the action itself, such as routing a ticket or updating a record, and a person reviews it afterwards. Agents need tighter permissions and audit logs."
+      },
+      {
+        "q": "Is AI in HR regulated?",
+        "a": "Yes. The EU AI Act treats recruitment and worker management systems as high risk, Colorado's AI Act took effect on June 30, 2026 for consequential decisions including employment, and Illinois regulates AI analysis of video interviews."
+      },
+      {
+        "q": "Where should an HR team start with AI?",
+        "a": "With high-volume, low-consequence work such as answering policy questions or summarizing surveys, measured against a baseline, before moving to agents that change records or influence decisions about people."
+      }
+    ],
+    "related": [
+      {
+        "href": "/guide/bias-regulation-and-candidate-rights/",
+        "label": "Bias, regulation and candidate rights"
+      },
+      {
+        "href": "/guide/how-to-evaluate-recruitment-ai/",
+        "label": "How to evaluate recruitment AI"
+      },
+      {
+        "href": "/explainers/ai-interviewer/",
+        "label": "AI interviewers explained"
+      }
+    ]
   }
 ]
