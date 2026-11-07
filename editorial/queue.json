@@ -45,7 +45,9 @@
    "keyword": "ai interview practice and candidates",
    "volume": 1300,
    "noon_target": "/product/fraud-detection",
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-interview-practice",
+   "date": "2026-11-07"
   },
   {
    "id": "rai-006",
