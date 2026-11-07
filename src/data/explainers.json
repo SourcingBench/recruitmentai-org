@@ -124,5 +124,51 @@
         "label": "AI interviewers explained"
       }
     ]
+  },
+  {
+    "slug": "ai-interview-practice",
+    "title": "AI interview practice: how candidates rehearse with AI, and where it becomes cheating",
+    "description": "AI interview practice explained for 2026: how mock interview tools such as Huru, Big Interview and Yoodli give feedback, how they differ from live interview assistants, and how employers set fair policies.",
+    "date": "2026-11-07",
+    "updated": "2026-11-07",
+    "minutes": 6,
+    "short": "AI interview practice tools play the interviewer, ask role-specific questions and score a candidate's answers on content and delivery before a real interview. They are different from live assistants that feed answers during an interview, which most employers treat as misrepresentation.",
+    "body": "<p>AI interview practice is software that plays the interviewer so a candidate can rehearse before the real conversation. It asks job-specific questions out loud or on video, listens to the answer, and returns feedback on content, structure and delivery. The same underlying technology also powers a different category: assistants that listen to a live interview and feed the candidate answers in real time. The first is preparation. The second is a form of misrepresentation that employers now screen for. Knowing where the line sits matters for job seekers choosing a tool and for recruiters deciding what to allow.</p><h2>How AI interview practice works</h2><p>Most practice tools follow the same loop. The candidate picks a role or pastes a job description, the tool generates questions, the candidate answers on camera or by voice, and a model scores the response. Better tools add follow-up questions based on what was said, which is closer to how a human interviewer behaves than a fixed question bank.</p><ul><li><b>Huru</b> offers <a href=\"https://huru.ai/\">free AI mock interviews</a> covering more than 242 career roles in five languages, with feedback on what to fix after each take.</li><li><b>Big Interview</b> combines lessons, an interview simulator and VideoAI feedback on delivery and clarity. Its <a href=\"https://www.biginterview.com/pricing/personal\">personal pricing</a> starts at $39 for a 30 day Interview BootCamp, and many universities license it for students.</li><li><b>Yoodli</b> runs <a href=\"https://yoodli.ai/use-cases/interview-preparation\">interview roleplays</a> with realistic interviewers and dynamic follow-up questions, and also sells the same roleplay engine to companies for interviewer and sales training.</li></ul><p>Feedback usually covers four things: whether the answer addressed the question, whether it followed a structure such as situation, task, action and result, filler words and pacing, and how long it ran. Treat the scores as coaching rather than a prediction of the hiring decision. The models are not trained on your target employer's rubric.</p><h2>Practice versus live assistance</h2><p>The distinction is simple to state. Practice happens before the interview, and the candidate's answer in the interview is their own. Live assistance happens during the interview, and part of the answer comes from software.</p><p>Live assistants are openly marketed. Final Round AI describes its <a href=\"https://www.finalroundai.com/\">Interview CoPilot</a> as an assistant that listens to your live interview and delivers real-time answers in a private window only you can see. Interview Coder calls itself <a href=\"https://www.interviewcoder.co/\">the No. 1 undetectable AI for interviews</a>, aimed at technical rounds. Candidates should understand that most employers treat undisclosed help during an assessment the way they treat a fabricated reference: if discovered, the offer is withdrawn.</p><h2>What employers are doing about it</h2><p>Recruiting teams have responded in three ways, often together.</p><ol><li><b>Changing the interview.</b> More in-person final rounds, more questions that build on the candidate's previous answer, and work samples discussed live rather than solved silently. Follow-up depth is hard to script.</li><li><b>Stating a policy.</b> Clear guidance in the invitation: practice tools are welcome, live assistance is not, and here is what counts as each. A written policy makes enforcement fair.</li><li><b>Adding fraud signals.</b> Identity, location and history checks run earlier in the funnel. Sourcing platforms have added this too; <a href=\"https://www.noon.ai/product/fraud-detection\">Noon's candidate fraud detection</a> checks identity and location consistency, email reputation and career history against the public record, and raises an explainable flag for a recruiter to review. Noon itself is a sourcing tool that reaches candidates by email and SMS.</li></ol><p>None of these require banning AI preparation. Employers that blur the two categories risk penalizing honest candidates who simply rehearsed well.</p><h2>A fair policy, in plain terms</h2><p>For candidates: use any tool to practice, research the company and prepare stories in advance. During the interview, answer yourself, and ask the employer if you need an accommodation such as notes or extra time. For employers: tell candidates in writing what is allowed, apply the same rule to every applicant, and make sure any automated fraud flag goes to a human reviewer before a decision. Our guide to <a href=\"/guide/bias-regulation-and-candidate-rights/\">bias, regulation and candidate rights</a> covers the notice and review obligations that apply when employers use automated tools.</p><h2>Where this is heading</h2><p>Practice tools and interview tools are converging. The same voice models that run a mock interview now run first-round screens for employers, covered in our explainer on <a href=\"/explainers/ai-interviewer/\">AI interviewers</a>. A candidate may soon practice with one AI and be screened by another, while the human interviewer later reviews notes captured by a third, the subject of our piece on <a href=\"/explainers/ai-note-takers-for-interviews/\">AI note takers for interviews</a>. Keeping the human parts of the process honest, and clearly labeled, is what keeps that chain fair.</p>",
+    "faq": [
+      {
+        "q": "Is it okay to use AI to practice for an interview?",
+        "a": "Yes. Rehearsing with a mock interview tool is preparation, just like practicing with a friend or a career coach. The answers you give in the real interview are still your own."
+      },
+      {
+        "q": "Is there a free AI interview practice tool?",
+        "a": "Huru offers free AI mock interviews across more than 242 career roles in five languages. Some universities also give students free access to paid tools such as Big Interview."
+      },
+      {
+        "q": "Can employers tell if a candidate uses AI during an interview?",
+        "a": "Often. Follow-up questions, in-person rounds, live work samples and fraud checks on identity and history all make undisclosed live assistance easier to spot, and discovery usually ends the process."
+      },
+      {
+        "q": "What is the difference between AI interview practice and an AI interview copilot?",
+        "a": "Practice tools are used before the interview to rehearse and get feedback. A copilot listens during the live interview and suggests answers in real time, which most employers prohibit."
+      },
+      {
+        "q": "Should employers ban AI interview tools?",
+        "a": "Banning preparation is unnecessary and hard to enforce. A clearer policy allows practice, prohibits live assistance, applies the rule to everyone and sends any automated flag to a human reviewer."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-interviewer/",
+        "label": "AI interviewers explained"
+      },
+      {
+        "href": "/explainers/ai-note-takers-for-interviews/",
+        "label": "AI note takers for interviews"
+      },
+      {
+        "href": "/guide/bias-regulation-and-candidate-rights/",
+        "label": "Bias, regulation and candidate rights"
+      }
+    ]
   }
 ]
