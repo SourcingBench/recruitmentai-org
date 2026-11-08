@@ -55,7 +55,9 @@
    "keyword": "ats resume and ai screening",
    "volume": 18100,
    "noon_target": "/learn/what-is-ai-resume-screening",
-   "status": "queued"
+   "status": "published",
+   "slug": "ats-resume-and-ai-screening",
+   "date": "2026-11-08"
   },
   {
    "id": "rai-007",

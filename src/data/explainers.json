@@ -170,5 +170,51 @@
         "label": "Bias, regulation and candidate rights"
       }
     ]
+  },
+  {
+    "slug": "ats-resume-and-ai-screening",
+    "title": "ATS resumes and AI screening: what each layer reads, and why resumes get missed",
+    "description": "How an applicant tracking system parses a resume and how AI screening then ranks it, explained for 2026: the difference between the two, the three ways each goes wrong, and practical fixes for candidates and employers.",
+    "date": "2026-11-08",
+    "updated": "2026-11-08",
+    "minutes": 7,
+    "short": "An applicant tracking system parses a resume into structured fields such as titles, dates and skills, and stores it. AI screening then reads those fields, compares them with the job and ranks or summarizes applicants. Parsing fails on unusual layouts; matching fails on unusual phrasing; both need human review.",
+    "body": "<p>When you submit a resume online, two different pieces of software can read it before a recruiter does. The applicant tracking system, or ATS, stores your application and converts the document into structured fields. An AI screening layer, which may be built into the ATS or bought separately, then compares those fields against the job and suggests who to review first. People often blur the two into one idea of a robot that rejects resumes, but they do different jobs, fail in different ways and call for different fixes.</p><h2>What the ATS actually does with a resume</h2><p>An ATS is a database and workflow tool. Its first task on receiving a file is parsing: pulling your name, contact details, employers, job titles, dates, education and skills out of the document and into labeled fields. Workable's guide to <a href=\"https://resources.workable.com/stories-and-insights/how-ATS-reads-resumes\">how an ATS reads resumes</a> describes this extraction and recommends standard formatting and familiar section titles so the parser can find each part.</p><p>Parsing is mechanical, and it can break. Greenhouse publishes a support article on <a href=\"https://support.greenhouse.io/hc/en-us/articles/200989175-Unsuccessful-resume-parse\">unsuccessful resume parses</a>, a reminder that even large platforms sometimes cannot read a file. When that happens the recruiter usually still has the original attachment, but fields like current title or skills may be blank, which makes the candidate harder to find in later searches.</p><p>On its own, a traditional ATS does not decide who gets hired. Recruiters filter by fields, run keyword searches and move people through stages. If a candidate is never seen, the cause is more often a knockout question, a search the recruiter never ran, or sheer volume than an automated rejection.</p><h2>What AI screening adds</h2><p>AI screening sits on top of parsed data. Depending on the product it may:</p><ul><li><b>Match and rank</b> applicants by how closely their experience fits the job description, often with a score or a tier such as strong, possible or weak fit.</li><li><b>Infer skills</b> that are implied rather than stated, for example treating experience with a specific framework as evidence of a broader language skill.</li><li><b>Summarize</b> a resume into a few lines for faster review.</li><li><b>Ask follow up questions</b> by chat or text to confirm availability, location or a license.</li></ul><p>The key difference from keyword filtering is that modern matching models compare meaning, not exact strings. A resume that says \"managed accounts payable for a 400 person company\" can match a posting asking for \"AP experience\" without the abbreviation appearing anywhere. That reduces some of the old keyword stuffing advice, though it does not remove the need to describe your work in the employer's vocabulary. Our guide chapter on <a href=\"/guide/how-ai-candidate-screening-works/\">how AI candidate screening works</a> covers the models in more depth.</p><h2>Where the two layers go wrong</h2><p>Each layer has its own failure modes, and it helps to know which one you are dealing with.</p><ul><li><b>Parsing errors</b> come from layout: text in images, multi column designs, headers and footers holding contact details, tables, unusual fonts or a scanned PDF. The result is missing or scrambled fields.</li><li><b>Matching errors</b> come from the model: a career changer whose transferable experience is phrased differently, a gap the model treats as a negative, or a title that means something different at a small company.</li><li><b>Configuration errors</b> come from the employer: a knockout question set too strictly, a required degree that the hiring manager would actually waive, or a ranking threshold nobody revisited.</li></ul><p>Bias is a concern across all three. A model trained on past hiring decisions can learn the preferences of past reviewers. That is why several jurisdictions now regulate automated screening; our chapter on <a href=\"/guide/bias-regulation-and-candidate-rights/\">bias, regulation and candidate rights</a> explains the main rules and what candidates can request.</p><h2>What candidates can do</h2><p>The practical advice follows directly from how the two layers work:</p><ul><li>Use a single column layout with plain section headings such as Experience, Education and Skills.</li><li>Put your name, email and phone number in the body of the page, not in a header.</li><li>Submit a text based PDF or a Word file rather than a scan or a design export.</li><li>Use the job title and core terms from the posting where they truthfully describe your work.</li><li>Give each role a clear employer, title and month and year dates.</li><li>Check any autofilled application form after uploading, and correct fields the parser got wrong.</li></ul><p>Tricks such as hiding white keywords in the margin do not help. Parsers extract the hidden text, matching models discount it, and recruiters who notice it usually reject the application.</p><h2>What employers should check</h2><p>For hiring teams, the useful audit is short. Upload a sample of real resumes and confirm the fields come through correctly. Review the knockout questions every quarter. Read a random set of applicants the AI ranked low to see whether good people are being buried. Keep a human decision on every rejection, document how the screening tool is configured, and ask the vendor what data trained its model and whether it has been tested for adverse impact. If you are still choosing a product, the <a href=\"/best-ai-recruitment-tools/\">AI recruitment tools comparison</a> and the chapter on <a href=\"/guide/how-to-evaluate-recruitment-ai/\">evaluating recruitment AI</a> list the questions to ask.</p><h2>The short version</h2><p>The ATS reads and stores the resume; AI screening interprets it. A clean, conventional document solves most parsing problems. Describing real experience in the employer's language solves most matching problems. And a human reviewing the ranked list, with the configuration checked regularly, solves the problems that neither the candidate nor the software can fix alone.</p>",
+    "faq": [
+      {
+        "q": "Does an ATS automatically reject resumes?",
+        "a": "A traditional ATS mostly stores and organizes applications. Automatic rejections usually come from knockout questions the employer set, or from an AI screening feature configured to filter, rather than from parsing itself."
+      },
+      {
+        "q": "What is the difference between an ATS and AI screening?",
+        "a": "The ATS parses and stores the resume and manages the hiring workflow. AI screening uses the parsed data to match, rank or summarize candidates against a job. They can be one product or two."
+      },
+      {
+        "q": "What resume format is best for ATS and AI screening?",
+        "a": "A single column, text based PDF or Word file with standard headings, contact details in the body, and clear employer, title and date entries for each role."
+      },
+      {
+        "q": "Do keywords still matter if the AI understands meaning?",
+        "a": "Yes, less than before but still. Matching models compare meaning, yet using the posting's core terms where they truthfully apply makes your fit clearer to both the model and the recruiter."
+      },
+      {
+        "q": "Can employers be held responsible for biased AI screening?",
+        "a": "Yes. Several jurisdictions regulate automated employment decision tools, and employers remain responsible for discrimination even when a vendor's software made the recommendation."
+      }
+    ],
+    "related": [
+      {
+        "href": "/guide/how-ai-candidate-screening-works/",
+        "label": "How AI candidate screening works"
+      },
+      {
+        "href": "/explainers/ai-interviewer/",
+        "label": "AI interviewers explained"
+      },
+      {
+        "href": "/explainers/ai-in-hr/",
+        "label": "AI in HR"
+      }
+    ]
   }
 ]
