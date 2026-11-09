@@ -115,7 +115,9 @@
    "keyword": "ai recruitment statistics",
    "volume": 170,
    "noon_target": null,
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-recruitment-statistics",
+   "date": "2026-11-09"
   },
   {
    "id": "rai-014",
