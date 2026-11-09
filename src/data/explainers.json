@@ -216,5 +216,47 @@
         "label": "AI in HR"
       }
     ]
+  },
+  {
+    "slug": "agentic-ai-vs-generative-ai-in-recruiting",
+    "title": "Agentic AI vs generative AI in recruiting: what each one does, and where the risk moves",
+    "description": "A plain English comparison of agentic AI and generative AI in recruiting for 2026: how each works, what each looks like in sourcing, outreach, screening and scheduling, how they fail, and when to use which.",
+    "date": "2026-11-09",
+    "updated": "2026-11-09",
+    "minutes": 8,
+    "short": "Generative AI produces content on request, such as a job ad, a resume summary or a draft message, and a recruiter decides what to do with it. Agentic AI is given a goal and plans and carries out the steps itself, calling tools like search, email and calendars. Agents save more time but make more decisions without a person watching, so they need tighter permissions and logging.",
+    "body": "<p>Generative AI writes; agentic AI acts. That one line covers most of the difference, and it is the distinction recruiting vendors lean on when they relabel their products in 2026. A generative tool produces something when you ask, such as a job description, a summary of a resume or a draft message, and then waits for you. An agentic system is given a goal, such as finding twenty qualified backend engineers who might respond this week, and decides for itself which steps to take, which tools to call and when it is done. Both usually run on the same large language models. What separates them is how much of the workflow the software is allowed to carry without a person in between.</p><h2>The definitions vendors use</h2><p>IBM's explainer on <a href=\"https://www.ibm.com/think/topics/agentic-ai-vs-generative-ai\">agentic AI vs generative AI</a> puts it plainly: generative AI creates new content such as text, images and code, while agentic AI focuses on achieving goals by planning, making decisions and carrying out multi step workflows with varying levels of autonomy. Google Cloud's page <a href=\"https://cloud.google.com/discover/what-is-agentic-ai\">What is agentic AI?</a> describes a loop of perception, reasoning, planning, action and reflection, with the system able to set goals and execute tasks with minimal human intervention. AWS, in its own <a href=\"https://aws.amazon.com/what-is/agentic-ai/\">agentic AI overview</a>, stresses that an agent is proactive: it monitors conditions and acts rather than waiting for the next prompt.</p><p>Notice that none of these definitions require a new kind of model. An agent is generative AI plus three additions: access to tools such as a search index, an email system or a calendar; memory of what it has already tried; and permission to take the next step on its own. Take away the tools and the permission, and an agent collapses back into a chatbot.</p><h2>Side by side in a recruiting workflow</h2><table><thead><tr><th>Recruiting task</th><th>Generative AI version</th><th>Agentic AI version</th></tr></thead><tbody><tr><td>Job posting</td><td>Drafts the description from your notes</td><td>Drafts it, posts it to chosen boards and adjusts it when applications are thin</td></tr><tr><td>Sourcing</td><td>Turns a job into a Boolean string or a search query you run</td><td>Runs searches repeatedly, ranks results, removes duplicates and keeps going until it reaches a target</td></tr><tr><td>Outreach</td><td>Writes a personalized first message for you to send</td><td>Finds contact details, sends a sequence, follows up and stops when someone replies</td></tr><tr><td>Screening</td><td>Summarizes a resume or suggests interview questions</td><td>Asks candidates qualifying questions by text or voice and moves them to a stage</td></tr><tr><td>Scheduling</td><td>Writes the email proposing times</td><td>Checks calendars, books the slot and handles reschedules</td></tr></tbody></table><p>The left column saves minutes on each task. The right column removes tasks from a recruiter's day entirely, which is why the agentic label has become a selling point. Our guide chapter on <a href=\"/guide/types-of-recruitment-ai/\">the types of recruitment AI</a> places both families among the older categories such as matching engines and chatbots.</p><h2>What agentic recruiting products look like now</h2><p>Large platforms have rebuilt their messaging around agents. Workday's <a href=\"https://www.workday.com/en-us/ai-agents.html\">AI agents page</a> lists a talent acquisition agent that sources internal and external candidates, schedules interviews and preps interviewers. hireEZ calls its product <a href=\"https://hireez.com/ez-agent/\">EZ Agent</a> and describes agentic AI running on top of an existing ATS across sourcing, screening, interviews and analytics. SeekOut's <a href=\"https://www.seekout.com/\">agentic AI recruiting platform</a> advertises agents that find, evaluate and engage candidates, and an AI coworker that works inside general assistants. Specialist sourcing agents, Noon among them, take a single role description, build the candidate list and run the email and SMS outreach until people reply.</p><p>Under the marketing, the products vary a lot in how independent they really are. Some act only when a recruiter clicks approve at each step. Others run for days on a standing instruction. Ask any vendor three things: which actions the agent can take without approval, which systems it can write to, and what log of its decisions you can export. The <a href=\"/vendors/\">vendor profiles</a> on this site note where each product sits on that range.</p><h2>Where each approach goes wrong</h2><p>Generative tools fail in visible ways. A drafted message contains an invented detail, a summary drops a qualification, a job description repeats biased wording from an old template. Because a human reads the output before it goes anywhere, most of these mistakes are caught.</p><p>Agentic systems fail quietly and at volume. An agent with a slightly wrong instruction can contact several hundred unsuitable people before anyone looks, send follow ups to someone who asked to stop, or rank out a group of candidates for a reason nobody chose. The risk is not that the model is worse; it is that fewer humans see each decision. That matters legally too. Rules on automated hiring tools, such as New York City's bias audit requirement and the EU AI Act's treatment of recruitment systems as high risk, apply to what the software decides, not to what it is called. Our chapter on <a href=\"/guide/bias-regulation-and-candidate-rights/\">bias, regulation and candidate rights</a> explains which obligations attach to which kinds of tool.</p><h2>Choosing between them</h2><p>Use generative AI where the work is writing and a person stays responsible for every send: job ads, interview guides, offer letters and replies to individual candidates. Use agentic AI where the work is repetitive, measurable and reversible, such as sourcing for a role you fill every month, re engaging past applicants or booking interviews. Keep a human checkpoint at every step that rejects someone or makes a promise on the employer's behalf.</p><p>A practical test before buying an agent: run it in a mode where it proposes every action and you approve them for two weeks. If you would have approved almost everything, widen its permissions. If you keep correcting it, the problem is the instruction or the data, and giving it more autonomy will only multiply the errors. For a structured way to score vendors, see <a href=\"/guide/how-to-evaluate-recruitment-ai/\">how to evaluate recruitment AI</a>.</p>",
+    "faq": [
+      {
+        "q": "Is ChatGPT generative or agentic AI?",
+        "a": "Used as a chat window that answers your prompts, it is generative AI. When it is connected to tools and allowed to browse, run tasks or take actions toward a goal on its own, it behaves as an agent. The difference is the permissions, not the brand."
+      },
+      {
+        "q": "Will agentic AI replace recruiters?",
+        "a": "It replaces tasks, mainly searching, first contact, follow ups and scheduling. Judging fit, persuading a candidate, advising hiring managers and closing offers still depend on people, and regulators expect a human to stay accountable for hiring decisions."
+      },
+      {
+        "q": "Do I need generative AI before I can use an agent?",
+        "a": "No. Most agentic recruiting products include generative models inside them to write messages and summaries. You can adopt an agent directly, though teams that already use generative tools tend to write better instructions for agents."
+      },
+      {
+        "q": "What should an agentic recruiting tool log?",
+        "a": "Every search it ran, every candidate it contacted or excluded, the message sent, the reason for each ranking where available, and which actions a human approved. Without that record you cannot audit for bias or answer a candidate who asks how they were assessed."
+      }
+    ],
+    "related": [
+      {
+        "href": "/guide/types-of-recruitment-ai/",
+        "label": "Types of recruitment AI"
+      },
+      {
+        "href": "/explainers/ai-interviewer/",
+        "label": "AI interviewers explained"
+      },
+      {
+        "href": "/guide/how-to-evaluate-recruitment-ai/",
+        "label": "How to evaluate recruitment AI"
+      }
+    ]
   }
 ]
