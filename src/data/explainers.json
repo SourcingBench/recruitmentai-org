@@ -258,5 +258,59 @@
         "label": "How to evaluate recruitment AI"
       }
     ]
+  },
+  {
+    "slug": "ai-recruitment-statistics",
+    "title": "AI recruitment statistics: the numbers with a traceable source",
+    "description": "AI recruitment statistics for 2026 from LinkedIn, SHRM, Greenhouse, Gartner and others: recruiter adoption, candidate use of AI, AI interviews, agents and candidate fraud, with notes on how to read each figure.",
+    "date": "2026-11-09",
+    "updated": "2026-11-09",
+    "minutes": 7,
+    "short": "In 2026, 77% of U.S. job seekers used AI in their search (Greenhouse), 37% of organizations were integrating or experimenting with generative AI in hiring (LinkedIn), and 86% of U.S. recruiters say at least half of applications are AI written. Candidates accept AI interviews when a human reviews the results.",
+    "body": "<p>How many recruiters really use AI, and does it help? The honest answer in 2026 is that the best numbers come from a handful of large surveys, each measuring something slightly different, and many statistics that circulate online have no traceable source at all. Below are the figures we could trace to the organization that produced them, grouped by what they actually measure, with notes on how to read each one.</p><h2>Adoption by recruiting teams</h2><p>LinkedIn's <a href=\"https://business.linkedin.com/hire/resources/future-of-recruiting\">Future of Recruiting</a> report found that 37% of organizations were actively integrating or experimenting with generative AI tools in hiring, up from 27% a year earlier. Among those using it, the average time saved was about 20% of the work week, roughly one day. LinkedIn also found that 89% of talent acquisition professionals expect measuring quality of hire to become more important, yet only 25% feel highly confident they can measure it today, and 61% believe AI can help.</p><p>Read these carefully. \"Experimenting\" includes a recruiter trying a chatbot to draft a job post, so the adoption figure describes curiosity as much as production use. The time saved figure comes from people already using the tools, who are likely to be enthusiasts.</p><p>For the wider HR function, SHRM's <a href=\"https://www.shrm.org/topics-tools/research/state-of-ai-hr-2026\">State of AI in HR 2026</a> report draws on 1,908 HR professionals and identifies which HR functions AI is shaping most. It is the broadest current view of how HR departments, not just recruiting teams, are absorbing the technology.</p><h2>What candidates are doing with AI</h2><p>The sharpest 2026 data is on the candidate side. Greenhouse's <a href=\"https://www.greenhouse.com/newsroom/6-in-10-job-seekers-are-rethinking-how-they-write-to-avoid-sounding-like-ai-even-as-most-use-it-in-their-search\">2026 Future of Hiring Candidate Report</a>, a survey of more than 2,800 job seekers in the U.S., U.K., Ireland, Germany and Australia, found that 77% of U.S. job seekers had used AI in their search in the past year. At the same time, 60% had changed or considered changing how they write so their application would not be mistaken for AI generated text.</p><p>The same report found that 62% had tried tactics to get past automated screening, and 40% had added skills or keywords they do not have. That last figure matters for anyone who relies on keyword matching: a system that rewards keywords is being taught to read padded resumes. Our explainer on <a href=\"/explainers/ats-resume-and-ai-screening/\">ATS resume screening and AI</a> covers how screening systems actually rank applications.</p><p>Volume is the consequence. In an <a href=\"https://www.greenhouse.com/newsroom/greenhouse-launches-the-orchestrated-hiring-ecosystem-to-break-ais-hiring-doom-loop\">October 2026 announcement</a>, Greenhouse said 86% of U.S. recruiters report that at least half of applications are AI written, and that fewer than 7% of applicants ever get an interview. Four in five U.S. candidates in its survey had been rejected in the past year without speaking to anyone at the company.</p><h2>AI interviews</h2><p>Candidates are more open to AI interviews than the headlines suggest. In the Greenhouse survey, 48% had taken an AI interview in the past year, and 70% of those said it let them show their skills well. Only 7% would refuse an AI led interview outright. The condition is transparency: 49% want to know a human will review their answers, 40% want to know how they will be evaluated, and 88% want at least one legal requirement that makes employers disclose and account for AI use in interviews, led by advance notice at 55%.</p><p>If you are evaluating these products, our <a href=\"/explainers/ai-interviewer/\">AI interviewer explainer</a> covers how they score answers and where the legal obligations sit.</p><h2>Agents on both sides</h2><p>Recruiters are not the only ones automating. Greenhouse found 69% of job seekers would be comfortable using an AI agent in their search, though only 5% would let one apply to jobs on its own. HR Dive, reporting on <a href=\"https://www.hrdive.com/news/4-trends-explaining-why-recruiters-are-struggling-right-now/873036/\">trends behind recruiters' struggles</a>, cited Gartner research projecting that by 2029 one in four candidates may be represented by a machine, meaning an agent acting for the candidate. Expect recruiting systems to talk to candidate agents, not just to people. The difference between tools that draft and tools that act is covered in our comparison of <a href=\"/explainers/agentic-ai-vs-generative-ai-in-recruiting/\">agentic and generative AI</a>.</p><h2>Fraud and fake candidates</h2><p>Fraud statistics are the least standardized. GetReal Security's <a href=\"https://www.getrealsecurity.com/solutions/expose-fake-job-candidates\">candidate fraud page</a> cites a Gartner forecast that 25% of applicants will be fake by 2028, and a survey sponsored by GetReal in which 41% of enterprises said they had hired an imposter. Vendor sponsored surveys are useful signals, but they are produced by companies that sell detection, so treat them as direction rather than precise measurement.</p><h2>How to use these numbers</h2><ul><li><b>Check the base.</b> \"Recruiters\", \"HR professionals\", \"organizations\" and \"job seekers\" are different populations, and a percentage only makes sense against its own base.</li><li><b>Check the date.</b> AI adoption figures go stale within a year. Prefer 2026 surveys and say which year a figure comes from.</li><li><b>Check who paid.</b> Most hiring statistics come from vendors. That does not make them wrong, but it shapes the questions asked.</li><li><b>Follow the number to its source.</b> If a statistic appears on ten blogs with no link to a report, do not repeat it.</li></ul><p>Taken together, the 2026 picture is consistent: AI use is now normal on both sides of hiring, it has inflated application volume faster than it has improved matching, and trust depends on telling candidates when AI is involved and keeping a person accountable for the decision.</p>",
+    "faq": [
+      {
+        "q": "What percentage of recruiters use AI?",
+        "a": "LinkedIn's Future of Recruiting report found 37% of organizations actively integrating or experimenting with generative AI in hiring, up from 27% the year before. Definitions differ between surveys, so compare figures only with the same base."
+      },
+      {
+        "q": "How many job seekers use AI to apply?",
+        "a": "Greenhouse's 2026 candidate survey found 77% of U.S. job seekers used AI in their search in the past year, while 60% changed or considered changing their writing to avoid looking AI generated."
+      },
+      {
+        "q": "Do candidates accept AI interviews?",
+        "a": "Mostly. In the same Greenhouse survey, 48% had taken an AI interview and 70% of them said it let them show their skills; only 7% would refuse one outright. Nearly half want a human to review their responses."
+      },
+      {
+        "q": "How common is candidate fraud?",
+        "a": "Reliable measurement is scarce. Gartner has forecast that a quarter of applicants will be fake by 2028, and vendor surveys report high rates of imposter hires, but these figures come from different methods and should be read as direction."
+      },
+      {
+        "q": "Where can I find reliable AI hiring statistics?",
+        "a": "Start with the original reports from LinkedIn, SHRM, Greenhouse and Gartner, check the survey base and date, and avoid figures that cannot be traced to a named study."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/agentic-ai-vs-generative-ai-in-recruiting/",
+        "label": "Agentic vs generative AI in recruiting"
+      },
+      {
+        "href": "/explainers/ai-interviewer/",
+        "label": "AI interviewers explained"
+      },
+      {
+        "href": "/explainers/ats-resume-and-ai-screening/",
+        "label": "ATS resume screening and AI"
+      },
+      {
+        "href": "/explainers/ai-in-hr/",
+        "label": "AI in HR"
+      },
+      {
+        "href": "/guide/how-to-evaluate-recruitment-ai/",
+        "label": "How to evaluate recruitment AI"
+      }
+    ]
   }
 ]
