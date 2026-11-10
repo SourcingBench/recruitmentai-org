@@ -312,5 +312,51 @@
         "label": "How to evaluate recruitment AI"
       }
     ]
+  },
+  {
+    "slug": "ai-phone-screening",
+    "title": "AI phone screening: how voice agents run the first interview",
+    "description": "What AI phone screening is, how a voice agent call works from invitation to recruiter review, what a 70,000 applicant field experiment found, where it fits and the rules to check before the first call.",
+    "date": "2026-11-10",
+    "updated": "2026-11-10",
+    "minutes": 8,
+    "short": "AI phone screening uses a voice agent to run the first short interview by phone or browser, asking knockout and experience questions and handing a transcript and score to a recruiter. In a field experiment with 70,000 applicants, those screened by AI were 12% more likely to get an offer, while humans still made every decision.",
+    "body": "<p>9.73% against 8.70%. Those are the job offer rates for applicants interviewed by an AI voice agent and by human recruiters in one of the largest field experiments on automated hiring so far, and they explain why AI phone screening moved from pilot to standard practice in high volume hiring this year. This explainer covers what an AI phone screen is, how a call works from invitation to recruiter review, what the evidence says, and the questions to settle before the first candidate picks up.</p><h2>What AI phone screening means</h2><p>An AI phone screen is a first round interview run by a voice agent instead of a recruiter. The agent calls the applicant, or the applicant joins by phone or browser, and it asks the screening questions a recruiter would: availability, location, pay expectations, required certifications and a few questions about experience. Unlike a fixed phone tree, a modern voice agent listens to free speech, asks follow up questions and answers questions about the job. A recruiter then reviews the result and decides who moves forward.</p><p>It sits between two older tools. A <a href=\"/explainers/ats-resume-and-ai-screening/\">resume screen in an ATS</a> reads documents, and an <a href=\"/explainers/ai-interviewer/\">AI interviewer</a> can run longer structured interviews later in the process. A phone screen is the short, early conversation that sorts applicants into yes, no and maybe.</p><h2>How a call works, step by step</h2><p><b>Invitation.</b> The applicant gets an email or text soon after applying. Phenom's <a href=\"https://www.phenom.com/products/voice-screening-agent\">Voice Screening Agent</a> page describes an invitation by email and SMS with three options: call now, schedule a time, or request a callback, with outbound calls kept to hours the employer sets.</p><p><b>Disclosure.</b> The agent should say that it is an AI, that the call is recorded and what happens to the result. Phenom says every call opens with consent; Firstview's <a href=\"https://firstview.ai/blog/ai-phone-screening\">guide to AI phone screening</a> lists disclosure as the first step of a well run call.</p><p><b>Knockout questions.</b> Hard requirements come first: shift, location, work authorization, pay range or a license. A wrong answer here ends the screen politely, which saves the applicant time too.</p><p><b>Experience questions.</b> The agent asks about past work and probes when an answer is vague. This is where voice agents differ most from form based screening, because the follow up depends on what the person said.</p><p><b>Scoring and handoff.</b> After the call, the recruiter receives a summary, a transcript and often a recording. Phenom says its agent scores each answer from 1 to 5 against rubrics the team defines and links each score to the timestamp in the transcript, and that nothing advances until a recruiter accepts or adjusts the proposal.</p><h2>What the research found</h2><p>Brian Jabarian and Luca Henkel ran a natural field experiment with 70,000 applicants for customer service jobs, randomly assigning them to interviews with human recruiters or AI voice agents, with a third group allowed to choose. Human recruiters made every hiring decision in both conditions. In the paper, <a href=\"https://arxiv.org/abs/2607.28222\">Voice AI in Firms</a>, applicants interviewed by the AI agent were 12% more likely to receive an offer, starts and retention were higher, and the productivity of hires did not fall. The authors trace the gain to consistency: the AI interviews were more structured while still responding to each applicant, which surfaced more information relevant to the hire.</p><p>Two other findings deserve equal attention. Given the choice, 78% of applicants picked the AI agent, according to the <a href=\"https://brianjabarian.org/voiceai\">study's summary page</a>. Yet applicants also rated the AI interview as less natural than a human one. Candidates accept the format, but they notice the difference, so the script and the voice matter.</p><p>Vendor numbers are easy to find and harder to verify. Classet, which sells automated phone screens for skilled trades, says on <a href=\"https://www.classet.ai/blog/automated-phone-screening\">its blog</a> that its calls take three to five minutes and that phone formats complete at over 70% while video screens see 42% dropout. Treat figures like these as the vendor's own claims until a pilot on your roles confirms them; our page of <a href=\"/explainers/ai-recruitment-statistics/\">AI recruitment statistics</a> separates traced numbers from marketing ones.</p><h2>Where phone screening works, and where it does not</h2><p>The strongest case is high volume hourly hiring: warehouses, retail, call centers, healthcare support, field service. Applicants often apply from a phone, outside office hours, and drop off if nobody calls within a day. Fountain's <a href=\"https://www.fountain.com/posts/ai-phone-screening\">explainer for frontline teams</a> focuses on exactly this setting. An agent that answers at 10 p.m. on a Saturday removes the wait.</p><p>The case is weaker for senior and specialist roles, where the first conversation is also a sales pitch for the job and the candidate expects a person. It is also weaker when the knockout criteria are already in the application form; a voice call that repeats the form adds friction without information.</p><h2>Questions to settle before the first call</h2><p><b>Who designed the questions?</b> The agent is only as fair as the script. Write questions tied to the job, test them on current employees and remove any that do not predict success in the role.</p><p><b>What does the recruiter see?</b> A single score is hard to check. Prefer tools that show the transcript next to each judgment so a recruiter can verify it in seconds.</p><p><b>Which rules apply?</b> Firstview's checklist names four areas to review: AI disclosure, European Union duties for hiring tools, local bias audit and notice laws, and consent to record calls. The rules differ by country, state and city, and they change, so confirm them with counsel.</p><p><b>What is the human fallback?</b> Some applicants will want a person, have a speech difference, or need an accommodation. Offer a clear route to a recruiter and track how often people use it.</p><h2>Phone, browser or link?</h2><p>Not every voice screen is a phone call. Some tools dial the applicant; others send a link that opens a voice conversation in the browser; many do both. Browser links avoid caller ID problems and spam filters on phone numbers, while outbound calls reach applicants who never open email. If you prefer the link approach, Noon's AI Interviewer is one example: the candidate starts a voice AI screen from an interview link, and the recruiter gets back a transcript and a next round recommendation. Whichever format you pick, measure completion rate, time to first contact and recruiter agreement with the agent's recommendations during a pilot of a few weeks.</p>",
+    "faq": [
+      {
+        "q": "What is AI phone screening?",
+        "a": "It is a first round interview conducted by an AI voice agent by phone or browser. The agent asks screening questions, follows up on answers and sends a summary, transcript and score to a recruiter, who makes the decision."
+      },
+      {
+        "q": "Does AI phone screening work?",
+        "a": "The best evidence so far is a field experiment with 70,000 customer service applicants. Those interviewed by an AI voice agent were 12% more likely to receive an offer, with higher starts and retention and no drop in productivity."
+      },
+      {
+        "q": "Do candidates like AI phone screens?",
+        "a": "In that experiment, 78% of applicants who could choose picked the AI agent, though they rated the conversation as less natural than one with a human. Offering a human fallback keeps the process fair."
+      },
+      {
+        "q": "Is AI phone screening legal?",
+        "a": "Generally yes, but disclosure, call recording consent, bias audit and notice rules vary by location and change often. Review them with counsel before launching."
+      },
+      {
+        "q": "What roles suit AI phone screening?",
+        "a": "High volume hourly roles such as warehouse, retail, call center and healthcare support work best. Senior and specialist roles usually need a human first conversation."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-interviewer/",
+        "label": "AI interviewers explained"
+      },
+      {
+        "href": "/explainers/ats-resume-and-ai-screening/",
+        "label": "ATS resume and AI screening"
+      },
+      {
+        "href": "/explainers/ai-recruitment-statistics/",
+        "label": "AI recruitment statistics"
+      }
+    ]
   }
 ]
