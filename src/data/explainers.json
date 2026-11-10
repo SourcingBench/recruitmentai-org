@@ -358,5 +358,47 @@
         "label": "AI recruitment statistics"
       }
     ]
+  },
+  {
+    "slug": "ai-recruiting-assistant",
+    "title": "AI recruiting assistant: what it does and how teams use one",
+    "description": "What an AI recruiting assistant is in 2026, the jobs it takes over from sourcing to scheduling and interview notes, how it differs from a chatbot or an AI recruiter, and how to evaluate one.",
+    "date": "2026-11-10",
+    "updated": "2026-11-10",
+    "minutes": "7",
+    "short": "An AI recruiting assistant is software that carries out recruiting tasks for a recruiter inside the ATS, calendar and messaging tools, such as sourcing, answering candidates, scheduling interviews and writing up notes. The recruiter sets the rules and keeps the hiring decisions.",
+    "body": "<p>Thirty percent of talent acquisition professionals say speed is their biggest problem, and almost half say they lose too much time switching between platforms, according to <a href=\"https://news.linkedin.com/2026/hiring-assistant-2\">LinkedIn research with 500 US recruiters</a> published in September 2026. Those two complaints explain the pitch behind the AI recruiting assistant: software that does the small, repeated tasks between systems so the recruiter is not the glue holding the process together.</p><h2>What an AI recruiting assistant is</h2><p>An AI recruiting assistant is software that carries out recruiting tasks on a recruiter's behalf, inside the tools the team already uses. Where an older recruiting tool stores information and waits to be queried, an assistant acts: it drafts a search, messages a candidate, proposes interview times, writes up notes or reminds an interviewer to submit feedback. <a href=\"https://www.metaview.ai/resources/blog/ai-recruiting-assistants\">Metaview describes it</a> as an agentic teammate rather than a dashboard, which is a useful test when reading vendor claims.</p><p>The term covers several product types. Some assistants face candidates and answer their questions by text or chat. Others face the recruiter and work inside an ATS, a calendar or a sourcing tool. Most products sold under the label in 2026 mix the two, with a language model handling the conversation and rules set by the recruiting team deciding what the assistant may do on its own. Our explainer on <a href=\"/explainers/agentic-ai-vs-generative-ai-in-recruiting/\">agentic and generative AI in recruiting</a> covers the difference between drafting and acting.</p><h2>The jobs an assistant usually takes over</h2><p><b>Sourcing.</b> The assistant turns a job description into search criteria, finds matching profiles and ranks them. LinkedIn's Hiring Assistant 2, which began rolling out to English language customers in November 2026, adds memory of how an individual recruiter hires and pulls together signals such as verification, pre-screening answers and ATS history.</p><p><b>Candidate conversations.</b> Frontline platforms such as Paradox, with its assistant Olivia, answer applicant questions, collect screening answers and keep candidates informed so nobody waits days for a reply.</p><p><b>Scheduling.</b> Finding a slot across several interviewers' calendars, sending invitations and handling reschedules is the most common first use, because the work is repetitive and easy to check. For example, an <a href=\"https://www.noon.ai/product/ai-scheduler\">AI scheduler that books interviews when candidates reply</a> to email or SMS outreach answers their questions, coordinates calendars and syncs the booking to the ATS.</p><p><b>Interview notes and feedback.</b> Assistants that join interviews produce transcripts, summaries and draft scorecards, then nudge interviewers who have not submitted feedback. See <a href=\"/explainers/ai-note-takers-for-interviews/\">AI note takers for interviews</a> for how those tools handle consent and storage.</p><p><b>Screening calls.</b> Some assistants run the first conversation by voice, a format covered in our explainer on <a href=\"/explainers/ai-phone-screening/\">AI phone screening</a>.</p><h2>Assistant, chatbot or AI recruiter?</h2><p>The labels overlap, but they point to different scopes. A recruiting chatbot is usually a single candidate facing channel on a careers site or text line. An AI recruiting assistant supports a human recruiter across several steps and leaves decisions with that person. An AI recruiter, in vendor language, takes on a whole workflow end to end, such as sourcing, contacting and booking candidates for a role, with the human approving the rules and reviewing the output. When comparing products, ask which steps run without approval, because that is where the labels actually differ.</p><h2>Where assistants help, and where they do not</h2><p>Assistants pay off where the work is high volume and rule based: scheduling hundreds of interviews, answering the same ten questions from applicants, keeping notes consistent across interviewers. They help less with judgment calls, such as deciding between two close finalists, negotiating an offer or persuading a passive senior candidate. They also inherit the quality of their inputs. An assistant sourcing from a stale ATS or a vague job description will produce confident but weak shortlists.</p><p>Compliance is part of the evaluation. Any assistant that scores or filters candidates may fall under rules on automated employment decisions, such as New York City's bias audit law, and candidate facing messages must follow consent rules for email and text. Ask vendors for audit documentation and for logs showing why the assistant made each recommendation.</p><h2>How to evaluate one</h2><p>Run a pilot on one role family with a clear baseline, such as days from application to first interview or recruiter hours per hire. Check three things: whether the assistant works inside your existing ATS and calendar, whether recruiters can see and override every action, and whether candidates can reach a person when they need one. If recruiters have to leave their normal tools to use it, adoption tends to fade within weeks.</p>",
+    "faq": [
+      {
+        "q": "What does an AI recruiting assistant do?",
+        "a": "It handles repeated recruiting tasks such as building candidate searches, answering applicant questions, scheduling interviews, transcribing interviews and reminding interviewers to give feedback. A recruiter sets its rules and reviews its work."
+      },
+      {
+        "q": "Is an AI recruiting assistant the same as a chatbot?",
+        "a": "No. A chatbot is usually one candidate facing channel. An assistant supports the recruiter across several steps of the process and often works inside the ATS and calendar."
+      },
+      {
+        "q": "Will an AI recruiting assistant replace recruiters?",
+        "a": "It replaces tasks, not the role. Recruiters still decide who advances, manage hiring managers, negotiate offers and win over candidates who are not actively looking."
+      },
+      {
+        "q": "What should I check before buying one?",
+        "a": "Check that it integrates with your ATS and calendar, that every automated action is visible and reversible, that candidates can reach a person and that the vendor can document bias audits and consent handling."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/agentic-ai-vs-generative-ai-in-recruiting/",
+        "label": "Agentic vs generative AI in recruiting"
+      },
+      {
+        "href": "/explainers/ai-note-takers-for-interviews/",
+        "label": "AI note takers for interviews"
+      },
+      {
+        "href": "/explainers/ai-phone-screening/",
+        "label": "AI phone screening"
+      }
+    ]
   }
 ]

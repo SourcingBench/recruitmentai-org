@@ -135,7 +135,9 @@
    "keyword": "ai recruiting assistant",
    "volume": 110,
    "noon_target": "/product/ai-scheduler",
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-recruiting-assistant",
+   "date": "2026-11-10"
   },
   {
    "id": "rai-016",
