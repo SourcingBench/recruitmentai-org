@@ -125,7 +125,9 @@
    "keyword": "ai phone screening",
    "volume": 110,
    "noon_target": "/product/ai-interviewer",
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-phone-screening",
+   "date": "2026-11-10"
   },
   {
    "id": "rai-015",
