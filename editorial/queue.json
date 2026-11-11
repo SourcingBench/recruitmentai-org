@@ -153,7 +153,7 @@
    "keyword": "ai job description generator",
    "volume": 320,
    "noon_target": null,
-   "status": "queued"
+   "status": "published", "slug": "ai-job-description-generator", "date": "2026-11-11"
   },
   {
    "id": "rai-018",
