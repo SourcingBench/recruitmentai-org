@@ -400,5 +400,47 @@
         "label": "AI phone screening"
       }
     ]
+  },
+  {
+    "slug": "ai-job-description-generator",
+    "title": "AI job description generator: how it works and where it goes wrong",
+    "description": "What an AI job description generator does in 2026, the free, guidance and management tools on the market, the errors they make with requirements and pay transparency, and how to edit a draft into a posting that works.",
+    "date": "2026-11-11",
+    "updated": "2026-11-11",
+    "minutes": "6",
+    "short": "An AI job description generator drafts a job posting from a few inputs such as a title and location, using a large language model. It saves time on routine roles, but drafts need human editing for real requirements, pay ranges and legal notices.",
+    "body": "<p>A hiring manager types \"warehouse supervisor, Reno\" into a free tool and, ten seconds later, has a tidy posting with a summary, eight responsibilities and a list of requirements. It reads well. It also asks for a bachelor's degree the team never required, omits the night shift and leaves out the pay range that Nevada law expects later in the process. That gap between a fluent draft and a correct one is the whole story of the AI job description generator.</p><h2>What an AI job description generator is</h2><p>An AI job description generator is software that uses a large language model to draft a job posting from a few inputs, usually a job title, a location and sometimes a seniority level or a list of skills. Some tools also rewrite an existing description to make it clearer, shorter or more inclusive. The output is a first draft: a summary, duties, qualifications and often a benefits section.</p><p>The tools fall into three groups. Free generators from job sites and ATS vendors are built to get you posting quickly. <a href=\"https://www.indeed.com/employers/o/job-description-generator\">Indeed's generator</a> pairs OpenAI models with its own job taxonomy and offers both a generator and an optimizer mode, with a note that the beta feature may contain mistakes. <a href=\"https://tools.workable.com/\">Workable's free tool</a> writes job descriptions and interview questions and allows three AI uses a day. A second group adds writing guidance on top of drafting: <a href=\"https://textio.com/products/recruiting\">Textio</a> writes posts from a few details and flags biased language using its hiring outcome data. A third group manages job descriptions as company data: <a href=\"https://www.ongig.com/\">Ongig</a> and <a href=\"https://datapeople.io/\">Datapeople</a>, which says it is now part of Payscale, keep descriptions consistent across hundreds of roles and connect them to the ATS and HR system.</p><h2>How the generators work</h2><p>The model predicts the most likely wording for a posting with your title, based on the very large number of job descriptions in its training data and, for some vendors, in their own databases. That is why output is fluent and generic: it describes the average version of the role. Better tools let you add context first, such as the team, the tools used, the schedule and the pay, and then constrain the draft to that context. This is generative AI in the plain sense; it writes but does not act. Our explainer on <a href=\"/explainers/agentic-ai-vs-generative-ai-in-recruiting/\">agentic and generative AI</a> covers the difference.</p><h2>Where they help</h2><p><b>Speed on routine roles.</b> For a role you post often, a generator turns a blank page into an editable draft in seconds, which matters most for managers who write a posting a few times a year.</p><p><b>Consistency.</b> Templated tools keep the same structure, tone and benefits text across every role, which makes a careers page easier to read.</p><p><b>Language checks.</b> Tools in the Textio and Ongig group flag phrases that may discourage some applicants, along with jargon and inflated requirements.</p><h2>Where they go wrong</h2><p><b>Invented requirements.</b> Models add degrees, years of experience and certifications that look typical but are not needed. Each extra requirement shrinks the applicant pool and can screen out qualified people.</p><p><b>Missing legal content.</b> Pay disclosure rules keep spreading. <a href=\"https://blog.ongig.com/hr-content/pay-transparency-laws-by-state/\">Ongig's 2026 tracker</a> counts 15 states plus Washington, D.C. with pay disclosure laws as of October 29, 2026, most of them requiring a range in the posting itself. A generator will not know your range, and a free tool may not know the law.</p><p><b>Sameness.</b> When every employer uses similar tools, postings start to read alike, which weakens the one document that should explain why your job is different.</p><p><b>Mismatch with screening.</b> Requirements in the posting often become filters in resume screening. A careless requirement added by a generator can quietly reject good applicants later, as our explainer on <a href=\"/explainers/ats-resume-and-ai-screening/\">ATS and AI screening</a> describes.</p><h2>How to use one well</h2><p>Give the tool the facts it cannot know: the real must have skills, the schedule, the location rules, the pay range and one or two sentences about the team. Generate the draft, then cut every requirement the hiring manager will not defend in an interview. Add the pay range and any legally required notices yourself. Finally, read the posting as a candidate would and ask whether it says what the first 90 days of the job look like. If it does not, add that by hand.</p><p>Teams that post hundreds of roles a year should treat job descriptions as data, with an owner, version control and a review cycle, rather than as one off drafts. That is the case for the management tools over the free generators. For the rest of the hiring workflow, see our explainer on the <a href=\"/explainers/ai-recruiting-assistant/\">AI recruiting assistant</a>.</p>",
+    "faq": [
+      {
+        "q": "Are AI job description generators free?",
+        "a": "Many are. Indeed and Workable offer free generators, though Workable limits free use to three AI uses a day. Tools that manage job descriptions across a company, such as Ongig or Datapeople, are paid products."
+      },
+      {
+        "q": "Can I post an AI written job description without editing it?",
+        "a": "It is not a good idea. Drafts often add requirements the role does not need and leave out the pay range and other details that some state laws require."
+      },
+      {
+        "q": "Do AI job descriptions reduce bias?",
+        "a": "Some tools, such as Textio and Ongig, are designed to flag biased or exclusionary language. A plain generator does not check for bias and can repeat wording common in older postings."
+      },
+      {
+        "q": "What should I give the tool to get a better draft?",
+        "a": "Provide the must have skills, schedule, location, pay range and a short description of the team. The more facts you supply, the less the model fills gaps with generic text."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ats-resume-and-ai-screening/",
+        "label": "ATS and AI resume screening"
+      },
+      {
+        "href": "/explainers/agentic-ai-vs-generative-ai-in-recruiting/",
+        "label": "Agentic vs generative AI in recruiting"
+      },
+      {
+        "href": "/explainers/ai-recruiting-assistant/",
+        "label": "AI recruiting assistant"
+      }
+    ]
   }
 ]
