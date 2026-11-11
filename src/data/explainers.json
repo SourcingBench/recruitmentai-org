@@ -442,5 +442,55 @@
         "label": "AI recruiting assistant"
       }
     ]
+  },
+  {
+    "slug": "colorado-ai-act-and-hiring",
+    "title": "Colorado AI Act and hiring: what employers must do from 2027",
+    "description": "How Colorado's AI law affects hiring in 2027: SB 26-189 replaced the 2024 act, which hiring tools are covered, required notices, explanations, human review and records, and the draft rules.",
+    "date": "2026-11-11",
+    "updated": "2026-11-11",
+    "minutes": "7",
+    "short": "Colorado's SB 26-189, effective January 1, 2027, replaces the 2024 Colorado AI Act. Employers using AI that materially influences hiring decisions must give notice, explain rejections within 30 days, allow data correction and human review, and keep records for three years.",
+    "body": "<p>On January 1, 2027, Colorado's rules for automated hiring decisions take effect. They are not the rules most HR teams read about in 2024. In May 2026 the legislature passed SB 26-189, and Governor Polis signed it on May 14, 2026, replacing the original Colorado AI Act before it ever applied. According to <a href=\"https://ogletree.com/insights-resources/blog-posts/colorados-new-ai-act-targets-automated-decision-making-for-consequential-decisions/\">Ogletree's summary of the new law</a>, the duty of care, risk management program and impact assessment requirements are gone. In their place are notice, explanation, correction and human review duties that land directly on employers who use AI in hiring.</p><p>This explainer covers what changed, which hiring tools are in scope, what employers will have to do, and what the attorney general's draft rules add. It is a summary, not legal advice.</p><h2>What the law covers</h2><p>The law applies to covered automated decision making technology that materially influences a consequential decision. Employment is one of the decision areas, alongside education, housing, lending, insurance, health care and essential government services. Ogletree notes that the protected group includes employees, job applicants who live in Colorado and people evaluated for opportunities in the state, so an employer headquartered elsewhere can still be covered when it hires for Colorado roles.</p><p>\"Materially influences\" is the key test. A tool is in scope when its output is a non trivial factor that affects the outcome, for example by scoring, ranking or recommending candidates. Tools that only summarize, organize or display information for a person to review are treated differently, which matters for resume parsers and interview notetakers that do not score anyone. Our explainer on <a href=\"/explainers/ats-resume-and-ai-screening/\">ATS and AI resume screening</a> walks through which screening features rank and which only sort.</p><h2>What employers will have to do</h2><p>Based on the statute as summarized by Ogletree, an employer that uses a covered tool in hiring will need to:</p><ul><li>Give candidates a notice before the tool is used.</li><li>Explain an adverse outcome, such as a rejection, within 30 days, including the role the technology played.</li><li>Let candidates correct inaccurate personal data used by the tool and, where commercially reasonable, request meaningful human review of the decision.</li><li>Keep records for at least three years.</li></ul><p>Meaningful human review has a specific meaning. The reviewer must have authority to change the outcome, must consider the relevant evidence, must be trained, must not simply defer to the system's output and must understand the tool's intended use and limits. A recruiter who clicks approve on every AI shortlist does not meet that bar.</p><h2>Vendors, staffing firms and contracts</h2><p>Developers of covered tools must give deployers the documentation they need to meet these duties. Ogletree also reports that contract clauses that try to make one party indemnify the other for its own discrimination violations are void. In practice, employers should expect new vendor paperwork and should review indemnity terms in AI hiring contracts before renewal.</p><p>Using a staffing agency does not move the problem elsewhere. A <a href=\"https://natlawreview.com/article/colorados-ai-rules-come-focus-draft-regulations-preview-new-employer-duties\">National Law Review article from November 3, 2026</a> describes a draft rule example in which a staffing firm supplies an AI generated shortlist and the hiring employer is still responsible as the deployer.</p><h2>The attorney general's draft rules</h2><p>The Colorado attorney general is writing implementing rules. As <a href=\"https://www.jdsupra.com/legalnews/colorado-releases-revised-proposed-7145132/\">Orrick explained on JD Supra</a>, proposed rules were released in August 2026, an interim redline followed on October 6, and a rulemaking hearing was held on October 26. The drafts add detail that matters for recruiting teams:</p><ul><li>A presumption that a tool materially influenced a decision when a person reviewed its score, ranking or recommendation and the final decision matched it. An employer can rebut the presumption by showing the output was a de minimis factor.</li><li>More specific adverse outcome explanations, including what the technology did.</li><li>Human reviewers can be internal staff or outside reviewers, as long as they can actually override the result.</li><li>Clear, plain language notices and an inventory of covered tools.</li></ul><p>The rules were still in draft as of November 11, 2026, so details may change before January.</p><h2>Enforcement</h2><p>Only the attorney general can enforce the law; there is no private right of action. Ogletree reports a 60 day cure period for most violations, except knowing or repeated ones, and the National Law Review article describes the cure period as running until January 1, 2030. Existing discrimination claims under state and federal law remain available to candidates, so a biased tool is still a legal risk even when the new procedural duties are met.</p><h2>A checklist for hiring teams</h2><ol><li>List every tool that scores, ranks, filters or recommends candidates for Colorado roles.</li><li>Ask each vendor for its developer documentation and how the tool reaches its output.</li><li>Draft the pre use notice and an adverse outcome template that names the tool's role.</li><li>Name and train human reviewers who can override results.</li><li>Set up data correction requests and three year record retention.</li><li>Review indemnity and allocation clauses in vendor and staffing contracts.</li></ol><p>For how Colorado fits alongside New York City's audit rules and other regulation, read the guide chapter on <a href=\"/guide/bias-regulation-and-candidate-rights/\">bias, regulation and candidate rights</a>, and for the screening tools most likely to be covered, see <a href=\"/explainers/ai-phone-screening/\">AI phone screening</a> and <a href=\"/explainers/ai-interviewer/\">AI interviewers</a>.</p>",
+    "faq": [
+      {
+        "q": "When does the Colorado AI Act apply to hiring?",
+        "a": "The replacement law, SB 26-189, takes effect on January 1, 2027. The original 2024 Colorado AI Act was repealed and replaced before it took effect."
+      },
+      {
+        "q": "Does the Colorado AI law still require impact assessments?",
+        "a": "No. SB 26-189 removed the duty of care, risk management program and impact assessment requirements. It focuses on notice, adverse outcome explanations, data correction, human review and records."
+      },
+      {
+        "q": "Which hiring tools are covered in Colorado?",
+        "a": "Tools that materially influence a hiring decision, for example by scoring, ranking or recommending candidates. Tools that only summarize or organize information for a person to review are treated differently."
+      },
+      {
+        "q": "Can candidates sue under the Colorado AI law?",
+        "a": "No. The attorney general enforces it and there is no private right of action, but candidates can still bring discrimination claims under existing law."
+      },
+      {
+        "q": "Is an employer responsible if a staffing agency uses the AI?",
+        "a": "Under the attorney general's draft rules, yes in the example described: when a staffing firm supplies an AI generated shortlist, the employer that relies on it is still responsible as the deployer."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ats-resume-and-ai-screening/",
+        "label": "ATS and AI resume screening"
+      },
+      {
+        "href": "/explainers/ai-phone-screening/",
+        "label": "AI phone screening"
+      },
+      {
+        "href": "/guide/bias-regulation-and-candidate-rights/",
+        "label": "Bias, regulation and candidate rights"
+      },
+      {
+        "href": "/explainers/ai-in-hr/",
+        "label": "AI in HR"
+      }
+    ]
   }
 ]
