@@ -492,5 +492,59 @@
         "label": "AI in HR"
       }
     ]
+  },
+  {
+    "slug": "eu-ai-act-and-recruitment",
+    "title": "EU AI Act and recruitment: what hiring teams must do, and when",
+    "description": "How the EU AI Act applies to recruitment after the 2026 Digital Omnibus: which hiring tools are high risk, the new 2 December 2027 date, deployer duties, GDPR Article 22 and what to do now.",
+    "date": "2026-11-12",
+    "updated": "2026-11-12",
+    "minutes": "8",
+    "short": "The EU AI Act classes AI used to advertise jobs, filter applications or evaluate candidates as high risk. The 2026 Digital Omnibus moved those obligations to 2 December 2027, but the bans and AI literacy rules already apply, and GDPR Article 22 still governs automated hiring decisions today.",
+    "body": "<p>Three dates matter for anyone using AI to hire in the European Union: 2 February 2025, when the AI Act's bans took effect; 2 December 2026, when a second round of transparency and prohibition changes lands; and 2 December 2027, the new date for the high risk rules that cover most recruitment software. The middle and last dates are recent. They come from Regulation (EU) 2026/1744, the Digital Omnibus on AI, which was adopted on 8 July 2026, published in the Official Journal on 24 July and in force from 27 July, as summarised in an <a href=\"https://www.ey.com/en_gr/technical/tax/tax-alerts/regulation-eu-2026-1744-digital-omnibus-on-ai\">EY legal alert</a>.</p><p>This explainer covers what the AI Act means for recruiters and talent teams after that amendment. It is not legal advice; check your own setup with counsel.</p><h2>Which recruiting tools count as high risk</h2><p>Annex III of the AI Act lists employment as a high risk area. The recruitment entry covers AI systems intended to be used for recruiting or selecting people, in particular to place targeted job advertisements, to analyse and filter job applications, and to evaluate candidates. A second entry covers decisions about promotion, termination, task allocation and monitoring or evaluating workers, as <a href=\"https://ogletree.com/insights-resources/blog-posts/eu-nears-approval-of-agreement-to-delay-rules-for-ai-use-in-employment-decisions/\">Ogletree</a> lays out.</p><p>In practice that reaches resume screeners and ranking engines, AI interview scoring, chat or phone screeners that decide who moves forward, sourcing tools that rank candidates for a role, and ad platforms that choose who sees a job. A scheduling assistant that only books a slot, or a writing aid for job descriptions, is usually outside the list because it does not evaluate people. Our explainer on <a href=\"/explainers/ats-resume-and-ai-screening/\">ATS and AI resume screening</a> shows where screening logic tends to sit inside these tools.</p><h2>What the Digital Omnibus changed</h2><p>The original Act applied the Annex III high risk rules from 2 August 2026. The Omnibus postponed them to 2 December 2027, and moved high risk safety components in regulated products, under Annex I, to 2 August 2028. Per EY, it also narrowed the definition of a safety component, softened the AI literacy duty in Article 4 from ensuring a level of literacy to taking measures that promote it, added a legal basis for limited processing of special category data to detect and correct bias, and added two new prohibited practices covering AI that generates non consensual intimate images or child sexual abuse material.</p><p>Those new bans, and the Article 50(2) duty to mark AI generated content for systems already on the market before 2 August 2026, apply from 2 December 2026, according to <a href=\"https://casrai.org/news/eu-ai-act-2-december-2026-obligations-article-50\">CASRAI's summary of the regulation</a>. For most hiring teams the marking rule falls on vendors of generative tools, not on employers, but it will show up in contract updates this winter.</p><h2>What already applies today</h2><p>The delay does not make recruitment AI unregulated in the meantime. The Article 5 bans have applied since 2 February 2025, and one of them targets the workplace directly: emotion recognition in workplaces is prohibited except for medical or safety reasons. A video interview tool that infers enthusiasm or stress from a candidate's face is the obvious risk. Biometric categorisation that infers sensitive traits such as race or political views is also banned.</p><p>GDPR also applies in full. Article 22 gives people the right not to be subject to a decision based solely on automated processing that significantly affects them, with exceptions for explicit consent, contract necessity and authorisation by law. On 11 November 2026 the European Data Protection Board said its 2027 coordinated enforcement action will review Article 22 compliance and the right of access for automated decision making in employment, including candidate screening tools, as reported by <a href=\"https://iapp.org/news/a/edpb-puts-admt-based-recruitment-in-focus-under-coordinated-enforcement-framework\">IAPP</a>. Data protection authorities will be asking employers about screening tools well before the AI Act's high risk date.</p><h2>Provider or deployer: who does what</h2><p>The Act splits duties between the provider, who builds the system and places it on the market, and the deployer, who uses it. Most employers are deployers. Vendors carry the heavier load: risk management, data governance, technical documentation, logging, accuracy and robustness testing, a conformity assessment, CE marking and registration in the EU database.</p><p>From 2 December 2027, an employer deploying a high risk hiring tool must, under Article 26:</p><ul><li>use it according to the provider's instructions for use</li><li>assign human oversight to people with the competence, training and authority to override it</li><li>make sure input data it controls is relevant and sufficiently representative</li><li>monitor the system and report serious incidents or risks to the provider and authorities</li><li>keep the logs the system generates for at least six months</li><li>inform workers' representatives and affected workers before using a high risk system in the workplace</li><li>tell candidates and employees when a high risk system is used to make or assist decisions about them</li></ul><p>Article 86 adds a right for affected people to receive a clear explanation of the role the AI system played in a decision that significantly affects them. An employer that puts its own name on a tool, or substantially modifies it, can become a provider and take on the full set of provider duties.</p><h2>Who is covered outside the EU</h2><p>The Act reaches providers that place systems on the EU market wherever they are based, deployers established in the EU, and providers or deployers outside the EU when the system's output is used in the EU. A US company screening applicants for a role in Berlin is in scope for that role. Many global employers will simply apply EU standards to all hiring, which is also how teams have handled the <a href=\"/explainers/colorado-ai-act-and-hiring/\">Colorado AI law</a> and New York City's bias audit rule.</p><h2>Penalties</h2><p>Using a prohibited practice can cost up to EUR 35 million or 7% of worldwide annual turnover, whichever is higher. Breaching most other obligations, including deployer duties for high risk systems, can cost up to EUR 15 million or 3%. Smaller companies face the lower of the two amounts.</p><h2>A 2026 to 2027 plan for talent teams</h2><ol><li>Inventory every tool that touches candidates and mark which ones filter, rank, score or target. Include features switched on inside your ATS.</li><li>Remove or disable anything that infers emotion from video or voice.</li><li>Check each automated step against GDPR Article 22 now: is there meaningful human review before a rejection, and can you answer a candidate's access request?</li><li>Ask vendors for their AI Act plan: classification, conformity assessment timing, instructions for use and the logs they will expose to you.</li><li>Name the people who will provide human oversight and train them; the softer Article 4 duty still expects documented measures.</li><li>Draft candidate notices and a works council briefing so they are ready before December 2027.</li></ol><p>Teams that already run <a href=\"/explainers/ai-phone-screening/\">AI phone screening</a> or automated ranking should start with step three, because that is where enforcement attention is landing first.</p>",
+    "faq": [
+      {
+        "q": "Is AI used in recruitment high risk under the EU AI Act?",
+        "a": "Yes, when it is intended to place targeted job ads, analyse and filter applications or evaluate candidates. Those uses are listed in Annex III, so the high risk obligations apply to them."
+      },
+      {
+        "q": "When do the AI Act's high risk rules apply to hiring tools?",
+        "a": "From 2 December 2027. The Digital Omnibus on AI, Regulation (EU) 2026/1744, moved the date from 2 August 2026."
+      },
+      {
+        "q": "Does anything in the AI Act already apply to recruiting?",
+        "a": "Yes. The Article 5 bans, including emotion recognition in the workplace, have applied since 2 February 2025, and the AI literacy measures in Article 4 apply as well, in the softer form set by the Omnibus."
+      },
+      {
+        "q": "Does the AI Act apply to US employers?",
+        "a": "It applies when a US employer deploys AI whose output is used in the EU, for example screening applicants for a job based in the EU."
+      },
+      {
+        "q": "What does GDPR Article 22 mean for AI screening?",
+        "a": "Candidates have the right not to be rejected by a solely automated decision unless an exception such as explicit consent applies, so meaningful human review before a rejection is the safest default."
+      },
+      {
+        "q": "What are the fines for breaking the AI Act in hiring?",
+        "a": "Up to EUR 35 million or 7% of global turnover for prohibited practices, and up to EUR 15 million or 3% for most other breaches, including deployer obligations."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/colorado-ai-act-and-hiring/",
+        "label": "Colorado AI Act and hiring"
+      },
+      {
+        "href": "/explainers/ats-resume-and-ai-screening/",
+        "label": "ATS and AI resume screening"
+      },
+      {
+        "href": "/explainers/ai-phone-screening/",
+        "label": "AI phone screening"
+      },
+      {
+        "href": "/explainers/ai-recruiting-assistant/",
+        "label": "AI recruiting assistant"
+      }
+    ]
   }
 ]
