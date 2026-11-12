@@ -179,7 +179,9 @@
    "keyword": "eu ai act and recruitment",
    "volume": null,
    "noon_target": null,
-   "status": "queued"
+   "status": "published",
+   "slug": "eu-ai-act-and-recruitment",
+   "date": "2026-11-12"
   },
   {
    "id": "rai-021",
