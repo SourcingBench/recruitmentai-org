@@ -83,7 +83,9 @@
    "keyword": "ai for staffing agencies",
    "volume": 390,
    "noon_target": "/built-for/staffing-agencies",
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-for-staffing-agencies",
+   "date": "2026-11-13"
   },
   {
    "id": "rai-010",
