@@ -207,7 +207,9 @@
    "keyword": "ai interview scheduling",
    "volume": null,
    "noon_target": "/product/ai-scheduler",
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-interview-scheduling",
+   "date": "2026-11-13"
   },
   {
    "id": "rai-024",
