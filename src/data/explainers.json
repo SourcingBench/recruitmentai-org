@@ -743,5 +743,52 @@
         "label": "Bias, regulation and candidate rights"
       }
     ]
+  },
+  {
+    "slug": "skills-based-hiring-and-ai",
+    "title": "Skills based hiring and AI: how the two fit together, and where they clash",
+    "seoTitle": "Skills Based Hiring and AI Explained",
+    "description": "A plain English explainer of skills based hiring and AI in 2026: what skills inference, AI written job descriptions and automated assessments do, what survey data says about dropped degree requirements, the risks of proxy creep and the rules that apply.",
+    "date": "2026-11-14",
+    "updated": "2026-11-14",
+    "minutes": 7,
+    "short": "Skills based hiring evaluates candidates on demonstrated abilities instead of degrees or titles. AI supports it by inferring skills from work histories, rewriting job descriptions as skills and running assessments and structured interviews at scale. It only works when the AI widens the pool and decisions rest on tested skills that are checked against job performance.",
+    "body": "<p>Skills based hiring means judging candidates on what they can do rather than on proxies such as degrees, job titles or years of experience. AI helps with that in two ways: it can read a résumé or profile and infer skills that are not spelled out, and it can run assessments and structured interviews at a scale no recruiting team could manage by hand. Used carefully, the combination widens the pool. Used carelessly, it rebuilds the old filters with new labels.</p><h2>What changed in the last few years</h2><p>The shift away from degree requirements is real but uneven. TestGorilla's <a href=\"https://www.testgorilla.com/skills-based-hiring/state-of-skills-based-hiring-2025/\" target=\"_blank\" rel=\"noopener\">State of Skills-Based Hiring 2025</a> survey found that 53% of employers had dropped degree requirements, up from 30% a year earlier, and that 65% were using AI somewhere in their hiring process. The same report found 63% of employers saying great talent was harder to find than the year before, which is part of why the pool is being widened.</p><p>Announcements and practice are not the same thing. A February 2024 study from the Burning Glass Institute and Harvard Business School, <a href=\"https://www.burningglassinstitute.org/research/skills-based-hiring-2024\" target=\"_blank\" rel=\"noopener\">Skills-Based Hiring: The Long Road from Pronouncements to Practice</a>, found that many companies had announced they were dropping degree requirements, but sustained changes in who they actually hired remained elusive for most. Removing a line from a job ad does little if the screening step that follows still rewards the same backgrounds.</p><h2>Where AI fits in a skills based process</h2><h3>Skills inference</h3><p>Modern screening models map a work history to a skills taxonomy. A warehouse lead who scheduled shifts and trained new hires can be tagged with workforce planning and coaching even if those words never appear. This is the part that can help candidates without degrees, because it credits experience that a keyword filter would miss. Our explainer on <a href=\"/explainers/ats-resume-and-ai-screening/\">ATS résumé parsing and AI screening</a> covers how those models read documents.</p><h3>Job descriptions written as skills</h3><p>Generative AI can rewrite a requirement list into the tasks and skills the job actually needs. That makes the posting easier to match against inferred skills, and it forces the hiring manager to say what matters. The weak point is that models reproduce the patterns in whatever text they learned from, so a human still needs to cut inflated requirements.</p><h3>Assessments and structured interviews</h3><p>Work samples, short skills tests and structured interviews with fixed rubrics are the strongest evidence in a skills based process. AI makes them cheaper to run: an <a href=\"/explainers/ai-interviewer/\">AI interviewer</a> can ask every candidate the same questions, and scoring tools can grade answers against a rubric. Consistency is the benefit. The risk is a score that looks precise but has never been checked against job performance.</p><h2>Ways it goes wrong</h2><ul><li><b>Proxy creep.</b> A model trained on past hires may learn that certain schools or employers predict success and quietly weight them, undoing the point of dropping degrees.</li><li><b>Taxonomy gaps.</b> Skills common in trades, care work or military roles are often thin in commercial taxonomies, so the model misses them.</li><li><b>Over automated rejection.</b> If the AI score becomes a hard cutoff, people with unusual paths are filtered out before anyone looks.</li><li><b>Candidate polish.</b> Applicants increasingly use AI to rewrite résumés, so self reported skills need a test or interview behind them.</li></ul><h2>Rules that apply</h2><p>Automated tools that score or rank candidates are regulated in a growing number of places. New York City requires bias audits for automated employment decision tools, the EU AI Act classes most recruitment AI as high risk, and Colorado has passed its own law on high risk AI systems. Skills based tools are not exempt because their intent is fairer. Our guides to the <a href=\"/explainers/eu-ai-act-and-recruitment/\">EU AI Act</a> and the <a href=\"/explainers/colorado-ai-act-and-hiring/\">Colorado AI Act</a> explain the obligations, and the chapter on <a href=\"/guide/bias-regulation-and-candidate-rights/\">bias, regulation and candidate rights</a> covers notice and appeal.</p><h2>A practical starting point</h2><ol><li>Pick one high volume role and list the five skills that separate strong performers, with the hiring manager.</li><li>Remove degree and years of experience requirements that do not map to those skills.</li><li>Use AI skills inference to widen the first pass, not to reject.</li><li>Add a short work sample or structured interview scored on a written rubric.</li><li>After six months, compare performance and retention of hires with and without the old credentials, and check pass rates across groups.</li></ol><p>That loop is what turns a policy statement into a process. Without the measurement step, neither the skills label nor the AI layer proves anything.</p>",
+    "faq": [
+      {
+        "q": "What is skills based hiring?",
+        "a": "It is an approach that evaluates candidates on demonstrated abilities, through work samples, tests and structured interviews, instead of using degrees, titles or years of experience as the main filter."
+      },
+      {
+        "q": "How does AI support skills based hiring?",
+        "a": "AI can infer skills from work histories, rewrite job descriptions around tasks and skills, and run assessments or structured interviews consistently for every applicant."
+      },
+      {
+        "q": "Can AI make skills based hiring less fair?",
+        "a": "Yes. Models trained on past hires can learn proxies such as school or former employer. Audit pass rates across groups and keep a human review before rejection."
+      },
+      {
+        "q": "Do employers still drop degree requirements in 2026?",
+        "a": "Many do. TestGorilla's 2025 survey found 53% of employers had removed degree requirements, but research from the Burning Glass Institute and Harvard Business School shows actual hiring patterns change more slowly than postings."
+      },
+      {
+        "q": "Is skills based hiring regulated?",
+        "a": "The approach itself is not, but AI tools that score or rank candidates fall under rules such as New York City's bias audit law, the EU AI Act and Colorado's AI Act."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ats-resume-and-ai-screening/",
+        "label": "ATS résumé parsing and AI screening"
+      },
+      {
+        "href": "/explainers/ai-interviewer/",
+        "label": "AI interviewers"
+      },
+      {
+        "href": "/guide/bias-regulation-and-candidate-rights/",
+        "label": "Bias, regulation and candidate rights"
+      }
+    ]
   }
 ]
