@@ -692,5 +692,56 @@
         "label": "How to evaluate recruitment AI"
       }
     ]
+  },
+  {
+    "slug": "deepfake-job-candidates",
+    "title": "Deepfake job candidates: how AI faked interviews work and how hiring teams catch them",
+    "seoTitle": "Deepfake Job Candidates and Deepfake Interviews Explained (2026)",
+    "description": "A plain English explainer of deepfake job candidates in 2026: what they are, why remote hiring made them common, real cases from KnowBe4 and Microsoft, interview warning signs and verification steps that do not punish real applicants.",
+    "date": "2026-11-14",
+    "updated": "2026-11-14",
+    "minutes": 8,
+    "short": "A deepfake job candidate is an applicant whose face, voice, identity documents or credentials have been faked or altered with AI so someone else can be hired. Cases range from AI polished photos to live face swaps and stand in interviewers. The best defenses are identity verification tied to payroll, consistent records across rounds and careful onboarding, with a person making every rejection decision.",
+    "body": "<p>Picture a hiring manager on a video call with a strong software engineering candidate. The answers are fluent, the camera is on and the face matches the photo on the application. The day the company laptop arrives, it starts loading malware. That is not a thought experiment. It is roughly what the security training company KnowBe4 <a href=\"https://blog.knowbe4.com/how-a-north-korean-fake-it-worker-tried-to-infiltrate-us\" target=\"_blank\" rel=\"noopener\">described publicly in 2024</a>: it hired a remote engineer after four video interviews, background checks and reference calls, and the profile photo turned out to be an AI altered stock image. The Mac it shipped to the new hire started loading malware as soon as it arrived, and its security team caught the activity on July 15, 2024.</p><h2>What a deepfake candidate is</h2><p>A deepfake job candidate is an applicant whose identity, face, voice or credentials have been fabricated or altered with AI so that someone else can get hired. The term covers a spectrum. At the light end is a real person using an AI enhanced headshot and an AI written resume. In the middle is a proxy: one person interviews and a different person does the job. At the far end is live face swapping or voice changing during the interview itself, so the hiring team never sees or hears the real applicant.</p><h2>Why it is happening now</h2><p>Three things lined up. Remote hiring means many employers never meet a new hire in person. Generative AI made convincing photos, documents and scripts cheap. And for some groups the payoff is large. Microsoft's threat intelligence team <a href=\"https://www.microsoft.com/en-us/security/blog/2025/06/30/jasper-sleet-north-korean-remote-it-workers-evolving-tactics-to-infiltrate-organizations/\" target=\"_blank\" rel=\"noopener\">reported in June 2025</a> that North Korea has placed thousands of remote IT workers in software and web development jobs as a revenue scheme, that these workers use AI to swap images in stolen identity documents and polish their photos, and that they have used voice changing software. Microsoft said it suspended 3,000 Outlook and Hotmail accounts created by those workers.</p><p>Deepfake voice is not limited to hiring. Pindrop, which sells voice and meeting deepfake detection, says in its <a href=\"https://www.pindrop.com/resources/guide/voice-intelligence-security-report\" target=\"_blank\" rel=\"noopener\">2025 Voice Intelligence and Security Report</a> that 2.6 million fraud events were reported, and it now markets a product for catching fake job candidates in video meetings.</p><h2>How the fraud usually works</h2><p><b>Stage one: the application.</b> A real or stolen identity, a resume tuned to the job description with AI, and a profile photo that may be generated. References are often friends or accomplices with matching stories.</p><p><b>Stage two: the interview.</b> The candidate may keep video off, blame a poor connection, or use a face swap filter. Some interviews are taken by a skilled stand in while a different person later does the work. Real time AI assistants can also feed answers to technical questions.</p><p><b>Stage three: onboarding.</b> Equipment is shipped to an address that does not match the identity, sometimes a so called laptop farm where hardware is kept online for remote access from abroad. Payroll goes to accounts set up for the scheme.</p><h2>Warning signs during interviews</h2><p>No single signal proves fraud, and many have innocent explanations, so look for patterns. Lip movement that drifts out of sync with audio, or a face that blurs when the candidate turns or raises a hand, can point to a live filter. Long pauses before every answer, especially on follow ups, can mean someone is reading AI output. A candidate who resists turning on the camera across every round, or whose voice changes between calls, deserves a closer look. Mismatches between the stated location, time zone, phone number and shipping address are among the most useful signals because they are hard to fake together.</p><h2>What employers can do</h2><p>Microsoft's guidance is practical: be especially careful with workers supplied through staffing companies, check resumes for internal consistency, and use video calls to confirm identity. Building on that, many teams now add a few low cost steps. Verify government ID against a live selfie at the offer stage rather than at the end of onboarding. Ask one interviewer to request a simple unscripted action on camera, such as standing up or showing the room. Call references on numbers you find independently. Ship equipment only to an address that matches verified identity documents, and watch for remote access tools in the first weeks.</p><p>Detection software is a second layer, not a substitute. Vendors now score video and voice for signs of synthesis, and some <a href=\"/explainers/ai-interviewer/\">AI interviewer</a> platforms flag identity mismatches between rounds. Treat their output as a reason to verify, never as an automatic rejection.</p><h2>Do not punish real candidates</h2><p>Over correction has a cost. Candidates with poor connections, disabilities that affect speech or appearance, or accents that confuse transcription can trip naive checks. Tell candidates in advance what identity checks you run and why, give them a way to verify without a live camera if they need an accommodation, and keep a person in every rejection decision. Our guide chapter on <a href=\"/guide/bias-regulation-and-candidate-rights/\">bias, regulation and candidate rights</a> covers the disclosure rules that apply to automated screening, and our explainer on <a href=\"/explainers/ats-resume-and-ai-screening/\">ATS and AI resume screening</a> explains where automated filters already sit in the process.</p><h2>Where this is heading</h2><p>Face and voice synthesis will keep improving, so checks that rely on spotting visual glitches will age quickly. The durable defenses are the boring ones: verified identity tied to payroll, consistent records across the hiring process, and onboarding controls that limit what a new account can reach in its first month. Recruiters who already run <a href=\"/explainers/ai-phone-screening/\">AI phone screening</a> or structured interviews have an advantage, because consistent questions make inconsistent answers easier to see.</p>",
+    "faq": [
+      {
+        "q": "What is a deepfake job interview?",
+        "a": "An interview in which the candidate uses AI to alter their face or voice in real time, or has someone else appear in their place, so the employer hires a person other than the one it thinks it interviewed."
+      },
+      {
+        "q": "How common are deepfake candidates?",
+        "a": "There is no reliable industry wide count. Microsoft reported in 2025 that North Korea alone has placed thousands of remote IT workers using AI altered identities, and security vendors now sell products aimed specifically at fake candidates."
+      },
+      {
+        "q": "How can I tell if a candidate is using a deepfake?",
+        "a": "Look for audio and lip sync drift, blurring when the face moves, repeated refusal to use video, voices that change between calls and mismatches between location, phone number and shipping address. Confirm suspicions with identity verification rather than rejecting on one signal."
+      },
+      {
+        "q": "Can AI detect deepfake candidates?",
+        "a": "Detection tools can score video and voice for signs of synthesis and flag mismatches between interview rounds. They work best as a prompt for human verification, not as the final decision."
+      },
+      {
+        "q": "Is it legal to verify a candidate's identity on video?",
+        "a": "Generally yes, when applied consistently and disclosed in advance, but rules on biometric data and automated decisions vary by state and country. Check local requirements and offer an accommodation route."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-interviewer/",
+        "label": "AI interviewer"
+      },
+      {
+        "href": "/explainers/ai-phone-screening/",
+        "label": "AI phone screening"
+      },
+      {
+        "href": "/explainers/ats-resume-and-ai-screening/",
+        "label": "ATS and AI resume screening"
+      },
+      {
+        "href": "/guide/bias-regulation-and-candidate-rights/",
+        "label": "Bias, regulation and candidate rights"
+      }
+    ]
   }
 ]

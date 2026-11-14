@@ -65,7 +65,9 @@
    "keyword": "deepfake and fraudulent candidates",
    "volume": null,
    "noon_target": "/learn/how-to-spot-a-fake-job-application",
-   "status": "queued"
+   "status": "published",
+   "slug": "deepfake-job-candidates",
+   "date": "2026-11-14"
   },
   {
    "id": "rai-008",
