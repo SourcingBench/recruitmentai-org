@@ -841,5 +841,52 @@
         "label": "Deepfake job candidates"
       }
     ]
-  }
+  },
+{
+  "slug": "ai-bias-in-hiring",
+  "title": "AI bias in hiring: where it comes from, what the research shows and how employers measure it",
+  "seoTitle": "AI Bias in Hiring Explained",
+  "description": "A plain English explainer on AI bias in hiring: how training data, proxies and language models create unequal outcomes, what 2024 audits of résumé screening models found, how the four fifths rule works and practical steps to reduce bias.",
+  "date": "2026-11-15",
+  "updated": "2026-11-15",
+  "minutes": 7,
+  "short": "AI bias in hiring is unequal treatment of candidates by screening, ranking or interview software because of a protected trait or a proxy for one. It usually comes from historical hiring data, proxy variables and associations inside language models. Employers detect it by comparing selection rates between groups, commonly with the four fifths rule, and reduce it with regular audits, job based rubrics and human review of rejections.",
+  "body": "<p>AI bias in hiring is what happens when a screening, ranking or interview tool treats candidates differently because of a protected trait such as race, sex, age or disability, or because of something that stands in for one. The software does not need to see a candidate's race to produce a racial gap. It only needs to learn from data where that gap already exists.</p><h2>Where the bias comes from</h2><p><b>Historical training data.</b> A model trained on past hiring decisions learns the preferences of past hiring managers, good and bad. The best known example is the experimental résumé tool Amazon abandoned after it learned to downgrade applications that mentioned women's organizations, as Reuters reported in 2018.</p><p><b>Proxies.</b> Postcodes, college names, gaps in employment, club memberships and even word choice can correlate with protected traits. Removing the name field rarely removes the signal.</p><p><b>Language models themselves.</b> General purpose models absorb associations from the text they are trained on, and those associations show up when the model is asked to compare candidates.</p><p><b>How the tool is used.</b> A cut off set too high, a knockout question that screens out people with caregiving gaps, or a video tool that struggles with some accents can all create unequal outcomes even when the underlying model is reasonable.</p><h2>What the research found</h2><p>Two peer reviewed studies from 2024 tested this directly. In <a href=\"https://arxiv.org/abs/2407.20371\" target=\"_blank\" rel=\"noopener\">an audit by Kyra Wilson and Aylin Caliskan</a>, presented at the AAAI/ACM Conference on AI, Ethics, and Society, researchers ran more than 500 public résumés against 500 job descriptions across nine occupations using text embedding models of the kind used for retrieval. The models favored résumés with White associated names in 85.1% of tests and résumés with female associated names in only 11.1%, and Black male names were disadvantaged in up to 100% of comparisons.</p><p>A separate <a href=\"https://arxiv.org/abs/2406.10486\" target=\"_blank\" rel=\"noopener\">ACL 2024 study by Haozhe An and colleagues</a> asked language models to write acceptance or rejection emails to applicants whose only difference was their first name. The models were more likely to accept White applicants than Hispanic applicants in many settings, but the pattern shifted from one prompt template to the next. That instability is the practical lesson: you cannot assume a model is fair because it was fair on one test.</p><h2>How employers measure it</h2><p>The standard first check in the United States is the four fifths rule from the federal Uniform Guidelines on Employee Selection Procedures. Divide each group's selection rate at a step by the rate of the group selected most often. A ratio below 0.8 is generally treated as evidence of adverse impact and a reason to look harder. If 50% of men pass an AI screen but only 35% of women do, the impact ratio is 0.70, which fails.</p><p>Impact ratios are a smoke alarm, not a verdict. Small samples make them noisy, and a passing ratio overall can hide a failing one for a subgroup, such as older women. Good audits look at each step separately, test intersectional groups, and repeat after every model or configuration change.</p><h2>The rules employers now face</h2><p>Existing anti discrimination law already applies to AI decisions: an employer is responsible for the outcome whether a person or a vendor's model made the call. On top of that, newer rules add specific duties, from New York City's annual bias audits for automated employment decision tools to Colorado's state law and the EU's treatment of recruitment AI as high risk. Our <a href=\"/guide/bias-regulation-and-candidate-rights/\">chapter on bias, regulation and candidate rights</a> summarizes them, and we cover the <a href=\"/explainers/colorado-ai-act-and-hiring/\">Colorado AI Act</a> and the <a href=\"/explainers/eu-ai-act-and-recruitment/\">EU AI Act</a> in their own explainers.</p><h2>Reducing bias in practice</h2><ul><li><b>Ask vendors for their audit.</b> Request the impact ratios by group, the date of the analysis, who ran it and what data it used.</li><li><b>Run your own numbers.</b> Your applicant pool differs from the vendor's test set, so compute selection rates on your own data at least once a quarter.</li><li><b>Score against the job, not the past.</b> Rubrics built from the skills a role needs are less prone to copying old patterns than models trained on who was hired before.</li><li><b>Keep humans on adverse decisions.</b> Let AI sort and summarize, and require a person to confirm every rejection after the first screen.</li><li><b>Give candidates a route out.</b> Offer an alternative process for anyone who needs an accommodation, and tell applicants when AI is used.</li></ul><h2>The bottom line</h2><p>AI can make hiring more consistent than tired humans reading the hundredth application, but consistency is not the same as fairness. Bias enters through data, proxies and configuration, and it changes when the model changes. Treat measurement as an ongoing job and keep a person accountable for the outcome.</p>",
+  "faq": [
+    {
+      "q": "What is AI bias in hiring?",
+      "a": "It is when AI recruiting software produces different outcomes for candidates based on race, sex, age, disability or another protected trait, directly or through proxies such as postcode or college."
+    },
+    {
+      "q": "Can removing names and photos stop AI hiring bias?",
+      "a": "It helps but rarely solves it, because other fields such as schools, addresses, employment gaps and phrasing can still correlate with protected traits."
+    },
+    {
+      "q": "What is the four fifths rule?",
+      "a": "A screening test from the US Uniform Guidelines on Employee Selection Procedures. If a group's selection rate is less than 80% of the rate for the most selected group, that is generally treated as evidence of adverse impact."
+    },
+    {
+      "q": "Is the employer or the vendor responsible for biased AI decisions?",
+      "a": "Under US anti discrimination law the employer remains responsible for its hiring outcomes, even when a vendor's tool made the recommendation. Contracts can share costs, but not the legal duty."
+    },
+    {
+      "q": "How often should AI hiring tools be audited?",
+      "a": "At least annually where the law requires it, and in practice after every model update or configuration change and on a regular schedule, such as quarterly, using your own applicant data."
+    }
+  ],
+  "related": [
+    {
+      "href": "/guide/bias-regulation-and-candidate-rights/",
+      "label": "Bias, regulation and candidate rights"
+    },
+    {
+      "href": "/explainers/ats-resume-and-ai-screening/",
+      "label": "ATS résumé parsing and AI screening"
+    },
+    {
+      "href": "/explainers/colorado-ai-act-and-hiring/",
+      "label": "Colorado AI Act and hiring"
+    }
+  ]
+}
 ]
