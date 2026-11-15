@@ -247,7 +247,9 @@
    "keyword": "ai and candidate experience",
    "volume": null,
    "noon_target": null,
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-and-candidate-experience",
+   "date": "2026-11-15"
   },
   {
    "id": "rai-028",
