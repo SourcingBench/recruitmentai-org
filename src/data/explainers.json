@@ -790,5 +790,56 @@
         "label": "Bias, regulation and candidate rights"
       }
     ]
+  },
+  {
+    "slug": "ai-and-candidate-experience",
+    "title": "AI and candidate experience: where automation helps applicants, and where it drives them away",
+    "seoTitle": "AI and Candidate Experience Explained (2026)",
+    "description": "A plain English explainer on AI and candidate experience in 2026: what the Greenhouse candidate survey found about silent rejections and AI interviews, where chatbots, schedulers and screeners help or hurt, and practical rules for keeping applicants' trust.",
+    "date": "2026-11-15",
+    "updated": "2026-11-15",
+    "minutes": 6,
+    "short": "AI affects candidate experience at every step, from careers page chatbots to screening models and AI interviews. It helps when it speeds up scheduling, answers questions and gives every applicant a structured first conversation. It hurts when it rejects people silently or decides without human review. Transparency, status updates and a human owner for each decision keep candidates' trust.",
+    "body": "<p>Does AI make applying for a job better or worse for the person on the other side? The honest answer in 2026 is both, depending on where in the process it sits. Candidate experience is the sum of everything an applicant sees, hears and waits for between finding a job ad and getting an answer. AI now touches almost every one of those moments, from the chatbot on the careers page to the screening model that ranks the application and the voice interviewer that asks the first questions.</p><h2>What candidates say right now</h2><p>The clearest recent data comes from the <a href=\"https://www.greenhouse.com/newsroom/6-in-10-job-seekers-are-rethinking-how-they-write-to-avoid-sounding-like-ai-even-as-most-use-it-in-their-search\" target=\"_blank\" rel=\"noopener\">2026 Greenhouse Future of Hiring Candidate Report</a>, which surveyed more than 2,800 job seekers in five countries, including 1,200 in the United States. Among the U.S. respondents, 81% had been rejected from a job in the past year without speaking to anyone at the company, human or AI, and 31% said it happens often or almost always. That silence is the biggest candidate experience problem, and it predates AI.</p><p>Candidates are using AI too. The same survey found 77% of U.S. job seekers used AI in their search, while 60% had changed or considered changing how they write so their applications would not be mistaken for AI generated text. And 62% had tried tactics to get past automated screening, including 40% who added skills or keywords they do not have. Both sides are now optimizing for machines, which makes the application itself less useful as a signal.</p><h2>Where AI improves the experience</h2><p>The strongest case for AI is speed and response. A scheduling assistant that offers interview slots within minutes removes days of email back and forth. A chatbot that answers questions about pay, location or visa sponsorship at midnight saves the candidate a guess. And automated status updates can end the black hole problem, if a team chooses to send them.</p><p>AI interviews are a more surprising bright spot. Greenhouse found that 48% of U.S. candidates had taken an AI interview in the past year and 70% of them said it let them show their skills well. Only 7% said they would refuse an AI led interview outright. A structured first conversation available at any hour gives every applicant a chance to be heard, which is more than a résumé filter offers. Our <a href=\"/explainers/ai-interviewer/\">AI interviewer explainer</a> covers how these tools score answers.</p><h2>Where it makes things worse</h2><p>The damage shows up when AI is used to reject quickly without explanation. Automated screens that drop applicants on keywords encourage keyword stuffing, punish career changers whose experience is described differently and leave people with no idea why they lost. Our explainer on <a href=\"/explainers/ats-resume-and-ai-screening/\">résumé parsing and AI screening</a> walks through how those filters read an application.</p><p>Trust is the other weak point. In <a href=\"https://www.pewresearch.org/internet/2023/04/20/ai-in-hiring-and-evaluating-workers-what-americans-think/\" target=\"_blank\" rel=\"noopener\">Pew Research Center's 2023 survey</a>, Americans opposed AI making final hiring decisions by 71% to 7%, even though 47% thought AI would do better than people at evaluating every applicant the same way. Candidates accept AI as a helper. They do not accept it as the judge.</p><h2>Practices that keep candidates on side</h2><ul><li><b>Tell people when AI is involved.</b> Say in the posting and the invitation which steps use AI and what it evaluates.</li><li><b>Keep a person on every rejection after an interview.</b> AI can draft the message; a recruiter should own the decision.</li><li><b>Send a status update at every stage.</b> Automation makes this nearly free, so silence is a choice.</li><li><b>Offer an alternative.</b> Give candidates who need an accommodation a route to a human interviewer.</li><li><b>Audit outcomes.</b> Compare pass rates across groups at each AI step, as the rules in our <a href=\"/guide/bias-regulation-and-candidate-rights/\">candidate rights chapter</a> increasingly require.</li></ul><h2>The bottom line</h2><p>AI improves candidate experience when it adds speed, answers and a fair first conversation, and it harms it when it becomes a silent filter. The teams that come out ahead use automation to respond to every applicant and keep people accountable for the decisions that matter.</p>",
+    "faq": [
+      {
+        "q": "How does AI affect candidate experience?",
+        "a": "It can shorten waits, answer questions instantly and give every applicant a structured interview, but it can also reject people without explanation. The effect depends on whether teams use it to respond to candidates or only to filter them."
+      },
+      {
+        "q": "Do candidates like AI interviews?",
+        "a": "Many accept them. In Greenhouse's 2026 survey, 70% of U.S. candidates who took an AI interview said it let them demonstrate their skills well, and only 7% said they would refuse one outright."
+      },
+      {
+        "q": "Should employers tell candidates they use AI?",
+        "a": "Yes. Disclosure builds trust, and a growing number of laws require notice when automated tools are used to evaluate applicants."
+      },
+      {
+        "q": "What is the biggest candidate experience problem in 2026?",
+        "a": "Silence. Greenhouse found 81% of U.S. job seekers had been rejected in the past year without speaking to anyone at the company."
+      },
+      {
+        "q": "Can AI make final hiring decisions?",
+        "a": "It can be configured to, but most candidates oppose it and regulators increasingly expect human review. Use AI to inform decisions, not to make them."
+      },
+      {
+        "q": "Which AI tools improve candidate experience fastest?",
+        "a": "Interview scheduling assistants and careers page chatbots usually show results first, because they cut waiting time without changing who gets hired."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-interviewer/",
+        "label": "AI interviewers"
+      },
+      {
+        "href": "/explainers/ai-interview-scheduling/",
+        "label": "AI interview scheduling"
+      },
+      {
+        "href": "/explainers/deepfake-job-candidates/",
+        "label": "Deepfake job candidates"
+      }
+    ]
   }
 ]
