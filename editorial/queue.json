@@ -267,7 +267,9 @@
    "keyword": "ai screening for hourly jobs",
    "volume": null,
    "noon_target": "/product/inbound-screening",
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-screening-for-hourly-jobs",
+   "date": "2026-11-16"
   },
   {
    "id": "rai-030",
