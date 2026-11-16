@@ -888,5 +888,52 @@
       "label": "Colorado AI Act and hiring"
     }
   ]
-}
+},
+  {
+    "slug": "nyc-local-law-144-bias-audits",
+    "title": "NYC Local Law 144 bias audits: what the law requires, how impact ratios work and why enforcement lags",
+    "seoTitle": "NYC Local Law 144 Bias Audits Explained",
+    "description": "A plain English explainer on NYC Local Law 144: which hiring tools need a bias audit, how selection rates and impact ratios are calculated, what must be posted and disclosed, and what the 2025 state audit found about enforcement.",
+    "date": "2026-11-16",
+    "updated": "2026-11-16",
+    "minutes": 7,
+    "short": "NYC Local Law 144 requires employers using an automated employment decision tool on New York City candidates to have it bias audited every year, post a summary of the results and give 10 business days notice. The audit reports selection or scoring rates and impact ratios by sex, race or ethnicity and their intersections.",
+    "body": "<p>New York City Local Law 144 bars employers and employment agencies from using an automated employment decision tool, or AEDT, on candidates or employees in the city unless the tool has had a bias audit in the past year, a summary of that audit is public, and people are told in advance that the tool will be used. The audit is a numbers exercise: it compares how often the tool selects or scores highly people of each sex, each race or ethnicity, and each intersection of the two.</p><h2>What counts as an automated employment decision tool?</h2><p>The law covers software derived from machine learning, statistical modelling, data analytics or AI that produces a score, classification or recommendation used to substantially assist or replace discretionary decisions about hiring or promotion. A résumé ranker that decides who a recruiter reads first can qualify. A tool that only schedules interviews or stores applications usually does not, because it is not making the judgment. The test is how the output is used, so the same product can be in scope at one employer and outside it at another. For background on how screening software scores applicants, see our explainer on <a href=\"/explainers/ats-resume-and-ai-screening/\">ATS résumé parsing and AI screening</a>.</p><h2>Who has to commission the audit?</h2><p>The employer or employment agency using the tool carries the duty, not the vendor. In practice many vendors pay for an audit of their model and share it with customers, and the city's rules allow an employer to rely on an audit that uses historical data from several employers. The audit must be done by an independent auditor, meaning a person or firm with no financial interest in the vendor or the employer and no role in building or using the tool.</p><h2>How is the impact ratio calculated?</h2><p>For a tool that selects people, the auditor computes a selection rate for each category: the share of candidates in that category the tool moved forward. Each rate is then divided by the rate of the most selected category. For a tool that scores people, the auditor uses a scoring rate, the share of each category scoring above the sample median, and divides in the same way.</p><table><thead><tr><th>Category</th><th>Applicants</th><th>Advanced by the tool</th><th>Selection rate</th><th>Impact ratio</th></tr></thead><tbody><tr><td>Category A</td><td>400</td><td>120</td><td>30%</td><td>1.00</td></tr><tr><td>Category B</td><td>250</td><td>60</td><td>24%</td><td>0.80</td></tr><tr><td>Category C</td><td>150</td><td>27</td><td>18%</td><td>0.60</td></tr></tbody></table><p>In this illustrative example, Category C advances at 60% of the rate of Category A. Local Law 144 does not set a pass mark and does not ban a tool with a low ratio; it requires the number to be calculated and published. The federal four fifths guideline, covered in our <a href=\"/explainers/ai-bias-in-hiring/\">AI bias in hiring</a> explainer, is where the 0.80 line many employers use comes from. Categories with very small samples may be left out of the calculation, but the audit has to say so and give their counts.</p><h2>What has to be published and disclosed?</h2><p>A summary of the most recent audit, including the date it was done, the source of the data and the impact ratios, must be posted on the employment section of the employer's website along with the date the tool was first used. Candidates and employees who live in the city must receive notice at least 10 business days before the tool is used, along with the job qualifications and characteristics the tool will assess, and information on how to request an alternative process or accommodation if one is offered. Audits expire after one year, so an annual calendar reminder is the simplest control.</p><h2>How is the law enforced, and how well?</h2><p>The city's Department of Consumer and Worker Protection enforces the law, which was enacted in 2021, took effect on 1 January 2023 and has been enforced since 5 July 2023. Civil penalties start at $500 for a first violation and rise to as much as $1,500 for later ones, with each day of use and each missed notice counted separately.</p><p>Enforcement has been light. A <a href=\"https://www.osc.ny.gov/state-agencies/audits/2025/12/02/enforcement-local-law-144-automated-employment-decision-tools\">December 2025 audit by the New York State Comptroller</a>, covering July 2023 to June 2025, found the department received only two complaints about automated hiring tools in that period. Of 12 test calls the auditors placed to the city's 311 line, 9 were not routed correctly. The department reviewed 32 companies and found one likely violation; the state auditors looked at the same companies and found at least 17 instances of potential non compliance. The Comptroller made 13 recommendations, and according to a <a href=\"https://blog.dciconsult.com/recommended-changes-to-local-law-144\">February 2026 summary by DCI Consulting</a>, the department agreed to adopt most of them.</p><p>Researchers found the same gap from the employer side. A Cornell led study presented at the ACM FAccT conference in 2024, titled \"Null Compliance,\" examined 391 employers and found just 18 posted bias audits and 13 posted transparency notices. Because the law lets employers decide for themselves whether their tool is in scope, most simply did not publish anything.</p><h2>What should an employer do in 2026?</h2><p>Inventory every tool that scores, ranks or filters candidates, including AI features switched on inside an existing ATS. For each one, record how its output is used and decide in writing whether it substantially assists the decision. For tools in scope, get the current audit and its date, confirm the posted summary matches it, and check that notices go out on time. With the state auditors pushing for proactive enforcement, a documented scoping decision is the cheapest defense you can have.</p><p>New York City is no longer the only rulebook. Employers hiring in several states should read Local Law 144 alongside the <a href=\"/explainers/colorado-ai-act-and-hiring/\">Colorado AI Act</a> and the <a href=\"/explainers/eu-ai-act-and-recruitment/\">EU AI Act</a>, and our guide chapter on <a href=\"/guide/bias-regulation-and-candidate-rights/\">bias, regulation and candidate rights</a> compares them.</p>",
+    "faq": [
+      {
+        "q": "Does Local Law 144 apply to employers outside New York City?",
+        "a": "It applies when the tool is used to assess candidates or employees for jobs located in New York City, or for remote roles tied to a city office, so an employer headquartered elsewhere can still be covered."
+      },
+      {
+        "q": "Does a bias audit have to show the tool is fair?",
+        "a": "No. The law requires the impact ratios to be calculated and published, not to meet a threshold. Federal anti discrimination law still applies to the outcomes, so a low ratio is a legal risk even if the audit is filed."
+      },
+      {
+        "q": "How often is a bias audit required?",
+        "a": "Every year. An employer can rely on an audit for one year from the date it was done, so the summary must be refreshed annually for as long as the tool is in use."
+      },
+      {
+        "q": "Can the software vendor do the audit?",
+        "a": "No. The vendor can pay for it, but the auditor must have no financial interest in the vendor or employer and no involvement in developing or using the tool."
+      },
+      {
+        "q": "What are the penalties for violating Local Law 144?",
+        "a": "$500 for a first violation and up to $1,500 for each later one, with each day a tool is used without an audit and each missed notice treated as a separate violation."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-bias-in-hiring/",
+        "label": "AI bias in hiring"
+      },
+      {
+        "href": "/explainers/colorado-ai-act-and-hiring/",
+        "label": "Colorado AI Act and hiring"
+      },
+      {
+        "href": "/guide/bias-regulation-and-candidate-rights/",
+        "label": "Bias, regulation and candidate rights"
+      }
+    ]
+  }
 ]
