@@ -279,6 +279,24 @@
    "keyword": "ai and linkedin inmail",
    "volume": null,
    "noon_target": "/learn/what-is-linkedin-inmail",
+   "status": "published",
+   "slug": "ai-and-linkedin-inmail",
+   "date": "2026-11-17"
+  },
+  {
+   "id": "rai-031",
+   "family": "ai-explainer",
+   "keyword": "ai background checks",
+   "volume": 170,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-032",
+   "family": "ai-explainer",
+   "keyword": "ai interview cheating",
+   "volume": 70,
+   "noon_target": null,
    "status": "queued"
   }
  ]

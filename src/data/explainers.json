@@ -1021,5 +1021,44 @@
         "label": "The EU AI Act and recruitment"
       }
     ]
+  },
+  {
+    "slug": "ai-and-linkedin-inmail",
+    "title": "AI and LinkedIn InMail: what is allowed, what works and what gets accounts restricted",
+    "seoTitle": "AI and LinkedIn InMail Explained",
+    "description": "How AI is used with LinkedIn InMail in 2026: LinkedIn's Hiring Assistant, AI drafting you send by hand, and why automated sending tools break LinkedIn's User Agreement.",
+    "date": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 5,
+    "short": "AI and LinkedIn InMail means using artificial intelligence to choose who to message and to write the message. LinkedIn's own Hiring Assistant and AI drafts you send by hand are within the rules; tools that automate sending on your account are not, because LinkedIn's User Agreement bans bots and unauthorized automated messaging.",
+    "body": "<p>A recruiter opens LinkedIn Recruiter on Monday with forty passive candidates saved for a backend role and a monthly InMail allowance that will not cover them all. Artificial intelligence now shows up in three places in that workflow: inside LinkedIn's own products, in general purpose writing assistants the recruiter pastes from, and in third party tools that promise to send messages for you. Only the first two fit inside LinkedIn's rules, and that distinction decides which AI is worth paying for.</p><h2>What InMail is, in one paragraph</h2><p>InMail is LinkedIn's paid message to members outside your network. Recruiter, Sales Navigator and Premium plans come with a monthly allotment of credits, each message to a non connection spends one, and LinkedIn returns the credit when the person replies within 90 days. A good primer on <a href=\"https://noon.ai/learn/what-is-linkedin-inmail\" target=\"_blank\" rel=\"noopener\">how InMail credits and refunds work</a> covers the mechanics; the point for AI is simple. Because unanswered messages cost money, anything that raises reply rates pays for itself, and anything that sends more low quality messages wastes credits.</p><h2>AI inside LinkedIn's own products</h2><p>LinkedIn now sells its flagship recruiting seat as <a href=\"https://business.linkedin.com/hire/recruiter\" target=\"_blank\" rel=\"noopener\">LinkedIn Recruiter plus Hiring Assistant</a> and describes it as agentic AI built on its member network. The <a href=\"https://business.linkedin.com/hire/hiring-assistant\" target=\"_blank\" rel=\"noopener\">Hiring Assistant 2 page</a> splits the work into intake, sourcing, applicant evaluation, and prescreening and outreach, and says the assistant asks questions to build a sourcing strategy for the role rather than relying on keywords and filters alone. In practice that means AI that drafts and personalizes InMail from the candidate's profile, suggests who to contact next and handles parts of the follow up, all inside the product that owns the credits.</p><p>The advantage is compliance and context: the model sees the same profile data you do and works under LinkedIn's terms. The cost is that it is sold as an add on, so it raises the price of a seat that is already the most expensive line in many recruiting budgets.</p><h2>AI writing assistants you copy from</h2><p>Many recruiters draft InMail in a general chatbot, then paste the result into LinkedIn and send it by hand. That is allowed, because a person is still sending each message. It works best when you feed the model specifics the candidate will recognize, such as a project, a stack or a career move, and ask for something short. It works worst when the prompt is just a job title, which produces the polite, interchangeable notes candidates already ignore.</p><ul><li>Give the model two facts from the profile and one honest reason the role fits.</li><li>Ask for under 100 words and one clear question.</li><li>Read every draft before sending; a wrong detail is worse than no detail.</li></ul><h2>Third party tools that automate sending</h2><p>This is where the risk sits. LinkedIn's <a href=\"https://www.linkedin.com/legal/user-agreement\" target=\"_blank\" rel=\"noopener\">User Agreement</a> says members may not use bots or other unauthorized automated methods to access the services, add or download contacts, or send or redirect messages, and it separately bans software, scripts, crawlers and browser plugins that scrape profiles. A browser extension that clicks send on hundreds of InMails is exactly what those clauses describe, and the account that gets restricted is the recruiter's, not the vendor's.</p><p>Teams that want automation at scale usually move it off LinkedIn instead: they find the candidate's email address or phone number and run sequences through their own email and texting tools, where they control sending limits and opt outs. Our explainer on <a href=\"/explainers/ai-recruiting-assistant/\">AI recruiting assistants</a> covers that category, and <a href=\"/explainers/ai-and-candidate-experience/\">AI and candidate experience</a> covers how candidates react to automated messages on any channel.</p><h2>How to judge an AI InMail feature</h2><table><thead><tr><th>Question</th><th>Good answer</th><th>Red flag</th></tr></thead><tbody><tr><td>Who presses send?</td><td>You, or LinkedIn's own product</td><td>An extension acting on your session</td></tr><tr><td>What does the draft use?</td><td>Specific profile details and the role</td><td>Only the job title</td></tr><tr><td>How is success measured?</td><td>Replies and credit refunds per message</td><td>Messages sent per day</td></tr><tr><td>What happens to credits?</td><td>Fewer, better targeted InMails</td><td>The allowance runs out mid month</td></tr></tbody></table><p>The honest summary: AI makes InMail better when it helps you write fewer, sharper messages, and it makes things worse when it is used to send more of them. Use LinkedIn's own assistant if the budget allows, use a writing assistant with care if it does not, and treat any tool that automates sending on your account as a liability. For how recruiters are using these tools more broadly, see <a href=\"/explainers/ai-recruitment-statistics/\">AI recruitment statistics</a>.</p>",
+    "faq": [
+      {
+        "q": "Can I use ChatGPT or another chatbot to write LinkedIn InMail?",
+        "a": "Yes, as long as you review the draft and send it yourself. The restriction in LinkedIn's User Agreement is on bots and unauthorized automated methods that send messages, not on where the words came from."
+      },
+      {
+        "q": "Does LinkedIn have its own AI for InMail?",
+        "a": "LinkedIn sells Hiring Assistant as an add on to LinkedIn Recruiter. Its product page describes help with intake, sourcing, applicant evaluation, prescreening and outreach."
+      },
+      {
+        "q": "Is it safe to use a browser extension that sends InMail automatically?",
+        "a": "It is risky. LinkedIn's User Agreement prohibits software, scripts and browser plugins that scrape the service and bans bots that send messages, so the recruiter's account can be restricted."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-recruiting-assistant/",
+        "label": "AI recruiting assistants"
+      },
+      {
+        "href": "/explainers/ai-and-candidate-experience/",
+        "label": "AI and candidate experience"
+      },
+      {
+        "href": "/explainers/agentic-ai-vs-generative-ai-in-recruiting/",
+        "label": "Agentic AI vs generative AI in recruiting"
+      }
+    ]
   }
 ]
