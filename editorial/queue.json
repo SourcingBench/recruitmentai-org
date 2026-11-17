@@ -229,7 +229,9 @@
    "keyword": "ai in applicant tracking systems",
    "volume": 110,
    "noon_target": "/product/ats-search",
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-in-applicant-tracking-systems",
+   "date": "2026-11-17"
   },
   {
    "id": "rai-026",

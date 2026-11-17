@@ -978,5 +978,48 @@
         "label": "AI and candidate experience"
       }
     ]
+  },
+  {
+    "slug": "ai-in-applicant-tracking-systems",
+    "title": "AI in applicant tracking systems: the four jobs it does and how to judge each one",
+    "seoTitle": "AI in Applicant Tracking Systems Explained (2026)",
+    "description": "How AI works inside applicant tracking systems in 2026: drafting, matching and ranking, conversation and verification features from Greenhouse, iCIMS, Lever, SmartRecruiters, Ashby and Workable, where the legal risk sits and a five step way to evaluate them.",
+    "date": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 6,
+    "short": "AI in an applicant tracking system means features built into the ATS that draft job content, match and rank applicants, hold conversations with candidates and verify that applicants are real. Ranking and screening features carry the most legal and fairness risk, so they need explanations, human review and your own before and after measurement.",
+    "body": "<p>The short verdict: AI inside an applicant tracking system is now standard, but it does four different jobs, and a vendor that is strong at one is often average at the rest. Most of the big ATS vendors now ship some mix of drafting, matching and ranking, conversation and verification features. Knowing which of the four you are buying is the difference between a feature that saves recruiters hours and one that nobody turns on after the demo.</p><h2>What AI does inside an ATS today</h2><p><b>Drafting.</b> The oldest use is writing: job descriptions, rejection emails and interview questions. iCIMS lists job description optimization and career site translation among its AI features, and Lever shows AI generated rejection emails alongside its screening tools. Our explainer on the <a href=\"/explainers/ai-job-description-generator/\">AI job description generator</a> covers this layer in depth.</p><p><b>Matching and ranking.</b> This is where the stakes rise. iCIMS describes AI search and match and ranking candidates based on skills and experience. Lever shows fit scores with a written justification for each applicant. SmartRecruiters offers Winston Screen with AI driven shortlisting. Greenhouse adds talent rediscovery tools that surface qualified people already in the database and reduce duplicate applications. Some tools go further than the ATS vendors themselves: <a href=\"https://noon.ai/product/ats-search\" target=\"_blank\" rel=\"noopener\">searching the candidates already stored in your ATS</a> with the same criteria used for outbound sourcing is a separate product category that plugs into the system of record.</p><p><b>Conversation and coordination.</b> Chat and voice assistants answer applicant questions, collect missing details and book interviews. SmartRecruiters says Winston Chat generates answers from your career site and knowledge base rather than a fixed script, and Greenhouse Voice AI runs a first two way voice interview on the candidate's schedule. Greenhouse Notetaker records and transcribes interviews and maps AI generated notes to scorecard questions.</p><p><b>Verification.</b> The newest layer checks whether applicants are who they say they are. Greenhouse Real Talent flags suspicious applications using signals such as phone number, email, IP address and location, and lets teams block repeat spam by IP or email domain. With fake candidates on the rise, this is quickly moving from add on to requirement; see our explainer on <a href=\"/explainers/deepfake-job-candidates/\">deepfake job candidates</a>.</p><h2>From features to agents</h2><p>The vocabulary shifted in 2026 from AI features to agents. Workable now markets the Workable Agent as running the top of the funnel, sourcing, screening and qualifying every candidate. iCIMS introduced agents for sourcing, matching, engagement and coordination, including a hiring agent for Microsoft Teams. Workday has folded its AI under Sana, which it says builds, orchestrates and manages agents across HR, finance and IT. The difference from a feature is that an agent takes a sequence of steps on its own, which makes the review and audit controls more important, not less.</p><h2>Where the risk sits</h2><p>Drafting and scheduling carry little legal risk. Ranking and screening are different, because they influence who gets an interview. In New York City, a tool that substantially assists a hiring decision can trigger the bias audit and notice rules explained in our <a href=\"/explainers/nyc-local-law-144-bias-audits/\">Local Law 144 explainer</a>, and similar rules are spreading. Vendors are responding with principles: Greenhouse says its AI can inform, summarize and surface insights but the decision stays with the employer, Ashby says its AI features can be reviewed, adjusted and switched on or off, and iCIMS points to a TRUSTe Responsible AI certification.</p><p>Those statements are a starting point, not a substitute for your own testing. A ranking model can reproduce patterns in your past hiring, as our explainer on <a href=\"/explainers/ai-bias-in-hiring/\">AI bias in hiring</a> describes, and a vendor's audit does not cover how you configure it.</p><h2>How to evaluate AI in your ATS</h2><ol><li><b>List the job each feature does.</b> Sort the vendor's AI into drafting, ranking, conversation and verification, and decide which ones you will actually use.</li><li><b>Ask what the model sees.</b> Find out which fields feed a match score, whether it uses resume text only or also interview feedback, and whether you can exclude fields.</li><li><b>Check for explanations.</b> A score without a reason cannot be defended to a hiring manager or a regulator. Prefer tools that show why a candidate ranked where they did.</li><li><b>Keep a human step.</b> Make sure no candidate is rejected solely by a model, and log who made each decision.</li><li><b>Measure before and after.</b> Track time to first review, interview rates by group and candidate drop off for a month before switching a feature on, then compare. Vendor case studies, such as SmartRecruiters citing Frasers Group cutting time to hire from 23 to 9 days, show what is possible, not what you will get.</li></ol><p>The ATS is still the system of record. The AI on top of it is only as useful as the data underneath and the rules you set for it, so clean, consistent stage and disposition data is the first investment to make.</p>",
+    "faq": [
+      {
+        "q": "Do applicant tracking systems use AI to reject candidates?",
+        "a": "Many now rank or score applicants, and some screening features can end an application when a knockout question fails. Vendors such as Greenhouse say the hiring decision stays with the employer, and good practice is to keep a human review before any rejection."
+      },
+      {
+        "q": "Which ATS has the best AI?",
+        "a": "It depends on the job you need done. Greenhouse is strong on interview notes and fraud detection, iCIMS and SmartRecruiters on matching and candidate conversation, and Lever on explained fit scores. Compare the features you will actually switch on."
+      },
+      {
+        "q": "Is AI ranking in an ATS legal?",
+        "a": "Generally yes, but rules apply in some places. New York City's Local Law 144 requires bias audits and notices for automated employment decision tools, and the EU AI Act treats recruitment AI as high risk."
+      },
+      {
+        "q": "What is the difference between an AI feature and an AI agent in an ATS?",
+        "a": "A feature does one task when asked, such as drafting an email. An agent carries out a sequence of steps, such as sourcing, screening and scheduling, with less prompting, so it needs stronger logging and review."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ats-resume-and-ai-screening/",
+        "label": "ATS resume and AI screening"
+      },
+      {
+        "href": "/explainers/agentic-ai-vs-generative-ai-in-recruiting/",
+        "label": "Agentic AI vs generative AI in recruiting"
+      },
+      {
+        "href": "/explainers/eu-ai-act-and-recruitment/",
+        "label": "The EU AI Act and recruitment"
+      }
+    ]
   }
 ]
