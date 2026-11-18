@@ -1060,5 +1060,52 @@
         "label": "Agentic AI vs generative AI in recruiting"
       }
     ]
+  },
+  {
+    "slug": "ai-background-checks",
+    "title": "AI background checks: what the software does, what the law still requires and what to ask vendors",
+    "seoTitle": "AI Background Checks Explained (2026)",
+    "description": "How AI is used in employment background checks in 2026: identity verification, record matching and automated adjudication, plus the FCRA and fair chance steps that still need a person.",
+    "date": "2026-11-18",
+    "updated": "2026-11-18",
+    "minutes": 6,
+    "short": "An AI background check is a standard employment screening report in which software reads, matches and sorts records and applies the employer's written criteria. It speeds up routine reports, but the FCRA disclosure, authorization and adverse action steps, and any individualized review required by fair chance laws, still sit with the employer.",
+    "body": "<p>What exactly is the AI doing when a background check vendor says its screening is AI powered? In most products it is not deciding whether to hire anyone. It is reading messy court records, matching them to the right person, translating charge language and sorting results against rules the employer wrote. Knowing which of those jobs the software does, and which still belong to a person, is the difference between a faster check and a compliance problem.</p><h2>What an AI background check is</h2><p>An AI background check is a conventional employment screening report (criminal records, identity, employment and education verification, driving records) in which machine learning or language models handle parts of the collection, matching and review. Checkr, for example, describes its <a href='https://checkr.com/our-technology/ai-powered' target='_blank' rel='noopener'>Checkr AI</a> as decoding messy record data so that decisions can be defended. The legal framework does not change because software is involved: in the US the report is still a consumer report under the Fair Credit Reporting Act, and the employer still needs a permissible purpose, a clear disclosure and the candidate's written authorization, as Checkr's compliance team explains in its guide to <a href='https://checkr.com/blog/your-fcra-permissible-purpose' target='_blank' rel='noopener'>FCRA permissible purpose</a>.</p><h2>Where the AI sits in the process</h2><table><thead><tr><th>Step</th><th>What AI typically does</th><th>Who decides</th></tr></thead><tbody><tr><td>Identity</td><td>Compares ID documents and selfies, flags mismatches</td><td>Vendor rules, with human review of failures</td></tr><tr><td>Record search</td><td>Reads court data, normalizes names, dates and charge text</td><td>Vendor, under its accuracy procedures</td></tr><tr><td>Matching</td><td>Scores whether a record belongs to this candidate</td><td>Vendor, with manual checks on weak matches</td></tr><tr><td>Classification</td><td>Maps charges to categories such as violent, theft or traffic</td><td>Vendor model; employer can review</td></tr><tr><td>Adjudication</td><td>Applies the employer's written criteria and routes results</td><td>Employer</td></tr><tr><td>Adverse action</td><td>Sends notices on schedule</td><td>Employer, after individual review</td></tr></tbody></table><p>Identity is where AI has grown fastest, largely because of fraud. Certn says its <a href='https://certn.co/criminal-record-checks/' target='_blank' rel='noopener'>identity verification</a> checks candidates biometrically against more than 13,500 identity document types. That matters as remote hiring makes impersonation easier; our explainer on <a href='/explainers/deepfake-job-candidates/'>deepfake job candidates</a> covers the interview side of the same problem.</p><h2>Adjudication: the part to watch</h2><p>Adjudication means deciding what a record means for a particular job. Vendors increasingly automate it. Checkr's <a href='https://checkr.com/products/adjudication' target='_blank' rel='noopener'>adjudication product</a> is pitched at teams dealing with dated records, confusing charge language and changing rules, and its <a href='https://checkr.com/products/assess' target='_blank' rel='noopener'>Assess</a> tool says customers can spend as little as one hour per week on adjudication by letting software sort results against their criteria.</p><p>Automation here is useful when it clears the large majority of reports that contain nothing relevant, and when it applies a written policy the same way every time. It becomes risky when the rules themselves are too broad, such as excluding every conviction regardless of age or relevance, because software then applies a bad policy at scale. Fair chance laws make this concrete: the National Employment Law Project counts <a href='https://www.nelp.org/explore-the-issues/workers-with-records/' target='_blank' rel='noopener'>37 states and roughly 200 localities</a> with fair chance hiring policies, many of which require an individualized look at the offense, the time since it happened and the job.</p><h2>The steps software cannot skip</h2><p>If a report could lead you to reject a candidate, the FCRA process still runs on a human timeline. Checkr's <a href='https://checkr.com/resources/articles/is-your-organization-following-adverse-action' target='_blank' rel='noopener'>adverse action guide</a> lists it: send a pre adverse action notice with a copy of the report, wait a reasonable period so the candidate can dispute errors or provide context, then send the final notice if you proceed. An AI system can draft and time these notices. It cannot replace the review that happens between them, and a candidate's explanation of a record is exactly the kind of context a model will not have.</p><p>Accuracy obligations also stay with the screening company. When a model matches a record to the wrong person with a similar name, the candidate's dispute right is the safeguard, so make sure your vendor's dispute process is fast and that your team pauses the decision while it runs.</p><h2>Questions to ask a vendor</h2><ul><li>Which steps use machine learning, and which use fixed rules?</li><li>How does the system decide that a record belongs to this candidate, and what happens on a weak match?</li><li>Can we see and edit the adjudication criteria, and are changes logged?</li><li>What share of reports are reviewed by a person before results reach us?</li><li>Has the vendor tested outcomes for disparities by race, sex or age? Our <a href='/explainers/ai-bias-in-hiring/'>guide to AI bias in hiring</a> explains what such testing looks like.</li><li>How are candidate disputes handled, and how long do they take?</li></ul><p>Some local rules on automated hiring tools may also apply, depending on how the product is used and where you hire. The <a href='/explainers/nyc-local-law-144-bias-audits/'>NYC Local Law 144 explainer</a> and our summary of the <a href='/explainers/colorado-ai-act-and-hiring/'>Colorado AI Act</a> are good starting points for that conversation with counsel.</p><h2>Bottom line</h2><p>AI makes background checks faster mostly by cleaning up data and clearing routine reports. The judgment calls, the fairness of your criteria and the adverse action steps remain the employer's job, and the best vendors design their products around that line rather than blurring it.</p>",
+    "faq": [
+      {
+        "q": "Are AI background checks legal?",
+        "a": "Yes. Using software to collect and sort records does not change the rules. The report is still a consumer report under the FCRA, so disclosure, written authorization and the adverse action process all apply."
+      },
+      {
+        "q": "Can an AI reject a candidate based on a background check?",
+        "a": "Software can flag or route a report, but before rejecting someone the employer must send a pre adverse action notice with the report, give the candidate time to respond and then send a final notice. Many fair chance laws also require an individual assessment."
+      },
+      {
+        "q": "How does AI help with identity fraud in hiring?",
+        "a": "Identity tools compare government ID documents with a live selfie and check document security features. Certn, for example, says it verifies against more than 13,500 identity document types."
+      },
+      {
+        "q": "What is adjudication in a background check?",
+        "a": "Adjudication is the review of a report against the employer's written criteria to decide whether a record is relevant to the job. Vendors such as Checkr offer tools that automate the routine part of this review."
+      },
+      {
+        "q": "Do AI background checks reduce bias?",
+        "a": "They can make decisions more consistent, but only if the criteria are fair. Automated rules that exclude broad categories of records apply that exclusion to every candidate, so test outcomes and review the policy regularly."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/deepfake-job-candidates/",
+        "label": "Deepfake job candidates"
+      },
+      {
+        "href": "/explainers/ai-bias-in-hiring/",
+        "label": "AI bias in hiring"
+      },
+      {
+        "href": "/explainers/nyc-local-law-144-bias-audits/",
+        "label": "NYC Local Law 144 bias audits"
+      }
+    ]
   }
 ]
