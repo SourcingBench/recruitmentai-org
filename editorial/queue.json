@@ -157,7 +157,9 @@
    "keyword": "ai job description generator",
    "volume": 320,
    "noon_target": null,
-   "status": "published", "slug": "ai-job-description-generator", "date": "2026-11-11"
+   "status": "published",
+   "slug": "ai-job-description-generator",
+   "date": "2026-11-11"
   },
   {
    "id": "rai-018",
@@ -203,7 +205,7 @@
    "keyword": "recruiting chatbots",
    "volume": 140,
    "noon_target": "/product/inbound-screening",
-   "status": "queued"
+   "status": "published", "slug": "recruiting-chatbots", "date": "2026-11-18"
   },
   {
    "id": "rai-023",

@@ -1107,5 +1107,48 @@
         "label": "NYC Local Law 144 bias audits"
       }
     ]
+  },
+  {
+    "slug": "recruiting-chatbots",
+    "title": "Recruiting chatbots: what they do, where they help and what to check before you buy",
+    "seoTitle": "Recruiting Chatbots Explained",
+    "description": "What recruiting chatbots do in 2026: FAQs, chat to apply, knockout screening and interview scheduling, the difference between scripted and generative bots, legal and fairness checks and a buyer checklist.",
+    "date": "2026-11-18",
+    "updated": "2026-11-18",
+    "minutes": 6,
+    "short": "A recruiting chatbot is software that talks with job seekers by text to answer questions, take applications, ask screening questions and book interviews. It works best for high volume hourly hiring and needs clear rules, human hand off and outcome audits.",
+    "body": "<p>Short version: a recruiting chatbot is software that holds a text conversation with job seekers so a recruiter does not have to. It answers questions, collects an application, asks knockout questions and books interviews, usually over SMS, a careers site widget or a messaging app. The good ones save hourly hiring teams a great deal of time. The bad ones trap candidates in a loop of scripted replies. The difference is mostly in how you configure and supervise them.</p><h2>What a recruiting chatbot actually does</h2><p>Most products combine four jobs. They answer frequently asked questions about pay, shifts, benefits and location. They let someone apply by chatting instead of filling in a long form. They screen with a few required questions, such as age for a role with a minimum, work authorization, availability or a license. And they schedule interviews by offering open slots from a hiring manager's calendar. Our explainers on <a href='/explainers/ai-interview-scheduling/'>AI interview scheduling</a> and <a href='/explainers/ai-screening-for-hourly-jobs/'>AI screening for hourly jobs</a> go deeper on the last two.</p><p>Vendor pages show how this looks in practice. Paradox says candidates can <a href='https://www.paradox.ai/products/conversational-apply' target='_blank' rel='noopener'>apply and screen by text</a> through SMS, WhatsApp or Facebook Messenger without creating an account, and pause and resume later. Sense pitches its <a href='https://www.sensehq.com/ai-chatbot' target='_blank' rel='noopener'>AI chatbot</a> as a 24/7 digital recruiter with smart FAQs about culture and benefits. Phenom's <a href='https://www.phenom.com/products/talent-companion' target='_blank' rel='noopener'>Talent Companion</a> recommends specific roles in the chat and lets the person apply and book an interview in the same conversation.</p><h2>Scripted bots versus generative assistants</h2><p>Older chatbots follow decision trees: every question and answer is written in advance, and anything off script gets a fallback reply. They are predictable and easy to audit, but they break as soon as a candidate asks something unexpected.</p><p>Newer assistants use large language models to understand free text and write replies. That makes conversations feel natural and lets the bot answer questions it was never explicitly given, drawing on job descriptions and policy documents. The risk is that it can also answer wrongly with confidence. A generative bot that invents a pay rate or promises a schedule creates a real problem. The safest designs let the model handle language while hard rules control anything that decides eligibility or makes a commitment.</p><h2>Where chatbots work well and where they do not</h2><p>They shine in high volume hourly hiring: retail, restaurants, warehouses, call centers and healthcare support roles where hundreds of people apply, most of them on a phone, and speed decides who gets hired. Humanly, for example, markets itself to <a href='https://www.humanly.io/' target='_blank' rel='noopener'>high volume hiring teams</a> and pairs chat with screening, interviews and scheduling.</p><p>They add less for senior or specialist roles. A staff engineer or a finance director is rarely going to apply through a chat widget, and the questions that matter are about the team and the problem, which a recruiter should answer. For those searches, sourcing and personal outreach matter far more than conversation automation.</p><h2>Fairness, disclosure and the law</h2><p>A chatbot that screens people out is making an employment decision, so the same rules apply as for any other selection step. Knockout questions should be job related and consistent with business necessity. Watch for questions that act as proxies for protected traits, and test outcomes by group, as explained in our guide to <a href='/explainers/ai-bias-in-hiring/'>AI bias in hiring</a>. Depending on where you hire, laws such as New York City's bias audit rule or the EU AI Act may apply to automated screening. Tell candidates they are talking to software and give them an easy way to reach a person, including an accommodation route for anyone who cannot use the chat.</p><h2>What to check before you buy</h2><ul><li><b>ATS integration.</b> Does every answer, status change and booked interview write back to your applicant tracking system, or does someone copy it over by hand?</li><li><b>Channels.</b> SMS is the default for hourly candidates. Check which messaging apps and languages are supported and how text consent is captured.</li><li><b>Control over answers.</b> Can you lock pay, benefits and policy answers to approved text, and review every transcript?</li><li><b>Hand off to a human.</b> How fast can a candidate reach a recruiter, and does the recruiter see the full conversation?</li><li><b>Reporting.</b> Look for drop off by step, time to interview and outcomes by location and group.</li></ul><p>Some teams find their real bottleneck is not conversation at all but the pile of applicants already sitting in the ATS. In that case <a href='https://noon.ai/product/inbound-screening' target='_blank' rel='noopener'>tools that rank existing applicants</a> against the role may help more than a chatbot, since recruiters decide whom to contact. For a broader look at how automation affects applicants, see <a href='/explainers/ai-and-candidate-experience/'>AI and candidate experience</a>.</p><h2>The bottom line</h2><p>A recruiting chatbot is worth it when you have volume, mobile applicants and simple, consistent screening rules. Configure it so the rules are explicit, keep humans one tap away, audit the outcomes and it will mostly be an improvement for candidates who would otherwise wait days for a reply.</p>",
+    "faq": [
+      {
+        "q": "What is a recruiting chatbot?",
+        "a": "Software that holds a text conversation with candidates on a careers site, by SMS or in a messaging app, to answer questions, collect applications, screen with set questions and schedule interviews."
+      },
+      {
+        "q": "Are recruiting chatbots legal?",
+        "a": "Yes, but screening questions they ask are a selection step. Keep them job related, disclose that candidates are talking to software, offer a human and an accommodation route, and check local rules on automated hiring tools."
+      },
+      {
+        "q": "Do candidates like recruiting chatbots?",
+        "a": "Hourly applicants often prefer fast answers and text based scheduling. Frustration comes from bots that cannot answer off script questions or offer no way to reach a person."
+      },
+      {
+        "q": "Will a chatbot replace recruiters?",
+        "a": "No. It removes repetitive messaging and scheduling, but recruiters still handle judgment calls, offers, hiring manager relationships and specialist searches."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-phone-screening/",
+        "label": "AI phone screening"
+      },
+      {
+        "href": "/explainers/ai-screening-for-hourly-jobs/",
+        "label": "AI screening for hourly jobs"
+      },
+      {
+        "href": "/explainers/ai-interview-scheduling/",
+        "label": "AI interview scheduling"
+      }
+    ]
   }
 ]
