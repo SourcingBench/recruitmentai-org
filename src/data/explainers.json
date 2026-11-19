@@ -1150,5 +1150,56 @@
         "label": "AI interview scheduling"
       }
     ]
-  }
+  },
+ {
+  "slug": "ai-video-interviews",
+  "title": "AI video interviews: how recorded and AI led video screens work, what the law requires and what candidates think",
+  "seoTitle": "AI Video Interviews Explained",
+  "description": "What an AI video interview is in 2026: one way recorded screens, AI led conversations and AI assisted calls, what the software scores, the Illinois AI Video Interview Act, candidate survey data and questions to ask vendors.",
+  "date": "2026-11-19",
+  "updated": "2026-11-19",
+  "minutes": 7,
+  "short": "An AI video interview is a video screen in which software transcribes, asks or scores the answers. The three common formats carry different legal and candidate experience risks, and Illinois requires notice, consent and deletion on request.",
+  "body": "<p>Short version: an AI video interview is a recorded or live video screen in which software, not only a person, does part of the work. Sometimes the AI just transcribes and summarizes what the candidate said. Sometimes it asks the questions itself. In the most controversial setup, a candidate records answers alone to a webcam and a model scores the recording before any human watches it. Those three setups carry very different risks, so the first job for any employer is to know which one it is buying.</p>\n<h2>Three kinds of AI video interview</h2>\n<p><b>One way recorded interviews with AI scoring.</b> The candidate gets a link, reads or hears a question, records an answer within a time limit and moves to the next prompt. The platform transcribes the answers and rates them against a rubric, then ranks the pool for a recruiter. This is the format most people mean when they search for the term, and the one candidates complain about most.</p>\n<p><b>AI led conversational interviews.</b> Instead of fixed prompts, an AI agent asks follow up questions based on what the candidate just said. Some of these run on camera, many run on voice only. The output is usually a transcript, a summary and a score per competency.</p>\n<p><b>Human interviews with AI assistance.</b> A recruiter or hiring manager runs a normal video call and an AI tool takes notes, tags answers to the scorecard and drafts feedback. The person still asks the questions and decides. Our explainer on <a href='/explainers/ai-note-takers-for-interviews/'>AI note takers for interviews</a> covers this category in depth.</p>\n<h2>What the software actually evaluates</h2>\n<p>Modern vendors mostly score the words. Speech is converted to text, and a language model compares each answer to the competencies and example answers the employer wrote for the role. A good rubric says what a strong, acceptable and weak answer to each question contains, which makes the score explainable.</p>\n<p>Older products also analyzed facial movement, tone of voice and word choice as proxies for traits. That approach drew sustained criticism from researchers and regulators because the link between a candidate's expression on a webcam and job performance was never well established, and because it can penalize people with disabilities, accents or poor lighting. Ask any vendor in writing whether its model uses visual or vocal signals at all. If the answer is anything other than a clear no, you need to understand exactly what is measured and why.</p>\n<h2>How candidates feel about it in 2026</h2>\n<p>Candidate tolerance is lower than most buyers assume. The <a href='https://www.greenhouse.com/blog/2026-candidate-ai-interview-report' target='_blank' rel='noopener'>Greenhouse 2026 Candidate AI Interview Report</a>, which surveyed 2,950 job seekers in the United States, United Kingdom, Ireland, Germany and Australia, found that 63% of US respondents had already faced an AI interview. Yet 38% of US candidates said they had withdrawn from a process because it included one, and another 12% said they would if required.</p>\n<p>The single biggest reason for walking away, cited by 33% of US respondents, was a pre recorded video interview scored by AI with no human present. Lack of disclosure was close behind: 70% said AI evaluation was not clearly disclosed before their latest AI interview, and 21% only found out once it began. Silence afterward made it worse, since 51% of those who finished an AI interview never received an outcome. On the positive side, 46% wanted the option to ask for a human interview instead, a feature that costs little to offer. More data on this sits in our <a href='/explainers/ai-and-candidate-experience/'>AI and candidate experience</a> explainer.</p>\n<h2>The legal checklist</h2>\n<p>Illinois has the most specific rule. The <a href='https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4015&ChapterID=68' target='_blank' rel='noopener'>Artificial Intelligence Video Interview Act (820 ILCS 42)</a> requires an employer that uses AI to analyze video interviews to tell each applicant beforehand, explain how the AI works and what general characteristics it evaluates, and get consent before the interview. Videos may only be shared with people whose expertise is needed to evaluate the applicant, and on request they must be deleted within 30 days, including copies held by vendors. Employers that rely solely on AI analysis to decide who gets an in person interview must also collect and report demographic data.</p>\n<p>Other rules overlap. New York City's Local Law 144 requires a bias audit and notice for automated employment decision tools; see our <a href='/explainers/nyc-local-law-144-bias-audits/'>Local Law 144 guide</a>. Colorado and the EU AI Act treat hiring AI as high risk, which we cover in the <a href='/explainers/colorado-ai-act-and-hiring/'>Colorado AI Act</a> and <a href='/explainers/eu-ai-act-and-recruitment/'>EU AI Act</a> explainers. Disability law also applies everywhere: a candidate who cannot complete a timed webcam recording needs a reasonable alternative.</p>\n<h2>Where AI video interviews earn their place</h2>\n<ul>\n<li><b>High applicant volume with a clear rubric.</b> Hundreds of applicants for customer service, retail or graduate roles, where the first screen tests a handful of predictable competencies.</li>\n<li><b>Time zones and shift workers.</b> Candidates can respond at midnight or on a break instead of trading voicemails with a recruiter.</li>\n<li><b>Consistency.</b> Every applicant gets the same questions in the same order, which is easier to audit than a dozen recruiters improvising phone screens.</li>\n</ul>\n<p>They work poorly for senior, specialist or scarce talent. A sought after engineer or nurse who is asked to record answers to a webcam before speaking to a person often just stops responding.</p>\n<h2>Questions to ask a vendor</h2>\n<ol>\n<li>Is scoring based only on transcript content, or also on face, voice or video signals?</li>\n<li>Can we see the rubric and the reason behind each score?</li>\n<li>Does a person review every AI recommendation before a candidate is rejected?</li>\n<li>Do you support Illinois notice, consent and 30 day deletion, and do you delete your own copies?</li>\n<li>Can candidates request a human interview or an accessible format?</li>\n<li>Has an independent auditor tested the tool for adverse impact, and can we read the summary?</li>\n<li>Can we turn off video and run the same screen by voice or text?</li>\n</ol>\n<h2>Video or voice?</h2>\n<p>For many first round screens the camera adds risk without adding signal. If what you need is a consistent structured conversation, a voice only screen avoids the appearance and lighting issues that make video scoring contentious. Noon's <a href='https://noon.ai/product/ai-interviewer' target='_blank' rel='noopener'>AI interviewer</a>, for example, runs voice screens from an emailed link and returns a transcript and a next round recommendation to the team. Whichever format you pick, keep the decision with a person, disclose the AI in the invitation, and tell every candidate what happened next. Our overview of <a href='/explainers/ai-interviewer/'>AI interviewers</a> compares the wider category.</p>",
+  "faq": [
+   {
+    "q": "What is an AI video interview?",
+    "a": "A video screening interview in which AI transcribes and summarizes answers, asks the questions itself, or scores recorded answers against a rubric before a recruiter reviews the results."
+   },
+   {
+    "q": "Does AI judge facial expressions in video interviews?",
+    "a": "Most current vendors say they score the transcript only, but older tools analyzed facial and vocal signals. Ask the vendor in writing which signals the model uses."
+   },
+   {
+    "q": "Is it legal to use AI to score video interviews?",
+    "a": "Yes in most places, with conditions. Illinois requires notice, an explanation of how the AI works, consent and deletion within 30 days on request. New York City requires a bias audit and notice for automated decision tools."
+   },
+   {
+    "q": "Can a candidate refuse an AI video interview?",
+    "a": "In Illinois an employer may not use AI to evaluate an applicant who has not consented. Elsewhere, offering a human or accessible alternative is good practice and may be required for applicants with disabilities."
+   },
+   {
+    "q": "How do I do well in an AI video interview?",
+    "a": "Answer the question asked with a specific example, keep to the time limit and speak clearly. Content matters most because most tools now score the transcript."
+   }
+  ],
+  "related": [
+   {
+    "href": "/explainers/ai-interviewer/",
+    "label": "AI interviewers"
+   },
+   {
+    "href": "/explainers/ai-interview-practice/",
+    "label": "AI interview practice"
+   },
+   {
+    "href": "/explainers/deepfake-job-candidates/",
+    "label": "Deepfake job candidates"
+   },
+   {
+    "href": "/explainers/ai-bias-in-hiring/",
+    "label": "AI bias in hiring"
+   }
+  ]
+ }
 ]

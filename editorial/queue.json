@@ -103,7 +103,9 @@
    "keyword": "ai video interview",
    "volume": 260,
    "noon_target": "/product/ai-interviewer",
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-video-interviews",
+   "date": "2026-11-19"
   },
   {
    "id": "rai-012",
@@ -300,6 +302,38 @@
    "family": "ai-explainer",
    "keyword": "ai interview cheating",
    "volume": 70,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-033",
+   "family": "ai-explainer",
+   "keyword": "ai job matching",
+   "volume": 110,
+   "noon_target": "/product/ai-sourcer",
+   "status": "queued"
+  },
+  {
+   "id": "rai-034",
+   "family": "ai-explainer",
+   "keyword": "ai onboarding",
+   "volume": 110,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-035",
+   "family": "ai-explainer",
+   "keyword": "machine learning in recruitment",
+   "volume": 70,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-036",
+   "family": "ai-explainer",
+   "keyword": "predictive hiring",
+   "volume": 30,
    "noon_target": null,
    "status": "queued"
   }
