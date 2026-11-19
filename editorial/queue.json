@@ -319,7 +319,9 @@
    "keyword": "ai onboarding",
    "volume": 110,
    "noon_target": null,
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-onboarding",
+   "date": "2026-11-19"
   },
   {
    "id": "rai-035",
