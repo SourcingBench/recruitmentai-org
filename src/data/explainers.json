@@ -1291,5 +1291,60 @@
         "label": "Skills based hiring and AI"
       }
     ]
+  },
+  {
+    "slug": "ai-generated-resumes",
+    "title": "AI generated resumes: how common they are, why detectors fail and what recruiters should check instead",
+    "seoTitle": "AI Generated Resumes Explained for Recruiters",
+    "description": "What AI generated resumes are, how many candidates use AI to write them according to 2024 and 2025 Gartner surveys, why AI text detectors are unreliable, where fabrication risk sits and how to adjust screening and policy.",
+    "date": "2026-11-20",
+    "updated": "2026-11-20",
+    "minutes": 7,
+    "short": "An AI generated resume is one drafted or edited with a language model. Gartner found 39 percent of candidates used AI while applying and 54 percent of those used it for resume text. Polishing is not fraud; detectors are unreliable, so verify specifics, identity and skills instead.",
+    "body": "<p>If half of your applicants used a chatbot to write their resume, would you be able to tell, and should you care? Gartner's answer to the first part is that the share is already large. A <a href='https://www.gartner.com/en/newsroom/press-releases/2025-07-31-gartner-survey-shows-just-26-percent-of-job-applicants-trust-ai-will-fairly-evaluate-them' target='_blank' rel='noopener'>Gartner survey of 3,290 job candidates</a> in late 2024 found that 39 percent used AI during the application process, and 54 percent of those used it to generate resume text. The second part is the interesting one. An AI generated resume is not automatically dishonest, and treating it as fraud creates more problems than it solves. This explainer covers what the term means, why detection is unreliable, where the real risks sit and how to adjust screening.</p><h2>What counts as an AI generated resume</h2><p>The phrase covers a wide range. At one end, a candidate pastes a draft into a chatbot and asks it to fix grammar and tighten bullet points. In the middle, a candidate asks the model to rewrite the whole document for a specific job description, which pulls the posting's keywords into the text. At the far end, a resume is invented: employers, titles or skills the person never had, sometimes attached to a fabricated identity. Only that last group is a fraud problem. The first two are closer to what candidates once paid a resume writer to do.</p><p>The same Gartner research shows AI use extends beyond the resume. Among candidates who used AI, 50 percent generated cover letter text, 36 percent writing samples and 29 percent answers to assessment questions. Those last two matter more to hiring quality than a polished summary paragraph, because they are meant to show what the candidate can do alone.</p><h2>Why detectors are a weak test</h2><p>Many recruiters reach for an AI text detector. The track record is poor. OpenAI withdrew its own <a href='https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/' target='_blank' rel='noopener'>AI text classifier</a> on July 20, 2023, citing its low rate of accuracy. Resumes make the job harder: they are short, formulaic and full of stock phrases that humans wrote long before language models existed. A detector that flags \"results driven professional\" will flag most of your pipeline, including people who wrote every word themselves, and it can also flag candidates whose writing is simply formal. That is a fairness risk as well as a waste of time, which our explainer on <a href='/explainers/ai-bias-in-hiring/'>AI bias in hiring</a> discusses in more detail.</p><h2>What actually changes for screening</h2><p>The practical effect of AI writing is that resumes now look more alike and match job descriptions more closely. Keyword overlap, once a rough proxy for fit, says less than it did. If your screening relies on keyword scoring in an applicant tracking system, expect more applicants to pass the first filter, and see our page on <a href='/explainers/ats-resume-and-ai-screening/'>ATS resumes and AI screening</a> for how those filters work. Parsing is usually unaffected: clean, model written text in a standard layout is easy for software to read, as the <a href='/explainers/ai-resume-parsing/'>AI resume parsing</a> explainer explains.</p><p>What becomes more valuable is evidence that cannot be generated in seconds:</p><ul><li><b>Verifiable specifics.</b> Named systems, dates, team sizes and outcomes that a reference or a work sample can confirm.</li><li><b>Live conversation.</b> A short phone or video screen where the candidate expands on two resume claims.</li><li><b>Supervised or structured work samples.</b> Tasks designed so that a pasted answer is obvious, or done in the interview.</li></ul><h2>Where the fraud risk really is</h2><p>Fabrication is rarer than AI polishing in the Gartner figures, but each case costs far more. In a second quarter 2025 survey of 3,000 candidates, Gartner found that 6 percent admitted to interview fraud, either posing as someone else or having someone pose as them, and the firm predicts that by 2028 one in four candidate profiles worldwide will be fake. Gartner's Jamie Kohn said candidate fraud creates cybersecurity risks that can be far more serious than a bad hire. Those cases need identity checks and consistency checks across the process, which our explainer on <a href='/explainers/deepfake-job-candidates/'>deepfake job candidates</a> covers. They do not need a detector run on every resume.</p><h2>Writing a policy candidates can follow</h2><p>Gartner recommends that employers explain what acceptable AI use looks like and how fraud is detected. A workable policy usually says three things: using AI to draft or edit application materials is fine; every claim must be true and the candidate must be able to discuss it; and assessments or work samples must be the candidate's own unless the instructions say otherwise. Publishing this on the careers page sets expectations and gives recruiters a fair basis for rejecting fabricated applications.</p><h2>A short checklist for recruiting teams</h2><table><thead><tr><th>Signal</th><th>What it usually means</th><th>What to do</th></tr></thead><tbody><tr><td>Generic, polished language</td><td>AI editing, or a template</td><td>Ignore; judge the specifics</td></tr><tr><td>Resume mirrors the job post word for word</td><td>Tailoring with a chatbot</td><td>Probe two claims in the screen</td></tr><tr><td>Dates, employers or titles that do not reconcile</td><td>Possible fabrication</td><td>Verify employment before interviews</td></tr><tr><td>Different person or voice between stages</td><td>Possible identity fraud</td><td>Run identity verification</td></tr></tbody></table><p>The bottom line: assume many resumes have had AI help, stop treating writing quality as a signal of competence, and put verification effort where it pays off, on identity, employment history and the skills the job actually requires.</p>",
+    "faq": [
+      {
+        "q": "Is it wrong for candidates to use AI to write a resume?",
+        "a": "Not in itself. Using AI to draft or edit is similar to using a resume writer. The problem is false information, such as invented employers, titles or skills."
+      },
+      {
+        "q": "Can recruiters detect AI generated resumes?",
+        "a": "Not reliably. OpenAI withdrew its own AI text classifier in 2023 because of low accuracy, and resumes are short and formulaic, which makes false positives common."
+      },
+      {
+        "q": "How many job seekers use AI on their resume?",
+        "a": "In a Gartner survey of 3,290 candidates in late 2024, 39 percent used AI in the application process, and 54 percent of those used it to generate resume or CV text."
+      },
+      {
+        "q": "What should replace resume keyword screening?",
+        "a": "Short live screens that probe specific claims, structured work samples and verification of employment history and identity for finalists."
+      },
+      {
+        "q": "Should employers publish an AI policy for applicants?",
+        "a": "Yes. Gartner advises employers to explain acceptable AI use and how fraud is detected, which sets expectations and supports fair decisions."
+      },
+      {
+        "q": "Are fake candidates common?",
+        "a": "Gartner found 6 percent of candidates admitted to interview fraud in 2025 and predicts that by 2028 one in four candidate profiles worldwide will be fake."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/deepfake-job-candidates/",
+        "label": "Deepfake job candidates"
+      },
+      {
+        "href": "/explainers/ats-resume-and-ai-screening/",
+        "label": "ATS resumes and AI screening"
+      },
+      {
+        "href": "/explainers/ai-resume-parsing/",
+        "label": "AI resume parsing"
+      },
+      {
+        "href": "/explainers/ai-bias-in-hiring/",
+        "label": "AI bias in hiring"
+      }
+    ]
   }
 ]

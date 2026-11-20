@@ -348,6 +348,16 @@
    "status": "published",
    "slug": "ai-resume-parsing",
    "date": "2026-11-20"
+  },
+  {
+   "id": "rai-038",
+   "family": "ai-explainer",
+   "keyword": "ai generated resumes",
+   "volume": 720,
+   "noon_target": null,
+   "status": "published",
+   "slug": "ai-generated-resumes",
+   "date": "2026-11-20"
   }
  ]
 }
