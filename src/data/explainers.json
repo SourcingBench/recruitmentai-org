@@ -1244,5 +1244,52 @@
     "label": "Colorado AI Act and hiring"
    }
   ]
- }
+ },
+  {
+    "slug": "ai-resume-parsing",
+    "title": "AI resume parsing: how software turns a CV into data, where it breaks and how to test it",
+    "seoTitle": "AI Resume Parsing Explained",
+    "description": "How AI resume parsing works in 2026: what a parser extracts, how rules gave way to machine learning and language models, the layouts and dates that still break it, fairness and privacy questions, and a buyer's test plan.",
+    "date": "2026-11-20",
+    "updated": "2026-11-20",
+    "minutes": 8,
+    "short": "AI resume parsing converts a resume or CV into structured fields such as titles, employers, dates and skills so recruiting software can search and match it. Current parsers handle standard documents well but still miss data in designed layouts, unusual dates and less common languages, so test them on your own applicants.",
+    "body": "<p>Resume parsing is the least glamorous AI in recruiting and one of the most consequential. Before a ranking model, a chatbot or a recruiter's search can do anything with an application, software has to turn a PDF or Word file into structured fields: name, contact details, employers, titles, dates, schools, skills. If that step drops a job or misreads a date, every later step inherits the mistake. The short verdict is that modern AI parsers are good at standard resumes in common languages and still worth testing on the messy ones your applicants actually send.</p><h2>What a resume parser does</h2><p>A parser reads an unstructured document and returns a structured record, usually as JSON or XML, that an applicant tracking system, CRM or job board can store and search. A typical output has a contact block, a list of positions with employer, title, start and end dates and description, an education list, and a skills list. Better parsers also normalize what they find: they map \"Sr. SWE\" and \"Senior Software Engineer\" to one title, link a skill to a taxonomy entry, and calculate total years of experience. Many also parse job descriptions with the same engine so a resume and an opening can be compared field by field. That comparison is the basis of most automated matching, which our explainer on <a href='/explainers/ai-in-applicant-tracking-systems/'>AI in applicant tracking systems</a> covers.</p><p>The industry has tried to standardize the output for decades. The <a href='https://www.hropenstandards.org/' target='_blank' rel='noopener'>HR Open Standards Consortium</a>, founded in 1999, maintains nonprofit specifications for exchanging HR data, including candidate records, so that a parser and an ATS from different vendors can speak the same schema.</p><h2>From rules to machine learning to language models</h2><p>Early parsers relied on keyword lists and layout rules: find the word \"Experience\", treat what follows as jobs, look for patterns that resemble dates. They broke on two column layouts, tables, headers and anything written in an unexpected order. The next generation used statistical models trained on labeled resumes to recognize entities such as company names and titles in context, which handled variety much better. The current generation adds large language models that can read a resume more like a person does, infer that a line under a company name is a title even without a label, and summarize a career in plain language.</p><p>Vendors in this market describe that shift in their own positioning. <a href='https://www.textkernel.com/sovren/' target='_blank' rel='noopener'>Textkernel</a> now sells the Sovren parser it combined with its own technology, pitching fast, multilingual resume and job parsing. <a href='https://www.hireability.com/' target='_blank' rel='noopener'>HireAbility</a> markets ALEX, a multilingual parser that turns resumes, CVs and vacancies into structured data for ATS, CRM and HR systems. <a href='https://www.rchilli.com/' target='_blank' rel='noopener'>RChilli</a> has moved from parsing toward AI agents that run from resume intake to matching inside Oracle Recruiting Cloud and SAP SuccessFactors. <a href='https://www.daxtra.com/' target='_blank' rel='noopener'>Daxtra</a>, long known for parsing in staffing software, now sells a broader automation platform for agencies. The parser is increasingly a component inside something larger rather than a product on its own.</p><h2>Where parsing still goes wrong</h2><p><b>Layout.</b> Multi column designs, text inside images, icons for phone and email, and skills shown as bar charts are still the most common causes of lost data. A designer's portfolio resume can come out with half its content missing.</p><p><b>Dates and gaps.</b> \"2019 to present\", \"Summer 2021\" and overlapping contract roles confuse calculations of tenure. A parser that guesses wrong can make a candidate look like a job hopper or hide a gap that a recruiter would want to ask about.</p><p><b>Titles and employers.</b> Internal titles, staffing agency placements listed under the client's name, and acquisitions where the employer changed names all produce records that look clean but are wrong.</p><p><b>Languages and formats.</b> Accuracy usually drops outside the vendor's core languages and for local conventions such as photos, date of birth or national ID numbers, which some countries expect on a CV and others forbid employers from using.</p><p><b>Generated text.</b> Language model parsers can fill a missing field with something plausible. Ask whether the output is extracted from the document or inferred, and whether inferred values are flagged.</p><h2>Why parsing matters for fairness and compliance</h2><p>Parsing looks neutral, but it shapes what a screening model sees. If a parser misreads foreign degrees or drops employment at organizations it does not recognize, the candidates affected tend to share a background, and the error becomes a pattern. That is one route by which <a href='/explainers/ai-bias-in-hiring/'>bias in AI hiring</a> enters a process before any scoring happens. Where a tool scores or ranks candidates using parsed data, rules such as <a href='/explainers/nyc-local-law-144-bias-audits/'>New York City Local Law 144</a> may require a bias audit of the whole tool, so keep the parser in scope when you document how candidates are evaluated.</p><p>Data protection is the other issue. A parser processes everything in the document, including details you never asked for. Check where the vendor processes and stores files, how long it keeps them, and whether it uses customer resumes to train its models.</p><h2>What candidates should know</h2><p>From the applicant's side, the advice is simple and backed by vendors that test resumes against ATS software, such as <a href='https://www.jobscan.co/blog/ats-resume/' target='_blank' rel='noopener'>Jobscan</a>: use a single column layout, standard section headings, real text rather than images, and dates in a consistent format. Our explainer on <a href='/explainers/ats-resume-and-ai-screening/'>ATS resumes and AI screening</a> covers what happens after parsing, when software compares the record to the job.</p><h2>How to test a parser before you buy</h2><p>Do not rely on a demo with clean sample resumes. Pull 50 to 100 real applications from your own ATS, with permission and personal data handled properly, and include the hard cases: designed resumes, scanned PDFs, non English CVs, career changers, contractors with many short roles. Run them through each parser and compare against a hand checked version of the same fields. Measure field level accuracy for the fields you use most, usually titles, employers, dates and skills, and time how long a recruiter spends fixing records afterward. That correction time is the cost a vendor's accuracy claim is meant to cover.</p><p>Finally, ask what happens when parsing fails. The best systems keep the original document attached and visible, flag low confidence fields, and let a recruiter correct the record so the fix improves search. A parser that fails silently is worse than one that admits it is unsure.</p>",
+    "faq": [
+      {
+        "q": "What is resume parsing?",
+        "a": "It is the automatic extraction of information from a resume into structured fields, such as contact details, work history, education and skills, so that an ATS or CRM can store, search and match it."
+      },
+      {
+        "q": "Is AI resume parsing accurate?",
+        "a": "On standard single column resumes in widely used languages it is usually accurate for core fields. Accuracy drops on designed layouts, scanned files, overlapping dates and less common languages, which is why testing on your own applications matters."
+      },
+      {
+        "q": "Does a resume parser decide who gets hired?",
+        "a": "Not by itself. It produces the data that screening and matching tools use, so its errors can affect rankings later in the process even though it does not score anyone."
+      },
+      {
+        "q": "How can candidates make a resume easier to parse?",
+        "a": "Use one column, standard headings such as Experience and Education, real text instead of images or charts, and a consistent date format."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ats-resume-and-ai-screening/",
+        "label": "ATS resumes and AI screening"
+      },
+      {
+        "href": "/explainers/ai-in-applicant-tracking-systems/",
+        "label": "AI in applicant tracking systems"
+      },
+      {
+        "href": "/explainers/ai-bias-in-hiring/",
+        "label": "AI bias in hiring"
+      },
+      {
+        "href": "/explainers/skills-based-hiring-and-ai/",
+        "label": "Skills based hiring and AI"
+      }
+    ]
+  }
 ]

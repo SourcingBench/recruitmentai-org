@@ -338,6 +338,16 @@
    "volume": 30,
    "noon_target": null,
    "status": "queued"
+  },
+  {
+   "id": "rai-037",
+   "family": "ai-explainer",
+   "keyword": "resume parsing",
+   "volume": 590,
+   "noon_target": null,
+   "status": "published",
+   "slug": "ai-resume-parsing",
+   "date": "2026-11-20"
   }
  ]
 }
