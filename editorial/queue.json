@@ -368,6 +368,16 @@
    "status": "published",
    "slug": "illinois-ai-video-interview-act",
    "date": "2026-11-21"
+  },
+  {
+   "id": "rai-040",
+   "family": "ai-explainer",
+   "keyword": "mobley v workday",
+   "volume": 880,
+   "noon_target": "/blog/articles/258-ai-hiring-compliance",
+   "status": "published",
+   "slug": "mobley-v-workday",
+   "date": "2026-11-21"
   }
  ]
 }
