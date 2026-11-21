@@ -1401,5 +1401,48 @@
         "label": "AI bias in hiring"
       }
     ]
+  },
+  {
+    "slug": "mobley-v-workday",
+    "title": "Mobley v. Workday: what the AI hiring bias lawsuit claims and where it stands in 2026",
+    "seoTitle": "Mobley v. Workday Explained: AI Hiring Lawsuit Status in 2026",
+    "description": "Plain English guide to Mobley v. Workday: the age, race and disability claims against Workday's AI screening, the 2025 collective certification, the March 2026 opt in deadline and Workday's November 2026 decertification motion.",
+    "date": "2026-11-21",
+    "updated": "2026-11-21",
+    "minutes": 8,
+    "short": "Mobley v. Workday is a federal lawsuit in Northern California claiming Workday's AI screening features discriminate against applicants by age, race and disability. A nationwide age collective was preliminarily certified in May 2025, the opt in window closed March 7, 2026, and in November 2026 Workday asked the court to decertify it. There is no ruling on the merits and no settlement.",
+    "body": "<p>Mobley v. Workday is the first major federal lawsuit to test whether the company that sells an AI screening tool, not just the employer that uses it, can be liable for discrimination in hiring. It has not been decided. As of November 21, 2026 there is no ruling on whether Workday's tools actually discriminated, no settlement, and a pending fight over whether the case can stay a single nationwide action. What it has already done is survive the early motions that end most cases, which is why HR and talent acquisition teams that use any automated screening should understand it.</p><h2>The case in one paragraph</h2><p>Derek Mobley, a job seeker over 40, filed the suit on February 21, 2023 in the U.S. District Court for the Northern District of California, case number 3:23-cv-00770, before Judge Rita F. Lin. According to a <a href='https://www.hklaw.com/en/insights/publications/2025/05/federal-court-allows-collective-action-lawsuit-over-alleged' target='_blank' rel='noopener'>Holland & Knight client alert</a>, he applied for more than 100 jobs at companies that use Workday's platform and was rejected every time. His complaint alleges that Workday's AI features, which score, sort, rank or screen applicants, discriminate on the basis of age, race and disability under the Age Discrimination in Employment Act, Title VII of the Civil Rights Act and the Americans with Disabilities Act. Workday has said the claims lack merit.</p><h2>Why the vendor is the defendant</h2><p>Discrimination law has traditionally targeted employers and employment agencies. Mobley's lawyers argue that Workday acts as an agent of the employers that use it, because its software makes or shapes decisions about who moves forward. The U.S. Equal Employment Opportunity Commission <a href='https://www.eeoc.gov/litigation/briefs/mobley-v-workday-inc' target='_blank' rel='noopener'>filed an amicus brief</a> in the case on April 9, 2024, under the same three statutes. The court initially dismissed the first complaint but allowed an amended one, and then denied Workday's motion to dismiss that version, letting the age claim proceed on a disparate impact theory. Disparate impact means the plaintiff does not have to prove anyone intended to discriminate, only that a practice falls harder on a protected group without enough business justification.</p><h2>Timeline of key rulings</h2><ul><li><b>February 2023:</b> complaint filed in the Northern District of California.</li><li><b>April 2024:</b> EEOC files a brief supporting the theory that an AI vendor can be covered.</li><li><b>May 16, 2025:</b> Judge Lin grants preliminary certification of a nationwide collective under the ADEA, covering applicants aged 40 and older who were denied employment recommendations through Workday's platform since September 24, 2020, per Holland & Knight.</li><li><b>Early 2026:</b> the court authorizes notice to potential members. A <a href='https://compare.rm.com/blog/2026/03/mobley-vs-workday-an-update-on-the-case-that-is-challenging-ai-assessment/' target='_blank' rel='noopener'>March 2026 update from RM Compare</a> reported an opt in deadline of March 7, 2026.</li><li><b>November 10, 2026:</b> Workday asks the court to decertify the collective, arguing that each employer configures its screening differently, according to <a href='https://lawfold.com/workday-lawsuit/' target='_blank' rel='noopener'>a Lawfold case tracker</a>, which cites MLex reporting that more than 15,000 applicants opted in.</li></ul><h2>What a collective action is, and why the opt in matters</h2><p>Age claims under the ADEA proceed as collective actions rather than ordinary class actions. Members are not included automatically; they must file a written consent to join. That is why the March 2026 deadline mattered: people who did not opt in are not part of this collective. If the court grants Workday's decertification motion, the opt in plaintiffs would not lose their claims outright, but each would generally have to pursue them separately, which changes the economics of the case for both sides. The plaintiffs also have a separate pending request to certify a class for other claims.</p><h2>What employers using AI screening should do now</h2><p>None of this creates a new rule yet, and this explainer is not legal advice. But the case has already shifted what careful buyers ask vendors.</p><ol><li><b>Map where automation decides.</b> List every step where software scores, ranks, filters or auto rejects applicants, including knockout questions and recommendation features you may have switched on by default.</li><li><b>Ask for adverse impact testing.</b> Request the vendor's most recent analysis by age, race and sex, and ask how often it is repeated. Our guide to <a href='/explainers/nyc-local-law-144-bias-audits/'>NYC Local Law 144 bias audits</a> explains the format some vendors already publish.</li><li><b>Keep a human in the loop for rejections.</b> Automatic rejection based on a model score is the pattern at the center of Mobley. Review a sample of auto rejected applicants every month.</li><li><b>Read the contract.</b> Check indemnity, data access and audit rights so you can get the records you would need if a claim arrived.</li><li><b>Track state law too.</b> Colorado, Illinois and New York City already regulate parts of AI hiring; see our explainers on the <a href='/explainers/colorado-ai-act-and-hiring/'>Colorado AI Act</a> and <a href='/explainers/ai-bias-in-hiring/'>AI bias in hiring</a>. For a wider checklist across tools, there is also <a href='https://noon.ai/blog/articles/258-ai-hiring-compliance' target='_blank' rel='noopener'>a practical rundown of AI hiring compliance</a> worth reading alongside your counsel's advice.</li></ol><h2>What to watch next</h2><p>Three decisions will shape the outcome: whether Judge Lin keeps the collective together, whether a class is certified on the plaintiffs' separate motion, and what the evidence shows about how Workday's recommendation features actually performed for older applicants. Any of those rulings could prompt settlement talks, and any final judgment would likely be appealed. Whatever happens, the case has made vendor liability a standard question in AI hiring procurement.</p>",
+    "faq": [
+      {
+        "q": "Is Mobley v. Workday settled?",
+        "a": "No. As of November 21, 2026 no settlement had been announced and the court had not ruled on whether Workday's tools discriminated. Workday's motion to decertify the age collective was pending."
+      },
+      {
+        "q": "Can I still join the Workday lawsuit?",
+        "a": "Not this collective. The opt in deadline for the age discrimination collective was March 7, 2026. Anyone with a possible claim should speak to an employment lawyer about other options."
+      },
+      {
+        "q": "Does the case mean employers cannot use AI to screen applicants?",
+        "a": "No. It tests whether vendors can share liability and whether specific features had a disparate impact. Employers can still use AI screening, but should test for adverse impact, keep human review of rejections and document how the tools are configured."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-bias-in-hiring/",
+        "label": "AI bias in hiring"
+      },
+      {
+        "href": "/explainers/nyc-local-law-144-bias-audits/",
+        "label": "NYC Local Law 144 bias audits"
+      },
+      {
+        "href": "/explainers/colorado-ai-act-and-hiring/",
+        "label": "Colorado AI Act and hiring"
+      },
+      {
+        "href": "/explainers/illinois-ai-video-interview-act/",
+        "label": "Illinois AI Video Interview Act"
+      }
+    ]
   }
 ]
