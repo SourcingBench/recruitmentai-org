@@ -1346,5 +1346,60 @@
         "label": "AI bias in hiring"
       }
     ]
+  },
+  {
+    "slug": "illinois-ai-video-interview-act",
+    "title": "Illinois AI Video Interview Act: notice, consent, deletion and reporting rules explained",
+    "seoTitle": "Illinois AI Video Interview Act Explained for Employers",
+    "description": "What the Illinois Artificial Intelligence Video Interview Act (820 ILCS 42) requires: who it covers, the notice, explanation and consent steps, the 30 day deletion rule, demographic reporting, and how the 2026 Human Rights Act AI amendment adds to it.",
+    "date": "2026-11-21",
+    "updated": "2026-11-21",
+    "minutes": 7,
+    "short": "The Illinois AI Video Interview Act covers employers that use AI to analyze recorded interviews for Illinois jobs. They must notify applicants, explain how the AI works, get consent, share videos only with evaluators, delete them within 30 days on request, and report race data if AI alone decides who advances.",
+    "body": "<p>Illinois was the first state to write a law specifically about artificial intelligence in job interviews. The Artificial Intelligence Video Interview Act, codified at <a href='https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=4015&ChapterID=68' target='_blank' rel='noopener'>820 ILCS 42</a>, took effect on January 1, 2020, and it is still short enough to read in five minutes. It does not ban AI scoring of recorded interviews. It sets four duties for employers that use it: tell candidates, explain the system, get consent, and limit what happens to the videos afterward. A 2022 amendment added demographic reporting for employers that let the AI make the cut on its own.</p>\n<h2>Who the law covers</h2><p>The Act applies to an employer that asks applicants to record video interviews and uses an artificial intelligence analysis of those videos when considering applicants for positions based in Illinois. Three conditions have to line up: the interview is recorded rather than live, software analyzes it, and the job is located in Illinois. Where the employer is headquartered does not matter. A Texas company hiring for a Chicago warehouse role is covered; an Illinois company hiring for a Denver role is not, at least under this statute.</p><p>A live video call with a human interviewer and no AI analysis is outside the Act. So is a recorded interview that a recruiter simply watches. The trigger is software evaluating the recording.</p>\n<h2>The three steps before the interview</h2><p>Section 5 requires the employer to do all of the following before asking the applicant to submit a video:</p><ol><li><b>Notify</b> the applicant that artificial intelligence may be used to analyze the interview and consider their fitness for the position.</li><li><b>Explain</b> how the artificial intelligence works and what general types of characteristics it uses to evaluate applicants.</li><li><b>Obtain consent</b> from the applicant to be evaluated by the program as described.</li></ol><p>The Act then adds a hard rule: an employer may not use artificial intelligence to evaluate applicants who have not consented. In practice, that means the recording workflow needs a path for people who decline, such as a live interview with a person, and the employer needs a record showing who agreed and to which explanation.</p><p>The statute does not define how detailed the explanation must be. Most employers rely on a plain language notice from the vendor describing what the model looks at, for example the content of answers rather than facial expressions. If your vendor cannot tell you what characteristics its system uses, you cannot meet the explanation duty.</p>\n<h2>What happens to the videos</h2><p>Section 10 limits sharing. Applicant videos may go only to people whose expertise or technology is needed to evaluate the applicant's fitness for the role. Your AI vendor qualifies; a marketing team building a recruiting highlight reel does not.</p><p>Section 15 covers deletion. If an applicant asks, the employer must delete the interview within 30 days of receiving the request and instruct anyone else who received copies, including the vendor, to delete them too, along with all electronically generated backups. Those recipients must comply. Build that into the vendor contract, because the employer carries the duty even when the files sit on someone else's servers.</p>\n<h2>The 2022 demographic reporting rule</h2><p>Section 20, added by Public Act 102-47 and effective January 1, 2022, applies only to employers that rely solely on an AI analysis of a video interview to decide who gets an in person interview. Those employers must collect the race and ethnicity of applicants who are and are not advanced after the AI review, and of applicants who are hired. They report the data to the Illinois Department of Commerce and Economic Opportunity every year by December 31, covering the 12 months ending November 30. The Department then analyzes it and reports to the Governor and General Assembly by July 1 on whether it shows racial bias.</p><p>The word solely matters. If a recruiter reviews every candidate the AI rejects, or the score is one input among several, the reporting duty arguably does not apply. Many employers keep a human review step partly for that reason.</p>\n<h2>How the 2026 Human Rights Act amendment fits in</h2><p>Since January 1, 2026, Illinois has a second, broader AI rule for employers. <a href='https://www.ilga.gov/Legislation/publicacts/view/103-0804' target='_blank' rel='noopener'>Public Act 103-0804</a> amended the Illinois Human Rights Act to make it a civil rights violation to use artificial intelligence in recruitment, hiring, promotion and other employment decisions in a way that has the effect of discriminating against protected classes, or to use zip codes as a proxy for protected classes. It also requires employers to give employees notice when they use AI for those purposes, with details left to rules from the Illinois Department of Human Rights.</p><p>The two laws overlap but do different jobs. The Video Interview Act is narrow and procedural: notice, explanation, consent, sharing, deletion and reporting for recorded interviews. The Human Rights Act amendment is broad and outcome based: any AI used in employment decisions, judged by whether it produces discriminatory effects. An employer using AI video scoring for Illinois roles should plan for both.</p>\n<h2>A compliance checklist for Illinois roles</h2><ul><li>List every place your hiring process records video and every vendor that scores it.</li><li>Get a written description from each vendor of what its model evaluates, in language a candidate can understand.</li><li>Show notice and the explanation before the recording link, and capture consent with a timestamp.</li><li>Offer a non AI interview path to anyone who declines.</li><li>Put sharing limits and the 30 day deletion duty, including backups, into vendor contracts.</li><li>Decide whether any stage relies solely on AI; if so, set up race and ethnicity reporting by December 31.</li><li>Run a periodic adverse impact review so the Human Rights Act amendment does not catch you off guard.</li></ul><p>For how these rules compare with other jurisdictions, see our explainers on <a href='/explainers/nyc-local-law-144-bias-audits/'>New York City Local Law 144 bias audits</a> and the <a href='/explainers/colorado-ai-act-and-hiring/'>Colorado AI Act</a>, and our overview of <a href='/explainers/ai-video-interviews/'>AI video interviews</a> for how the technology works.</p>\n<p><i>This explainer summarizes the statute text published by the Illinois General Assembly and is not legal advice.</i></p>",
+    "faq": [
+      {
+        "q": "Does the Illinois AI Video Interview Act apply to live Zoom interviews?",
+        "a": "Not on its own terms. It covers recorded video interviews that the employer analyzes with artificial intelligence. A live call with a human interviewer and no AI analysis falls outside it."
+      },
+      {
+        "q": "Does the law apply to companies outside Illinois?",
+        "a": "Yes, if the position is based in Illinois. Coverage depends on where the job is, not where the employer is headquartered."
+      },
+      {
+        "q": "How quickly must an employer delete an applicant's video?",
+        "a": "Within 30 days after the applicant asks, and the employer must tell anyone who received copies, including vendors, to delete them and their backups."
+      },
+      {
+        "q": "Who has to report demographic data?",
+        "a": "Only employers that rely solely on AI analysis of video interviews to decide who gets an in person interview. They report race and ethnicity data to the Department of Commerce and Economic Opportunity by December 31 each year."
+      },
+      {
+        "q": "Is there a penalty section in the Act?",
+        "a": "The statute text does not include a specific penalty or private right of action provision. Employers should still treat it as binding and watch for overlapping claims under the Illinois Human Rights Act."
+      },
+      {
+        "q": "What changed in Illinois in 2026?",
+        "a": "Public Act 103-0804, effective January 1, 2026, amended the Illinois Human Rights Act to prohibit AI use in employment decisions that has a discriminatory effect, bar zip codes as a proxy for protected classes, and require notice to employees when AI is used."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-video-interviews/",
+        "label": "AI video interviews"
+      },
+      {
+        "href": "/explainers/nyc-local-law-144-bias-audits/",
+        "label": "NYC Local Law 144 bias audits"
+      },
+      {
+        "href": "/explainers/colorado-ai-act-and-hiring/",
+        "label": "Colorado AI Act and hiring"
+      },
+      {
+        "href": "/explainers/ai-bias-in-hiring/",
+        "label": "AI bias in hiring"
+      }
+    ]
   }
 ]
