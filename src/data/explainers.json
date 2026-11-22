@@ -1444,5 +1444,56 @@
         "label": "Illinois AI Video Interview Act"
       }
     ]
+  },
+  {
+    "slug": "traiga-texas-ai-law-and-hiring",
+    "title": "TRAIGA explained: what the Texas AI law means for hiring and recruiting in 2026",
+    "seoTitle": "TRAIGA Explained: The Texas AI Law and Hiring (2026)",
+    "description": "Plain English guide to TRAIGA, the Texas Responsible Artificial Intelligence Governance Act: what it bans, why it is narrower than Colorado's law for employers, how the attorney general enforces it and what recruiting teams should still do.",
+    "date": "2026-11-22",
+    "updated": "2026-11-22",
+    "minutes": 7,
+    "short": "TRAIGA, the Texas Responsible Artificial Intelligence Governance Act, took effect January 1, 2026. For private employers it bans developing or deploying AI with the intent to unlawfully discriminate, and says disparate impact alone does not prove that intent. It has no bias audit or candidate notice duty for private companies, no private right of action, and only the attorney general can enforce it.",
+    "body": "<p>Texas passed one of the most talked about state AI laws of 2025, and recruiters in the state keep asking whether it changes how they can screen applicants. The short answer is: less than the headlines suggested. The Texas Responsible Artificial Intelligence Governance Act, usually shortened to TRAIGA, became effective on January 1, 2026. Its rules for private companies are mostly prohibitions on intentional misuse, not the audit and disclosure duties found in other laws. This explainer walks through what it covers, how it is enforced and where hiring teams still carry risk. It is not legal advice; the Texas Attorney General's own <a href='https://www.texasattorneygeneral.gov/consumer-protection/file-consumer-complaint/consumer-ai-rights' target='_blank' rel='noopener'>TRAIGA overview</a> says the same about its summary.</p><h2>What TRAIGA prohibits</h2><p>According to the attorney general's overview, the act bars any person from developing or deploying an AI system that intentionally aims to incite self harm, harm to others or criminal activity, that is built with the sole intent to infringe constitutional rights, or that produces certain sexually explicit material involving minors or deepfakes. Several further rules apply only to governmental entities, such as bans on social scoring and on identifying people from biometric data gathered without consent.</p><p>The rule that matters most for recruiting reads, in the overview's words, that a person may not develop or deploy an AI system with the intent to unlawfully discriminate against a protected class in violation of state or federal law. The next sentence is the one employment lawyers quote: a disparate impact alone is not sufficient to demonstrate an intent to discriminate.</p><h2>Why the intent standard matters for screening tools</h2><p>Most worries about AI in hiring are about disparate impact: a resume ranker or video scoring model that, without anyone meaning it to, scores one group lower than another. Federal law and many state laws already treat a significant, unjustified adverse impact as potential discrimination. TRAIGA does not add a new claim on that basis. To violate the Texas act, a company would have to have built or used the system with the intent to discriminate.</p><p>That does not make adverse impact safe. Title VII, the Age Discrimination in Employment Act and the Americans with Disabilities Act still apply in Texas, and the federal <a href='/explainers/mobley-v-workday/'>Mobley v. Workday</a> case shows that disparate impact claims against AI screening can survive early motions. TRAIGA simply declines to layer a second, state level version of that claim on top.</p><h2>What TRAIGA does not require from private employers</h2><p>Compared with laws recruiters may already know, the Texas act is light on paperwork for private companies:</p><ul><li><b>No bias audit.</b> Unlike <a href='/explainers/nyc-local-law-144-bias-audits/'>New York City Local Law 144</a>, there is no annual independent audit of automated employment decision tools.</li><li><b>No candidate notice duty.</b> The disclosure rule in the overview applies to governmental agencies whose AI systems interact with consumers, and to health care providers. The act's definition of consumer also excludes anyone acting in an employment context.</li><li><b>No impact assessment.</b> The <a href='/explainers/colorado-ai-act-and-hiring/'>Colorado AI Act</a> asks deployers of high risk systems to run impact assessments and give notices; TRAIGA has no equivalent for private employers.</li><li><b>No private lawsuits.</b> The overview states plainly that TRAIGA does not provide a private right of action, so a rejected applicant cannot sue under it.</li></ul><h2>How the attorney general enforces it</h2><p>The attorney general has exclusive authority to enforce TRAIGA, unless it recommends that another state agency also act, and it may issue civil investigative demands. It can seek civil penalties, injunctions, attorney's fees and investigative costs. The overview lists penalty ranges of $10,000 to $12,000 for each violation a court finds curable, $80,000 to $200,000 for each violation found uncurable, and $2,000 to $40,000 for each day a violation continues. The overview also links to an online form where members of the public can file an AI complaint, which is how most investigations are likely to start.</p><h2>What Texas hiring teams should still do</h2><p>Because liability under TRAIGA turns on intent, the best protection is a record that shows you did not intend to discriminate and took reasonable steps to catch problems. In practice:</p><ol><li><b>Inventory your AI.</b> List every tool that ranks, scores, screens or writes to candidates, including features switched on inside your applicant tracking system.</li><li><b>Write down the purpose.</b> For each tool, record what decision it supports and which job related criteria it uses. That document is your first answer to a civil investigative demand.</li><li><b>Test for adverse impact anyway.</b> Federal law still applies. Run selection rate comparisons at each stage, and see our explainer on <a href='/explainers/ai-bias-in-hiring/'>AI bias in hiring</a> for how.</li><li><b>Keep a person on rejections.</b> Human review of automated rejections is cheap insurance under every law in this area.</li><li><b>Plan for other states.</b> If you also recruit in Colorado, Illinois or New York City, the strictest rule usually becomes your baseline.</li></ol><h2>Who it applies to</h2><p>The act reaches anyone who promotes, advertises or conducts business in Texas, produces a product or service used by Texas residents, or develops or deploys an AI system in the state. A staffing firm in another state that screens Texas applicants with AI, and a vendor selling screening software to Texas employers, are both likely in scope, so contracts with vendors should say who is responsible for testing and documentation.</p>",
+    "faq": [
+      {
+        "q": "What is TRAIGA?",
+        "a": "TRAIGA is the Texas Responsible Artificial Intelligence Governance Act, a state law effective January 1, 2026 that prohibits certain intentional harmful uses of AI, adds duties for government agencies, and is enforced by the Texas Attorney General."
+      },
+      {
+        "q": "Does TRAIGA ban AI resume screening in Texas?",
+        "a": "No. It bans developing or deploying AI with the intent to unlawfully discriminate. Screening tools remain legal, though federal anti discrimination law still applies to their results."
+      },
+      {
+        "q": "Do Texas employers have to tell candidates they use AI?",
+        "a": "TRAIGA's disclosure rule applies to governmental agencies interacting with consumers and to health care providers, and its definition of consumer excludes people acting in an employment context. Other laws, such as Illinois rules on video interviews, may still require notice."
+      },
+      {
+        "q": "Can a job applicant sue under TRAIGA?",
+        "a": "No. The attorney general's overview states that the act does not provide a private right of action. Enforcement belongs to the attorney general."
+      },
+      {
+        "q": "What are the penalties under TRAIGA?",
+        "a": "The attorney general's overview lists $10,000 to $12,000 per curable violation, $80,000 to $200,000 per uncurable violation, and $2,000 to $40,000 per day for continuing violations."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/colorado-ai-act-and-hiring/",
+        "label": "Colorado AI Act and hiring"
+      },
+      {
+        "href": "/explainers/nyc-local-law-144-bias-audits/",
+        "label": "NYC Local Law 144 bias audits"
+      },
+      {
+        "href": "/explainers/mobley-v-workday/",
+        "label": "Mobley v. Workday"
+      },
+      {
+        "href": "/explainers/illinois-ai-video-interview-act/",
+        "label": "Illinois AI Video Interview Act"
+      }
+    ]
   }
 ]
