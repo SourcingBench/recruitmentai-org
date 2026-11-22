@@ -378,6 +378,16 @@
    "status": "published",
    "slug": "mobley-v-workday",
    "date": "2026-11-21"
+  },
+  {
+   "id": "rai-041",
+   "family": "ai-explainer",
+   "keyword": "traiga",
+   "volume": 1300,
+   "noon_target": null,
+   "status": "published",
+   "slug": "traiga-texas-ai-law-and-hiring",
+   "date": "2026-11-22"
   }
  ]
 }
