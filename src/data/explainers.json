@@ -1495,5 +1495,60 @@
         "label": "Illinois AI Video Interview Act"
       }
     ]
+  },
+  {
+    "slug": "ai-interview-assistant",
+    "title": "AI interview assistants explained: the real time answer tools candidates use and how employers respond",
+    "seoTitle": "AI Interview Assistant: What It Is and How Employers Respond",
+    "description": "What an AI interview assistant is, how real time tools like Final Round AI, LockedIn AI and Interview Coder feed candidates answers during live interviews, what the 2025 Gartner data shows and what hiring teams can do.",
+    "date": "2026-11-22",
+    "updated": "2026-11-22",
+    "minutes": 8,
+    "short": "An AI interview assistant is software that listens to a live job interview and suggests answers or code to the candidate in real time, often in a window hidden from screen sharing. Vendors such as Final Round AI, LockedIn AI and Interview Coder sell them to job seekers. Employers respond with clear AI use policies, deeper follow up questions, identity checks and in person rounds.",
+    "body": "<p>A candidate shares their screen for a technical interview. The interviewer sees a code editor and a calm face. The candidate sees something else: a small window, invisible to the screen share, that listens to each question and drafts an answer within seconds. That window is an AI interview assistant, and in 2026 several companies sell one openly to job seekers. This explainer covers what these tools do, how they differ from interview practice apps, what they mean for hiring teams and which responses actually hold up.</p><h2>What an AI interview assistant is</h2><p>The term covers software that runs during a live interview and feeds the candidate suggested answers in real time. The vendors describe it plainly. <a href='https://www.finalroundai.com/' target='_blank' rel='noopener'>Final Round AI</a> calls its Interview CoPilot an AI interview assistant that hears the interview and privately suggests an answer in seconds, and says it is trusted by more than 10 million job seekers. <a href='https://www.lockedinai.com/' target='_blank' rel='noopener'>LockedIn AI</a> says its assistant listens to the interview, analyzes questions and provides real time answers, code solutions and coaching, claims more than one million users and advertises that its desktop app stays private when you share your screen. <a href='https://www.interviewcoder.co/' target='_blank' rel='noopener'>Interview Coder</a> goes furthest, marketing itself as the number one undetectable AI for interviews, used by more than 150,000 candidates, with features that hide it from the dock, the activity monitor and screen recordings.</p><p>That last group of features is what separates an interview assistant from an <a href='/explainers/ai-interview-practice/'>AI interview practice tool</a>. Practice tools run mock interviews before the real one. Assistants are built for the real one, and many are designed so the interviewer cannot tell.</p><h2>How the tools work</h2><ul><li><b>Audio capture.</b> The app transcribes the interviewer's voice from the call as it happens.</li><li><b>Context loading.</b> Candidates upload a resume and job description in advance so suggested answers mention their own experience.</li><li><b>Answer generation.</b> A language model drafts a spoken answer, a coding solution or an answer to a multiple choice assessment question.</li><li><b>Concealment.</b> Overlay windows are excluded from screen sharing, and some apps offer a second device mode or let a remote helper watch the interview.</li></ul><h2>How common candidate AI use has become</h2><p>Hard numbers on live interview assistance are scarce, but the surrounding data points one way. A <a href='https://www.gartner.com/en/newsroom/press-releases/2025-07-31-gartner-survey-shows-just-26-percent-of-job-applicants-trust-ai-will-fairly-evaluate-them' target='_blank' rel='noopener'>Gartner press release from July 2025</a> reported that 39 percent of 3,290 candidates surveyed in late 2024 used AI during the application process, including 29 percent who used it to generate answers to assessment questions. In a separate survey of 3,000 candidates in the second quarter of 2025, 6 percent admitted to interview fraud, either posing as someone else or having someone else pose as them. Gartner's Jamie Kohn warned that candidate fraud creates cybersecurity risks far more serious than a bad hire. The same research found only 26 percent of candidates trust AI to evaluate them fairly, so suspicion runs in both directions.</p><h2>Where employers are drawing the line</h2><p>Some employers now publish their rules instead of guessing. Anthropic's <a href='https://www.anthropic.com/candidate-ai-guidance' target='_blank' rel='noopener'>guidance for candidates</a>, last updated July 10, 2025, invites applicants to use its Claude assistant to polish a resume they drafted themselves and to research and practice before interviews. Take home assessments should be done without AI unless the instructions allow it, and live interviews are, in the company's words, all the candidate, with no AI assistance unless indicated. That three part split, encouraged for preparation, restricted for assessments, off limits live, is a useful template for any hiring team.</p><h2>What hiring teams can do</h2><ol><li><b>Publish an AI use policy</b> on the careers page and in the interview invitation, so candidates know the rules before they start.</li><li><b>Ask follow ups that go deeper,</b> not wider. A generated answer to the first question is easy; explaining why a past decision was wrong, or changing a solution when constraints shift, is much harder to outsource in real time.</li><li><b>Use work you can discuss.</b> Have candidates walk through code or a document they produced earlier and defend the tradeoffs.</li><li><b>Verify identity</b> at the first live call and again at the final round, since Gartner's fraud figure is about impersonation as much as assistance. Our explainer on <a href='/explainers/deepfake-job-candidates/'>deepfake job candidates</a> covers the identity side.</li><li><b>Bring one round on site</b> for roles where the cost of a bad hire is high, or use proctoring with the candidate's consent.</li></ol><p>Detection software exists, but the vendors on the other side are tuning against it daily, and accusing a candidate on the strength of a suspicion invites complaints. Changing the interview design is more durable than trying to win an arms race. Teams that use AI themselves, such as <a href='/explainers/ai-interviewer/'>AI interviewers</a> for first round screens, should hold that process to the same transparency they ask of candidates; our <a href='/guide/bias-regulation-and-candidate-rights/'>guide chapter on candidate rights</a> lists the disclosure rules that apply in some states.</p><h2>The bottom line</h2><p>AI interview assistants are popular, cheap and openly marketed as invisible. Hiring teams cannot ban them out of existence, but they can make them much less useful by stating clear rules, asking questions that reward real understanding and confirming who is on the call.</p>",
+    "faq": [
+      {
+        "q": "What is an AI interview assistant?",
+        "a": "It is an app that runs during a live interview, transcribes the interviewer's questions and shows the candidate suggested answers or code solutions in real time."
+      },
+      {
+        "q": "Is using an AI interview assistant cheating?",
+        "a": "It depends on the employer's rules. Many companies welcome AI for preparation but prohibit it during live interviews; Anthropic, for example, says live interviews should involve no AI assistance unless it says otherwise."
+      },
+      {
+        "q": "Can interviewers detect AI interview assistants?",
+        "a": "Sometimes, through delayed answers, reading eye movements or answers that collapse under follow up questions. Several tools are designed to stay hidden from screen sharing, so interview design is more reliable than detection alone."
+      },
+      {
+        "q": "How is an interview assistant different from interview practice software?",
+        "a": "Practice software runs mock interviews before the real one. An interview assistant is used during the real interview to supply answers."
+      },
+      {
+        "q": "What should a company's AI interview policy say?",
+        "a": "State which stages allow AI, such as resume polishing and research, which stages do not, such as live interviews and timed assessments, and what happens if the rules are broken. Put it in the invitation, not just the careers page."
+      },
+      {
+        "q": "Do AI interview assistants raise legal issues for employers?",
+        "a": "The tools are used by candidates, so the main legal exposure for employers comes from how they investigate suspected use. Apply the same process to every candidate and avoid rejecting someone on suspicion alone."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-interview-practice/",
+        "label": "AI interview practice"
+      },
+      {
+        "href": "/explainers/deepfake-job-candidates/",
+        "label": "Deepfake job candidates"
+      },
+      {
+        "href": "/explainers/ai-generated-resumes/",
+        "label": "AI generated resumes"
+      },
+      {
+        "href": "/explainers/ai-video-interviews/",
+        "label": "AI video interviews"
+      }
+    ]
   }
 ]

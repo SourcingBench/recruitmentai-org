@@ -388,6 +388,48 @@
    "status": "published",
    "slug": "traiga-texas-ai-law-and-hiring",
    "date": "2026-11-22"
+  },
+  {
+   "id": "rai-042",
+   "family": "ai-explainer",
+   "keyword": "ai interview assistant",
+   "volume": 2400,
+   "noon_target": null,
+   "status": "published",
+   "slug": "ai-interview-assistant",
+   "date": "2026-11-22"
+  },
+  {
+   "id": "rai-043",
+   "family": "ai-explainer",
+   "keyword": "ai job interview",
+   "volume": 720,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-044",
+   "family": "ai-explainer",
+   "keyword": "ai assessment tools",
+   "volume": 110,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-045",
+   "family": "ai-explainer",
+   "keyword": "eeoc artificial intelligence",
+   "volume": 30,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-046",
+   "family": "ai-explainer",
+   "keyword": "ai talent matching",
+   "volume": 30,
+   "noon_target": null,
+   "status": "queued"
   }
  ]
 }
