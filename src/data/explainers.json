@@ -1550,5 +1550,52 @@
         "label": "AI video interviews"
       }
     ]
+  },
+  {
+    "slug": "ai-job-interview",
+    "title": "AI job interviews explained: the formats, what gets scored and the rules candidates should know",
+    "seoTitle": "AI Job Interview: How It Works, What It Scores and Your Rights",
+    "description": "What an AI job interview is in 2026: recorded video, conversational and chat formats, how answers are scored, the NYC, Illinois and Colorado rules, and how candidates and employers should prepare.",
+    "date": "2026-11-23",
+    "updated": "2026-11-23",
+    "minutes": 7,
+    "short": "A plain guide to AI run first round interviews: formats, scoring, candidate rights and good practice for employers.",
+    "body": "<p>Your interview invitation arrives at 9 p.m. with a link and a deadline of three days. There is no name of an interviewer, just a button that says Start. If that sounds familiar, you have been invited to an AI job interview: a first round run by software that asks the questions, records or transcribes your answers and passes a summary, and sometimes a score, to a human recruiter. This explainer is written for both sides of that link. It covers the three formats you are likely to meet, what the software is actually judging, the legal rules that apply in 2026 and how employers can run one without losing good candidates.</p>\n<h2>Three kinds of AI job interview</h2>\n<p><b>Recorded one way video.</b> You see a question on screen, get a short time to think and record an answer. Nobody is live on the other end. This is the oldest format, and our <a href=\"/explainers/ai-video-interviews/\">AI video interviews</a> explainer covers it in depth.</p>\n<p><b>Conversational AI interviewer.</b> A voice or avatar agent asks questions, listens and asks follow ups based on what you said. It behaves more like a phone screen than a quiz, and it can run by phone as well as by browser. See <a href=\"/explainers/ai-phone-screening/\">AI phone screening</a> for the voice version used in hourly hiring.</p>\n<p><b>Chat based screening.</b> A text interview on the career site or by SMS asks about availability, certifications and work history, often before any human has looked at the application.</p>\n<h2>What the software is really evaluating</h2>\n<p>In most deployments the system is not reading your face. Several large vendors have dropped visual analysis, and the scoring that remains is built on the words you say. The software transcribes the answer, maps it to the competencies the employer configured for the role (for example customer handling, safety awareness or problem solving) and produces evidence notes against each one. Some products give a numeric rating; others only rank or summarize, leaving the judgment to the recruiter.</p>\n<p>That has a practical meaning for candidates: structure beats polish. A clear example with a situation, the action you took and the result is easier for a transcript based model to match to a competency than a confident but general answer. Background, lighting and accent should not count, and if an employer cannot tell you that, ask.</p>\n<h2>Why employers use them</h2>\n<p>The main reason is timing. HireVue says on its <a href=\"https://www.hirevue.com/candidates\">candidate resources page</a> that 42% of its interviews are completed outside normal business hours and reports 90% candidate satisfaction, both vendor figures. For a retailer screening thousands of applicants or a hospital hiring night shift staff, letting people interview at midnight on a phone fills the first round in days instead of weeks. The second reason is consistency: every candidate hears the same core questions in the same order, which is harder to guarantee across twenty hiring managers.</p>\n<h2>The rules that apply in 2026</h2>\n<p>In New York City, Local Law 144 bars employers and employment agencies from using an automated employment decision tool unless it has had a bias audit within the past year, a summary of the results is public and candidates receive notice; the city's <a href=\"https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page\">Department of Consumer and Worker Protection</a> enforces it and takes complaints. Our <a href=\"/explainers/nyc-local-law-144-bias-audits/\">guide to Local Law 144 bias audits</a> explains what an audit contains.</p>\n<p>Illinois requires employers that use AI to analyze video interviews to tell applicants, explain how the AI works, get consent and delete the recordings on request; see the <a href=\"/explainers/illinois-ai-video-interview-act/\">Illinois AI Video Interview Act</a> explainer. Colorado's broader law on high risk AI systems covers hiring decisions too, as our <a href=\"/explainers/colorado-ai-act-and-hiring/\">Colorado AI Act</a> page sets out, and in the EU recruitment AI is classed as high risk under the <a href=\"/explainers/eu-ai-act-and-recruitment/\">EU AI Act</a>.</p>\n<h2>How to prepare as a candidate</h2>\n<ul><li>Read the invitation for a practice question. Most platforms offer one, and it shows you the timer and retake rules.</li><li>Have three or four stories ready that show the skills in the job ad, each with a clear result.</li><li>Use a quiet room and a stable connection; audio quality affects the transcript more than video quality affects anything.</li><li>Ask the employer, by email, whether a human reviews every interview and how to request an accommodation. Both are reasonable questions.</li></ul>\n<p>Rehearsal tools can help with nerves; our <a href=\"/explainers/ai-interview-practice/\">AI interview practice</a> explainer compares them. Tools that feed you answers during the live interview are a different matter, and employers increasingly detect them.</p>\n<h2>How to run one well as an employer</h2>\n<p>Keep the AI round short, ideally under fifteen minutes, and tell candidates in the invitation what it covers and who reviews it. Configure questions from the job's real competencies rather than a generic library, and audit outcomes by stage: if completion rates fall for one group of applicants, the format is costing you candidates. Always give a route to a human interview for people who need an accommodation, and make sure a recruiter reads the evidence notes before anyone is rejected.</p>",
+    "faq": [
+      {
+        "q": "What is an AI job interview?",
+        "a": "It is a first round interview run by software instead of a person. The system asks questions by video, voice or chat, records or transcribes the answers and sends a summary or score to a recruiter."
+      },
+      {
+        "q": "Does the AI watch my facial expressions?",
+        "a": "In most current products, no. Scoring is based on the transcript of what you say, mapped to the skills the employer chose. Ask the employer if you want confirmation for a specific tool."
+      },
+      {
+        "q": "Can an AI job interview reject me on its own?",
+        "a": "Some systems can screen candidates out automatically, which is why laws like New York City's Local Law 144 require bias audits and notice. Many employers still have a recruiter review results before any rejection."
+      },
+      {
+        "q": "Can I ask for a human interviewer instead?",
+        "a": "Yes. You can ask for an accommodation or an alternative format, and employers covered by disability law must consider reasonable requests."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-video-interviews/",
+        "label": "AI video interviews"
+      },
+      {
+        "href": "/explainers/ai-interviewer/",
+        "label": "AI interviewers"
+      },
+      {
+        "href": "/explainers/ai-and-candidate-experience/",
+        "label": "AI and candidate experience"
+      },
+      {
+        "href": "/explainers/ai-bias-in-hiring/",
+        "label": "AI bias in hiring"
+      }
+    ]
   }
 ]
