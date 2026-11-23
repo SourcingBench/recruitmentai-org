@@ -1597,5 +1597,56 @@
         "label": "AI bias in hiring"
       }
     ]
+  },
+  {
+    "slug": "ai-assessment-tools",
+    "title": "AI assessment tools explained: what they test, how the scoring works and the fairness rules that apply",
+    "seoTitle": "AI Assessment Tools for Hiring: How They Work and What to Check (2026)",
+    "description": "A plain English guide to AI assessment tools in hiring for 2026: game based, simulation, coding and AI scored open response tests, what vendors claim about prediction, the four fifths rule, NYC Local Law 144 and the questions to ask before buying.",
+    "date": "2026-11-23",
+    "updated": "2026-11-23",
+    "minutes": 8,
+    "short": "What AI powered candidate assessments measure, where the AI sits, how to judge validity and the legal checks employers must run.",
+    "body": "<p>An AI assessment tool is software that tests job candidates on skills, abilities or work behaviors and uses machine learning to build the test, score the answers or both. That covers a wide range of products in 2026: game based cognitive tasks, simulations of a day on the job, auto scored coding exercises, open text and spoken answers graded by language models, and proctoring that watches for cheating. They are sold to replace or shrink the resume screen, on the argument that what someone can do in twenty minutes predicts performance better than what they wrote about themselves. Whether that argument holds depends on how the tool was built and validated, which is what this explainer is about.</p>\n<h2>The main types you will see</h2>\n<p><b>Game based tasks.</b> Short puzzles and reaction exercises that measure memory, attention, risk taking or problem solving. Harver sells these under the pymetrics name, and HireVue lists games that measure cognitive ability on its <a href=\"https://www.hirevue.com/solutions/assessments\">assessments page</a>.</p>\n<p><b>Job simulations and situational judgment.</b> The candidate works through realistic scenarios, such as an upset customer or a conflicting set of priorities, and chooses or writes a response. HireVue calls its version a Virtual Job Tryout; SHL sells situational judgment tests alongside its OPQ personality questionnaire and Verify ability tests.</p>\n<p><b>Technical and coding tests.</b> Programming problems scored automatically against test cases, often with the system flagging copied or machine generated code. These are the most direct measures in the category, because the task is close to the work.</p>\n<p><b>Open response scored by AI.</b> Written or spoken answers that a language model grades against a rubric. Criteria sells cognitive aptitude, personality, emotional intelligence and risk tests and offers an AI scoring add on for its video interviews. TestGorilla combines a skills test library with simulations and AI interviews.</p>\n<h2>Where the AI actually sits</h2>\n<p>It helps to separate three jobs. First, building the test: some vendors use AI to generate items or adapt difficulty to each candidate. Second, scoring: a model turns answers, choices or response patterns into a number. Third, protecting the test: Criteria, for example, lists AI proctoring among its products, and many vendors now monitor for tabs, second devices and pasted answers because candidates use AI assistants too. A product can use AI for any one of these and still call itself an AI assessment, so ask which.</p>\n<h2>Does it predict job performance?</h2>\n<p>Vendors publish striking numbers. HireVue says its assessments draw on more than 200 million completions and that sales candidates who score high are seven times more likely to become top performers than those who score low; those are vendor figures from its own customers. The honest answer for any buyer is that predictive power is local. A test validated for call center agents tells you little about warehouse leads. Ask for a validation study that matches your role, sample size and outcome measure, and check whether the outcome was a supervisor rating, retention or actual output.</p>\n<h2>Fairness and the legal baseline</h2>\n<p>In the United States the oldest rule is still the most useful. The federal <a href=\"https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XIV/part-1607\">Uniform Guidelines on Employee Selection Procedures</a>, adopted in 1978, say that a selection rate for any race, sex or ethnic group that is less than four fifths of the rate for the group with the highest rate will generally be regarded as evidence of adverse impact. That applies to an AI assessment exactly as it applies to a paper test, and the employer, not the vendor, carries the risk. Our explainer on <a href=\"/explainers/ai-bias-in-hiring/\">AI bias in hiring</a> covers how disparities arise.</p>\n<p>Local rules add obligations. New York City's <a href=\"https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page\">Local Law 144</a> bars employers from using an automated employment decision tool unless it has had a bias audit within the past year, the results summary is public and candidates get notice; the city's enforcement agency says that notice must come 10 business days before use. See our guide to <a href=\"/explainers/nyc-local-law-144-bias-audits/\">Local Law 144 bias audits</a>, and the <a href=\"/explainers/colorado-ai-act-and-hiring/\">Colorado AI Act</a> page for a state level approach. Disability law also applies: a timed game or a speech scored test can disadvantage some candidates, so offer an accommodation route and say how to request it.</p>\n<h2>Questions to ask a vendor before you buy</h2>\n<ul><li>Which job analysis links each scored trait to the role you are hiring for?</li><li>Can we see adverse impact results by group for a comparable role, and will you run them on our own data after launch?</li><li>Is any score produced by a model we cannot inspect, and can a recruiter see why a candidate scored as they did?</li><li>What accommodations are built in, such as extra time, screen reader support or a non timed alternative?</li><li>How long are responses and recordings kept, and can a candidate ask for deletion?</li></ul>\n<h2>How candidates experience them</h2>\n<p>Assessments usually arrive soon after the application. Candidates do better when the employer explains what is measured, why it matters for the job and whether a person reviews results before any rejection. Short, job relevant tasks keep completion rates up; long generic batteries drive good applicants away. For the wider shift away from credentials, read <a href=\"/explainers/skills-based-hiring-and-ai/\">skills based hiring and AI</a>.</p>",
+    "faq": [
+      {
+        "q": "What are AI assessment tools in hiring?",
+        "a": "They are candidate tests that use machine learning to build questions, score answers or monitor for cheating. Common formats are game based tasks, job simulations, coding tests and written or spoken answers graded by a model."
+      },
+      {
+        "q": "Are AI assessments legal?",
+        "a": "Yes, but the same anti discrimination rules apply as to any selection test. Employers should check adverse impact using the four fifths rule in the federal Uniform Guidelines, and in New York City an annual bias audit and candidate notice are required."
+      },
+      {
+        "q": "Do AI assessments predict job performance?",
+        "a": "Some do for specific roles, but the evidence is local. Ask the vendor for a validation study on a role like yours and an outcome you care about, such as performance ratings or retention."
+      },
+      {
+        "q": "Can candidates ask for an accommodation?",
+        "a": "Yes. Timed or speech based tests can disadvantage people with some disabilities, so employers should offer and explain an accommodation or alternative format."
+      },
+      {
+        "q": "Can candidates use AI to cheat on these tests?",
+        "a": "Some try, which is why vendors increasingly add proctoring that watches for pasted answers, second devices and tab switching."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/skills-based-hiring-and-ai/",
+        "label": "Skills based hiring and AI"
+      },
+      {
+        "href": "/explainers/ai-bias-in-hiring/",
+        "label": "AI bias in hiring"
+      },
+      {
+        "href": "/explainers/nyc-local-law-144-bias-audits/",
+        "label": "NYC Local Law 144 bias audits"
+      },
+      {
+        "href": "/explainers/ai-interview-assistant/",
+        "label": "AI interview assistants"
+      }
+    ]
   }
 ]
