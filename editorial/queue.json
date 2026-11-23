@@ -405,7 +405,9 @@
    "keyword": "ai job interview",
    "volume": 720,
    "noon_target": null,
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-job-interview",
+   "date": "2026-11-23"
   },
   {
    "id": "rai-044",
