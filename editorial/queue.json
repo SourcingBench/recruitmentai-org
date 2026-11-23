@@ -415,7 +415,9 @@
    "keyword": "ai assessment tools",
    "volume": 110,
    "noon_target": null,
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-assessment-tools",
+   "date": "2026-11-23"
   },
   {
    "id": "rai-045",
