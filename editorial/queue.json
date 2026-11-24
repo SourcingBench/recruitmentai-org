@@ -424,8 +424,10 @@
    "family": "ai-explainer",
    "keyword": "eeoc artificial intelligence",
    "volume": 30,
-   "noon_target": null,
-   "status": "queued"
+   "noon_target": "/blog/articles/258-ai-hiring-compliance",
+   "status": "published",
+   "slug": "eeoc-and-ai-in-hiring",
+   "date": "2026-11-24"
   },
   {
    "id": "rai-046",
