@@ -1695,5 +1695,60 @@
         "label": "Colorado AI Act and hiring"
       }
     ]
+  },
+  {
+    "slug": "ai-recruiter",
+    "title": "AI recruiters in 2026: the five hiring jobs the software takes over, and where people still decide",
+    "seoTitle": "AI Recruiter Explained: What It Does at Each Hiring Stage (2026)",
+    "description": "What an AI recruiter actually does in 2026, stage by stage: sourcing, outreach, screening chat, scheduling and AI interviews, with examples from LinkedIn, Paradox, HireVue and Wellfound, the audit and notice rules that apply, and what still needs a human.",
+    "date": "2026-11-24",
+    "updated": "2026-11-24",
+    "minutes": 7,
+    "short": "A stage by stage map of what AI recruiters do in 2026, which products cover which step, and the rules that apply when software screens candidates.",
+    "body": "<p><b>Verdict first:</b> an AI recruiter in 2026 is not one product. It is a label vendors put on software that takes over one or more recruiting steps, usually finding people, starting the conversation, screening answers, booking the interview or running a first round interview itself. Very few tools do all five well, and none of them make the hiring decision on their own in the products we reviewed. If you are buying, map the step you want to hand off before you look at demos. If you are a candidate who has just been contacted by one, the same map tells you what is on the other end of the message.</p><h2 id='stages'>Five jobs that get called an AI recruiter</h2><table><thead><tr><th>Stage</th><th>What the software does</th><th>Example from a vendor page</th><th>Who still decides</th></tr></thead><tbody><tr><td>Sourcing</td><td>Runs searches, scores profiles against the role</td><td>LinkedIn Hiring Assistant 2</td><td>Recruiter picks who to contact</td></tr><tr><td>First contact</td><td>Writes and sends personalized messages</td><td>Wellfound AI agents, Noon</td><td>Recruiter approves the target list and tone</td></tr><tr><td>Screening chat</td><td>Asks knockout questions by chat or text</td><td>Paradox, HireVue chat agent</td><td>Rules set by the employer</td></tr><tr><td>Scheduling</td><td>Offers slots and books interviews</td><td>Paradox conversational scheduling</td><td>Hiring manager owns the calendar</td></tr><tr><td>First interview</td><td>Runs a structured interview at any hour</td><td>HireVue AI Interviewer</td><td>Recruiter reviews the evidence and shortlists</td></tr></tbody></table><h2 id='sourcing'>Sourcing: where most of the hype lives</h2><p>Sourcing is the step most vendors mean when they say AI recruiter. LinkedIn's <a href='https://business.linkedin.com/hire/hiring-assistant' target='_blank' rel='noopener'>Hiring Assistant 2</a> page describes an agent that runs dozens of searches across the network, draws on signals from more than 1.3 billion members and learns from a recruiter's feedback on each match. LinkedIn claims recruiters find qualified matches while reviewing 83 percent fewer profiles, and are four times as likely to contact a candidate the assistant surfaced than one found through traditional methods. Those are vendor figures, not independent results, but they show what the product is built to do: shrink the list a human reads.</p><p>Outside a single network, sourcing agents search the open web, GitHub, publications and company sites. Noon's <a href='https://noon.ai/product/ai-sourcer' target='_blank' rel='noopener'>AI Sourcer</a>, for example, searches beyond LinkedIn, evaluates each profile against the role's criteria and keeps sourcing as new people appear, then hands candidates to personalized email and SMS outreach. Agency recruiters have their own version: <a href='https://www.paraform.com/' target='_blank' rel='noopener'>Paraform</a> gives independent recruiters free AI sourcing, matching, a CRM, a notetaker and a scheduler, and connects them with open roles from startups and enterprises.</p><h2 id='outreach'>Outreach: the message a candidate actually sees</h2><p>For candidates, the AI recruiter usually shows up as an email or text. <a href='https://wellfound.com/recruit' target='_blank' rel='noopener'>Wellfound</a> says its agents find candidates, write personalized outreach and send it from the employer's own inbox around the clock. That design matters: the message comes from a real person's address, so replies land with a human. The quality test is simple. A good AI written message names something specific from the candidate's background and states pay, location and the role's scope. A bad one could have been sent to anyone, and candidates delete those quickly.</p><h2 id='screening'>Screening and scheduling: the frontline workhorse</h2><p>For hourly and frontline hiring, the AI recruiter is a chat or text assistant. <a href='https://www.paradox.ai/' target='_blank' rel='noopener'>Paradox</a> sells a conversational ATS and a Candidate Experience Agent that validate qualifications through chat or text, let candidates pick interview times and send prep material, and it markets an integration that brings two way SMS and automated scheduling to Workday customers. Here the AI is not judging talent so much as removing waiting time: a restaurant applicant who can book an interview at 11 p.m. on a phone does not wander off to the next job post.</p><h2 id='interview'>AI interviews: the step that draws the most scrutiny</h2><p><a href='https://www.hirevue.com/' target='_blank' rel='noopener'>HireVue</a> now markets agentic hiring tools, including a website chat agent that steers applicants toward suitable roles and an AI Interviewer that gives every applicant a 24/7 screening interview, with each recommendation accompanied by the evidence behind it. HireVue says 40 percent of the Fortune 100 use its platform. This is also where law reaches first. New York City's <a href='https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page' target='_blank' rel='noopener'>AEDT rules</a> bar employers and employment agencies from using an automated employment decision tool unless it has had a bias audit within the past year, a summary of the audit is public and candidates receive the required notices. In California, the privacy agency's board <a href='https://cppa.ca.gov/regulations/ccpa_updates.html' target='_blank' rel='noopener'>adopted regulations</a> on automated decisionmaking technology on July 24, 2025. Our explainers on <a href='/explainers/nyc-local-law-144-bias-audits/'>Local Law 144</a> and <a href='/explainers/colorado-ai-act-and-hiring/'>the Colorado AI Act</a> cover the details.</p><h2 id='limits'>What an AI recruiter still cannot do</h2><p>None of these tools close a hire. They do not sell a reluctant passive candidate on a move across the country, negotiate a counteroffer or read a hiring manager's unspoken preferences. They also inherit whatever is wrong with the job description and the criteria they are given. A team that has not agreed on what good looks like will get a very fast stream of the wrong people.</p><p>Three questions separate useful products from marketing. Which step does it fully own, and where does a human sign off? What does it record about why a candidate was ranked or rejected, and can you export that record for an audit? And when it contacts a candidate, whose name is on the message and who answers the reply?</p><h2 id='candidates'>If an AI recruiter contacts you</h2><p>Treat it like any recruiter message. Check that the company and role are real, answer the specific questions it asks and expect a human at the interview stage. In New York City you are entitled to a notice when an automated tool is used to screen you. Anywhere, you can ask the recruiter whether AI was used to rank your application and what a person reviewed.</p>",
+    "faq": [
+      {
+        "q": "What is an AI recruiter?",
+        "a": "Software that takes over one or more recruiting steps: sourcing candidates, writing first messages, screening by chat or text, scheduling interviews or running a first round interview. A human still makes the hiring decision."
+      },
+      {
+        "q": "Will an AI recruiter replace human recruiters?",
+        "a": "Not in the products reviewed here. They cut the time spent searching, messaging and scheduling, but people still decide who advances, negotiate offers and close hires."
+      },
+      {
+        "q": "Is it legal to use an AI recruiter to screen candidates?",
+        "a": "Yes, with conditions. New York City requires a bias audit within the past year, a public audit summary and candidate notices before an automated employment decision tool is used, and federal anti discrimination law applies to any screening method."
+      },
+      {
+        "q": "How can I tell if an AI recruiter contacted me?",
+        "a": "Generic wording, instant replies at odd hours and fixed menu style questions are common signs. You can simply ask whether the message or screening was automated and who will review your answers."
+      },
+      {
+        "q": "What does LinkedIn's Hiring Assistant do?",
+        "a": "LinkedIn says Hiring Assistant 2 runs dozens of searches across LinkedIn, learns from recruiter feedback and lets recruiters find qualified matches while reviewing 83 percent fewer profiles."
+      },
+      {
+        "q": "Which AI recruiter is best for hourly hiring?",
+        "a": "Conversational tools like Paradox are designed for frontline roles, with screening by text, self scheduling and mobile first applications."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/recruiting-chatbots/",
+        "label": "Recruiting chatbots"
+      },
+      {
+        "href": "/explainers/ai-video-interviews/",
+        "label": "AI video interviews"
+      },
+      {
+        "href": "/explainers/nyc-local-law-144-bias-audits/",
+        "label": "NYC Local Law 144 bias audits"
+      },
+      {
+        "href": "/explainers/eeoc-and-ai-in-hiring/",
+        "label": "EEOC and AI in hiring"
+      }
+    ]
   }
 ]

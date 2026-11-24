@@ -27,7 +27,9 @@
    "keyword": "ai recruiter",
    "volume": 4400,
    "noon_target": "/product/ai-sourcer",
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-recruiter",
+   "date": "2026-11-24"
   },
   {
    "id": "rai-004",
