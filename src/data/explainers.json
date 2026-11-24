@@ -1648,5 +1648,52 @@
         "label": "AI interview assistants"
       }
     ]
+  },
+  {
+    "slug": "eeoc-and-ai-in-hiring",
+    "title": "The EEOC and artificial intelligence in hiring: what still applies after the 2025 rollback",
+    "seoTitle": "EEOC and AI in Hiring: What Still Applies in 2026",
+    "description": "What the EEOC enforces when employers use AI to screen candidates in 2026: Title VII, the ADA and the ADEA, the Uniform Guidelines, the removed AI guidance, the April 2025 executive order on disparate impact and the iTutorGroup settlement.",
+    "date": "2026-11-24",
+    "updated": "2026-11-24",
+    "minutes": 7,
+    "short": "Why the EEOC's AI guidance disappeared, which federal laws still cover automated hiring tools and what recruiting teams should check.",
+    "body": "<p>Search for the EEOC and artificial intelligence and you will still find checklists that send you to an agency page explaining how Title VII applies to algorithmic hiring tools. Follow the link today and you get a 404. On November 24, 2026 the address <code>eeoc.gov/ai</code> returned the agency's standard page not found screen when we loaded it. That missing page is the most visible sign of a bigger shift: the federal agency that enforces job discrimination law has stopped publishing AI specific advice, while the laws it enforces have not changed at all.</p>\n<p>This explainer separates the two. It covers what the EEOC actually enforces, what changed in 2025, the one AI hiring case the agency settled, and what that means for a recruiting team that screens, ranks or interviews candidates with software in 2026.</p>\n<h2>What the EEOC enforces, with or without AI</h2>\n<p>The Equal Employment Opportunity Commission enforces three statutes that matter most for hiring tools. Its guidance page on <a href=\"https://www.eeoc.gov/laws/guidance/employment-tests-and-selection-procedures\" rel=\"noopener\">employment tests and selection procedures</a> says Title VII of the Civil Rights Act of 1964, the Americans with Disabilities Act and the Age Discrimination in Employment Act all prohibit discriminatory tests and selection procedures. None of these laws mentions artificial intelligence, and none needs to. A resume ranking model, a chatbot that asks knockout questions and a scored video interview are all selection procedures in the plain sense of the term.</p>\n<p>The same page describes two ways a test can break Title VII:</p>\n<ul>\n<li><b>Disparate treatment:</b> intentionally treating applicants differently because of race, color, religion, sex or national origin, for example testing one group and not another.</li>\n<li><b>Disparate impact:</b> using a neutral looking procedure that disproportionately excludes a protected group when the procedure is not job related and consistent with business necessity.</li>\n</ul>\n<p>Since 1978 employers have measured that second risk with the Uniform Guidelines on Employee Selection Procedures, codified at 29 C.F.R. Part 1607, which the EEOC adopted under Title VII. The guidelines are the source of the familiar four fifths comparison of selection rates. The EEOC page also tells employers to look for an equally effective alternative with less adverse impact and to keep checking that a test still predicts performance. Our explainer on <a href=\"/explainers/ai-bias-in-hiring/\">AI bias in hiring</a> walks through how that math is run on an automated screen.</p>\n<h2>What changed in 2025</h2>\n<p>Two federal moves rewrote the tone, if not the text, of the rules.</p>\n<table>\n<thead><tr><th>Date</th><th>Action</th><th>Effect on AI hiring tools</th></tr></thead>\n<tbody>\n<tr><td>Early 2025</td><td>EEOC AI technical assistance pages taken down</td><td>No current federal document explains how the agency views algorithmic screening</td></tr>\n<tr><td>April 23, 2025</td><td>Executive order <a href=\"https://www.whitehouse.gov/presidential-actions/2025/04/restoring-equality-of-opportunity-and-meritocracy/\" rel=\"noopener\">Restoring Equality of Opportunity and Meritocracy</a></td><td>Federal policy is to eliminate disparate impact liability \"to the maximum degree possible\"; the Attorney General and the EEOC Chair were told to review pending matters that rely on it</td></tr>\n<tr><td>Unchanged</td><td>Title VII, ADA, ADEA and 29 C.F.R. Part 1607</td><td>Still law; private plaintiffs can still sue</td></tr>\n</tbody>\n</table>\n<p>Section 6 of the order directed the Attorney General and the EEOC Chair to assess, within 45 days, all pending investigations and civil suits under federal civil rights laws, including Title VII, that rely on a disparate impact theory. An executive order cannot amend a statute, though. Disparate impact under Title VII comes from the text Congress wrote and from Supreme Court precedent, so the practical change is about federal enforcement priorities. A rejected candidate, a class action firm or a state agency can still bring the claim.</p>\n<h2>The one AI hiring case the EEOC settled</h2>\n<p>The agency's clearest automated hiring case is not about machine learning at all. In a <a href=\"https://www.eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit\" rel=\"noopener\">September 11, 2023 press release</a>, the EEOC announced that iTutorGroup would pay $365,000 to settle a suit alleging its tutor application software was programmed to automatically reject women aged 55 or older and men aged 60 or older. According to the agency, more than 200 qualified applicants in the United States were rejected because of their age, which violates the ADEA. The money went to the applicants who were screened out.</p>\n<p>The lesson for 2026 is that the riskiest automation is often a simple rule hidden inside a form, not a neural network. A birth year filter, a graduation date cutoff or a radius rule that tracks a neighborhood's demographics can do the same damage, and they are easier to prove in court. The age theory is also at the center of the collective action against an HR software vendor described in our <a href=\"/explainers/mobley-v-workday/\">Mobley v. Workday explainer</a>.</p>\n<h2>Where the rules are written now</h2>\n<p>With federal guidance gone, the detailed requirements come from states and cities. New York City's Department of Consumer and Worker Protection still runs its <a href=\"https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page\" rel=\"noopener\">automated employment decision tools page</a>, which lets the public report an employer or employment agency that used a tool without a bias audit, without posting the audit summary or without giving the required notices. The city clarified in June 2023 that the notice must go out 10 business days before the tool is used. The details are in our <a href=\"/explainers/nyc-local-law-144-bias-audits/\">NYC Local Law 144 guide</a>, and the state picture is covered in the explainers on <a href=\"/explainers/colorado-ai-act-and-hiring/\">Colorado</a> and <a href=\"/explainers/traiga-texas-ai-law-and-hiring/\">Texas</a>. For a single dated map of which regimes are in force, see this <a href=\"https://noon.ai/blog/articles/258-ai-hiring-compliance\">AI hiring compliance timeline</a>.</p>\n<h2>A working checklist for recruiting teams</h2>\n<ol>\n<li><b>Inventory every automated step.</b> List each place software scores, filters, ranks or rejects candidates, including knockout questions in the ATS.</li>\n<li><b>Run selection rate comparisons yourself.</b> The Uniform Guidelines still apply. Compare pass rates by sex, race and ethnicity, and by age bands of 40 and over, at every stage.</li>\n<li><b>Remove proxy rules.</b> Graduation year, years since degree and similar fields can stand in for age.</li>\n<li><b>Ask vendors for validation evidence.</b> A tool that disproportionately screens out a group needs proof that it is job related.</li>\n<li><b>Offer accommodations.</b> The ADA covers timed games, video analysis and chat screens; tell candidates how to request an alternative format.</li>\n<li><b>Keep records.</b> If a charge arrives, you will need the tool version, the criteria and the outcomes for that requisition.</li>\n</ol>\n<p>The short version: the EEOC no longer explains how it views AI in hiring, but the statutes it enforces still apply to every automated decision, and plaintiffs and states have more reason than ever to use them.</p>",
+    "faq": [
+      {
+        "q": "Does the EEOC regulate artificial intelligence in hiring?",
+        "a": "Not with an AI specific rule. It enforces Title VII, the ADA and the ADEA, and those laws cover any test or selection procedure, including software that screens, ranks or rejects applicants."
+      },
+      {
+        "q": "Is the EEOC's AI guidance still available?",
+        "a": "No. The agency's AI technical assistance was taken down in early 2025, and eeoc.gov/ai returned a page not found error when we checked on November 24, 2026."
+      },
+      {
+        "q": "Did the 2025 executive order end disparate impact claims?",
+        "a": "No. It set a federal policy against disparate impact liability and told the Attorney General and the EEOC Chair to review pending matters, but Title VII itself was not amended and private lawsuits remain possible."
+      },
+      {
+        "q": "What was the iTutorGroup case?",
+        "a": "The EEOC alleged iTutorGroup's application software automatically rejected women 55 and older and men 60 and older. The company agreed in 2023 to pay $365,000 to settle the age discrimination suit."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-bias-in-hiring/",
+        "label": "AI bias in hiring"
+      },
+      {
+        "href": "/explainers/mobley-v-workday/",
+        "label": "Mobley v. Workday"
+      },
+      {
+        "href": "/explainers/nyc-local-law-144-bias-audits/",
+        "label": "NYC Local Law 144 bias audits"
+      },
+      {
+        "href": "/explainers/colorado-ai-act-and-hiring/",
+        "label": "Colorado AI Act and hiring"
+      }
+    ]
   }
 ]
