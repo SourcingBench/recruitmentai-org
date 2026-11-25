@@ -1797,5 +1797,48 @@
         "label": "AI and candidate experience"
       }
     ]
+  },
+  {
+    "slug": "ai-cover-letters",
+    "title": "AI cover letters in 2026: how the generators work, why they read alike and what recruiters look for now",
+    "seoTitle": "AI Cover Letters Explained: Generators, Detection and Recruiters",
+    "description": "What an AI cover letter is, how generators like Kickresume and ResumeBuilder.com build one from a resume and job post, why OpenAI withdrew its AI text detector, and how recruiters now read letters.",
+    "date": "2026-11-25",
+    "updated": "2026-11-25",
+    "minutes": 6,
+    "short": "How AI cover letter generators work, why detectors fail, and what recruiters look for once every letter is fluent.",
+    "body": "<p>26 percent. That was the share of AI written text OpenAI's own detector correctly flagged in its evaluation, while it wrongly labeled human writing as AI 9 percent of the time. OpenAI <a href='https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/' target='_blank' rel='noopener'>withdrew that classifier on July 20, 2023</a>, citing its low rate of accuracy. Keep those two numbers in mind whenever someone claims a hiring team can reliably spot an AI cover letter. The useful questions in 2026 are different: what AI cover letter tools actually do, why so many letters now read alike, and how recruiters adjust.</p><h2 id='what'>What an AI cover letter is</h2><p>An AI cover letter is a letter drafted wholly or partly by a language model from the job posting and the candidate's resume. Dedicated generators sit inside resume builders: <a href='https://www.kickresume.com/en/ai-cover-letter-writer/' target='_blank' rel='noopener'>Kickresume</a> markets a GPT-4.1 powered cover letter writer, and <a href='https://www.resumebuilder.com/cover-letter-builder/' target='_blank' rel='noopener'>ResumeBuilder.com</a> offers a generator that tailors a letter to the resume and target role. Many candidates skip those and paste the posting into a general chat assistant. Either way, the output is a fluent, well structured letter in under a minute, which is exactly why it no longer stands out.</p><h2 id='how'>How the generators work</h2><p>Most tools follow the same three steps. They read the job description and pull out required skills and keywords. They read the resume and pick the experiences that match. Then they fill a familiar template: an opening that names the role, two paragraphs linking past work to the posting, and a closing that asks for an interview. Tone sliders and length settings change the surface, not the structure. The model has no knowledge of the candidate beyond what it was given, so anything specific about the company or the person has to come from the user.</p><table><thead><tr><th>Part of the letter</th><th>What AI handles well</th><th>Where it usually goes wrong</th></tr></thead><tbody><tr><td>Opening</td><td>Names the role and company correctly</td><td>Generic enthusiasm that could fit any employer</td></tr><tr><td>Matching skills</td><td>Mirrors keywords from the posting</td><td>Claims skills the resume does not support</td></tr><tr><td>Evidence</td><td>Restates resume bullets in prose</td><td>Inflates numbers or invents results</td></tr><tr><td>Company knowledge</td><td>Repeats the mission statement</td><td>Gets products, locations or recent news wrong</td></tr><tr><td>Closing</td><td>Polite, correct call to action</td><td>Identical phrasing across thousands of letters</td></tr></tbody></table><h2 id='recruiters'>What changes for recruiters</h2><p>When every letter is fluent, fluency stops being a signal. Recruiters who still read letters tend to look for the things a model cannot invent from a posting: a specific reason for wanting this employer, a concrete result with context, or a connection to someone at the company. Many teams have quietly made the letter optional and moved the same questions into short screening prompts on the application, which are harder to answer generically. Our explainer on <a href='/explainers/ai-generated-resumes/'>AI generated resumes</a> covers the same shift for the resume itself, and <a href='/explainers/ai-job-applications/'>AI job applications</a> covers the auto apply tools that send letters at scale.</p><h2 id='detection'>Why detection is a weak policy</h2><p>The OpenAI figures above are the cleanest public evidence that detectors miss most AI text while still accusing some humans. Rejecting candidates on a detector score risks screening out people who simply write in a plain, organized style, including many non native English speakers. A better policy is to judge the letter on accuracy and specificity, and to verify claims in the interview the same way you would for any candidate. If an ATS or screening tool scores letters, ask the vendor what it measures; our guide to <a href='/explainers/ai-resume-parsing/'>AI resume parsing</a> explains what those systems can and cannot read.</p><h2 id='candidates'>Using AI for a cover letter without hurting your chances</h2><p>For candidates, the practical rule is to let the tool draft and then replace its weakest sentences with facts only you know. Check every claim against your resume. Cut the opening line if it would fit any job. Add one sentence about why this company, with a detail from its own site or a conversation. Read it aloud once; letters that sound like a press release usually came straight out of a generator. Employers writing their own postings with AI face the mirror image of this problem, covered in <a href='/explainers/ai-job-description-generator/'>AI job description generators</a>.</p><h2 id='employers'>Should employers still ask for a cover letter?</h2><p>It depends on what the letter is for. If the job involves writing to clients, drafting reports or explaining decisions, a letter is still a fair work sample, but only if you ask for something a generator cannot fake: a short answer about a real problem your team has, or a response to a scenario in the posting. If the letter is a ritual nobody reads, drop it. Making it optional and saying so in the posting is more honest than requiring a document that every applicant now produces in seconds, and it shortens the application for the people you most want to finish it.</p><p>Whatever you choose, be consistent. Evaluating some letters for effort and ignoring others introduces exactly the kind of uneven screening that hiring audits look for, and a written rule is easy to explain to candidates who ask.</p><h2 id='checklist'>A five point check for any letter, written by a person or a model</h2><p>Recruiters who still read letters can use the same short test regardless of who or what drafted it. First, does it name a reason for this employer that would not fit a competitor? Second, does every claim match the resume? Third, is there at least one result with a number and a context? Fourth, does the closing ask for something specific, such as a conversation about a named project? Fifth, would you remember it an hour later? A letter that passes three or more is doing its job, whatever tool helped write it.</p>",
+    "faq": [
+      {
+        "q": "Can recruiters tell if a cover letter was written by AI?",
+        "a": "Not reliably. OpenAI's own classifier caught 26 percent of AI written text and flagged 9 percent of human text as AI before OpenAI withdrew it in July 2023. Recruiters notice generic letters, not AI as such."
+      },
+      {
+        "q": "Is it acceptable to use AI to write a cover letter?",
+        "a": "Most employers do not ban it. What hurts a candidate is inaccurate claims or a letter that could fit any company, so edit the draft with specific facts."
+      },
+      {
+        "q": "Do employers still read cover letters in 2026?",
+        "a": "Some do, especially for writing heavy and senior roles, but many have made them optional and use short screening questions on the application instead."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-generated-resumes/",
+        "label": "AI generated resumes"
+      },
+      {
+        "href": "/explainers/ai-job-applications/",
+        "label": "AI job applications"
+      },
+      {
+        "href": "/explainers/ai-resume-parsing/",
+        "label": "AI resume parsing"
+      },
+      {
+        "href": "/explainers/ai-job-description-generator/",
+        "label": "AI job description generators"
+      }
+    ]
   }
 ]

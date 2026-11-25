@@ -448,6 +448,40 @@
    "status": "published",
    "slug": "ai-job-applications",
    "date": "2026-11-25"
+  },
+  {
+   "id": "rai-048",
+   "family": "ai-explainer",
+   "keyword": "ai cover letter",
+   "volume": 1000,
+   "noon_target": null,
+   "status": "published",
+   "slug": "ai-cover-letters",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "rai-049",
+   "family": "ai-explainer",
+   "keyword": "ai interview questions",
+   "volume": 480,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-050",
+   "family": "ai-explainer",
+   "keyword": "ai personality test",
+   "volume": 110,
+   "noon_target": null,
+   "status": "queued"
+  },
+  {
+   "id": "rai-051",
+   "family": "ai-explainer",
+   "keyword": "agentic ai in hr",
+   "volume": 50,
+   "noon_target": "/product/ai-sourcer",
+   "status": "queued"
   }
- ]
+]
 }
