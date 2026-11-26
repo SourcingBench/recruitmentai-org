@@ -475,7 +475,9 @@
    "keyword": "ai personality test",
    "volume": 110,
    "noon_target": null,
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-personality-tests",
+   "date": "2026-11-26"
   },
   {
    "id": "rai-051",
