@@ -1840,5 +1840,60 @@
         "label": "AI job description generators"
       }
     ]
+  },
+  {
+    "slug": "ai-interview-questions",
+    "title": "AI interview questions: how to test whether a candidate can actually work with AI",
+    "seoTitle": "AI Interview Questions: 8 That Test Real AI Fluency (2026)",
+    "description": "AI interview questions explained for 2026: what TestGorilla's survey of 2,000 hiring leaders found, eight questions built on the 4D AI Fluency Framework, a ten minute output review and a scoring scale.",
+    "date": "2026-11-26",
+    "updated": "2026-11-26",
+    "minutes": 7,
+    "short": "Eight questions and a short exercise that separate people who use AI well from people who only talk about it.",
+    "body": "<p>Fifty nine percent. That is the share of organizations in TestGorilla's <a href='https://www.testgorilla.com/talent-discovery/state-hiring-ai-fluency/' target='_blank' rel='noopener'>State of Hiring for AI Fluency 2026</a> survey of about 2,000 senior hiring leaders in the US and UK that say they have already made a bad AI hire: someone who named the right tools in the interview and could not use them on the job. The same report found that 95% list AI fluency as a hiring requirement and 71% have formally defined it. The gap is not intent. It is the questions. This explainer covers what people mean by AI interview questions, which questions actually separate practitioners from talkers, and how to score the answers fairly.</p>\n<h2 id='meaning'>Two things people mean by AI interview questions</h2><p>The phrase is used in two ways. Most hiring managers mean questions that test whether a candidate can work well with AI tools, now a requirement in roles from marketing to finance. A smaller group means the questions an automated interviewer asks candidates during a screening call. This page focuses on the first meaning, with a short section on the second. For the software that runs automated screens, see our explainer on <a href='/explainers/ai-interviewer/'>AI interviewers</a>.</p>\n<h2 id='why'>Why ordinary questions miss</h2><p>Asking \"How do you use AI?\" invites a tour of tool names. TestGorilla's report describes the core problem as an interview that rewards the best storyteller rather than the best operator: it observes communication, not execution. It also found that 19% of organizations leave AI assessment entirely to each hiring manager's judgment, with no shared rubric. Two candidates with equal skill can get opposite verdicts depending on which manager they meet. Better questions ask for a specific past task, the checking step and a decision not to use AI.</p>\n<h2 id='bank'>A question bank built on the 4D framework</h2><p>A practical structure comes from the <a href='https://academy.claude.com/courses/ai-fluency-framework-foundations' target='_blank' rel='noopener'>AI Fluency Framework</a> by Rick Dakan, Joseph Feller and Anthropic, which splits fluency into four competencies: delegation, description, discernment and diligence. Each maps to questions an interviewer can probe.</p><table><thead><tr><th>Competency</th><th>Question to ask</th><th>A strong answer includes</th><th>A weak answer sounds like</th></tr></thead><tbody><tr><td>Delegation</td><td>Tell me about a task you decided not to hand to AI. Why?</td><td>A concrete risk, such as confidential data or judgment the model lacks</td><td>\"I use it for everything\"</td></tr><tr><td>Delegation</td><td>Which part of your current job would you automate first, and what would you keep?</td><td>A clear split between repeatable steps and decisions</td><td>A list of tools with no workflow</td></tr><tr><td>Description</td><td>Show me a prompt that failed and how you changed it.</td><td>The original instruction, what went wrong and the specific fix</td><td>Generic tips about being specific</td></tr><tr><td>Description</td><td>How would you brief an AI tool on our brand voice or data format?</td><td>Examples, constraints and a format for the output</td><td>\"I would just ask it\"</td></tr><tr><td>Discernment</td><td>Describe a time AI output was confidently wrong. How did you catch it?</td><td>A verification step against a source or test</td><td>No example, or \"it is usually right\"</td></tr><tr><td>Discernment</td><td>How do you check a number or citation an assistant gives you?</td><td>Going to the primary source before using it</td><td>Trusting the link without opening it</td></tr><tr><td>Diligence</td><td>When do you tell a manager or client that AI helped with a piece of work?</td><td>A rule they follow and a reason for it</td><td>Never thought about it</td></tr><tr><td>Diligence</td><td>What would you never paste into a public AI tool?</td><td>Personal data, client files, unreleased financials</td><td>Unsure, or nothing</td></tr></tbody></table><p>Ask two or three, not all eight, and follow each with \"What happened next?\" until the candidate either gives detail or runs out of story.</p>\n<h2 id='exercise'>Add a ten minute output review</h2><p>The fastest way past rehearsed answers is a short exercise every candidate can do, whatever tools their last employer allowed. Hand over a one page AI generated draft relevant to the role, such as a customer email, a summary of a spreadsheet or a code snippet, with three planted problems: a wrong figure, an invented source and a tone mismatch. Give ten minutes to mark it up. Candidates who find all three and explain how they would fix the prompt are showing discernment you cannot fake in conversation.</p>\n<h2 id='scoring'>Score answers on a written scale</h2><p>Write anchors before the first interview. A simple four point scale works: 1 for no example, 2 for a real example without a check, 3 for a real example with a verification step, 4 for an example where the candidate also changed their process afterward. Score each competency separately, compare notes only after everyone has scored, and keep the same questions for every candidate in the same role. That structure answers the subjectivity problem TestGorilla describes and makes decisions easier to defend if a candidate challenges them.</p>\n<h2 id='automated'>Questions an AI interviewer asks you</h2><p>When the interviewer is software, the questions are usually set by the employer in advance and are often the same structured screening questions a recruiter would ask: availability, work authorization, experience with specific tasks and a few behavioral prompts. The system records and transcribes answers and may score them against the employer's criteria. In Illinois, New York City and Colorado, specific notice or audit rules apply, covered in our explainer on <a href='/explainers/ai-job-interview/'>AI job interviews</a>. Candidates should answer as they would to a person: concrete examples, short and in order.</p>\n<h2 id='fair'>Keep it fair</h2><p>Questions about AI use should be tied to the job. A warehouse supervisor does not need to write prompts, and asking about it adds noise. Avoid penalizing candidates whose past employer banned AI tools; the output review exercise is the fix for that, because it tests judgment rather than habit. And separate this topic from catching candidates who use AI to answer interview questions in real time, which is a different policy question covered in our explainer on <a href='/explainers/ai-interview-assistant/'>AI interview assistants</a>.</p>",
+    "faq": [
+      {
+        "q": "What are good interview questions about AI?",
+        "a": "Questions that ask for a specific past task: a prompt that failed and how it was fixed, a time AI output was wrong and how it was caught, and a task the candidate chose not to give to AI."
+      },
+      {
+        "q": "How do you assess AI skills in an interview?",
+        "a": "Combine two or three structured questions with a short output review exercise, and score each answer against anchors written before the interview."
+      },
+      {
+        "q": "What is AI fluency?",
+        "a": "The AI Fluency Framework by Rick Dakan, Joseph Feller and Anthropic defines it as working with AI effectively, efficiently, ethically and safely, across four competencies: delegation, description, discernment and diligence."
+      },
+      {
+        "q": "How many companies require AI fluency when hiring?",
+        "a": "In TestGorilla's 2026 survey of about 2,000 US and UK hiring leaders, 95% listed AI fluency as a requirement and 71% had formally defined it."
+      },
+      {
+        "q": "Do AI interviewers ask different questions from humans?",
+        "a": "Usually not. Employers set the questions, which tend to be structured screening and behavioral questions; the software records, transcribes and may score the answers."
+      },
+      {
+        "q": "Should I ask AI questions for every role?",
+        "a": "Only where the job uses AI tools. For roles that do not, the questions add noise and can disadvantage strong candidates."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-interviewer/",
+        "label": "AI interviewers"
+      },
+      {
+        "href": "/explainers/ai-job-interview/",
+        "label": "AI job interviews"
+      },
+      {
+        "href": "/explainers/ai-interview-assistant/",
+        "label": "AI interview assistants"
+      },
+      {
+        "href": "/explainers/ai-interview-practice/",
+        "label": "AI interview practice"
+      }
+    ]
   }
 ]

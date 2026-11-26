@@ -465,7 +465,9 @@
    "keyword": "ai interview questions",
    "volume": 480,
    "noon_target": null,
-   "status": "queued"
+   "status": "published",
+   "slug": "ai-interview-questions",
+   "date": "2026-11-26"
   },
   {
    "id": "rai-050",
