@@ -1895,5 +1895,56 @@
         "label": "AI interview practice"
       }
     ]
+  },
+  {
+    "slug": "ai-personality-tests",
+    "title": "AI personality tests in hiring: what they measure, where the AI sits and what to ask a vendor",
+    "seoTitle": "AI Personality Tests for Hiring: How They Work (2026)",
+    "description": "A plain English explainer of AI personality tests used in hiring in 2026: questionnaire based tools like Hogan and Harver, game and image formats like Traitify, profile inference tools like Crystal, and the legal questions employers face.",
+    "date": "2026-11-26",
+    "updated": "2026-11-26",
+    "minutes": 6,
+    "short": "Three kinds of tool share the label, and only one of them asks the candidate anything.",
+    "body": "<p>Picture two candidates for the same customer success job. One spends twelve minutes answering a questionnaire about how she handles deadlines and conflict. The other never takes a test at all, yet the recruiter's browser extension shows a confident personality label next to his public profile. Both results get called an AI personality test. They are very different things, and the difference decides how much weight either result deserves in a hiring decision.</p>\n<h2 id='kinds'>Three tools behind one label</h2><p>When vendors and job seekers say AI personality test, they usually mean one of three things.</p><table><thead><tr><th>Type</th><th>What the candidate does</th><th>Where AI is used</th><th>Example</th></tr></thead><tbody><tr><td>Scored questionnaire</td><td>Answers statements about their own behavior</td><td>Scoring, norming against role data, report writing</td><td><a href='https://www.hoganassessments.com/assessment/hogan-personality-inventory/' target='_blank' rel='noopener'>Hogan Personality Inventory</a>, <a href='https://harver.com/assessments/personality-questionnaire/' target='_blank' rel='noopener'>Harver Personality Questionnaire</a></td></tr><tr><td>Visual or game format</td><td>Reacts to images or short tasks on a phone</td><td>Mapping quick choices to trait scores</td><td>Traitify, now part of <a href='https://www.paradox.ai/' target='_blank' rel='noopener'>Paradox</a></td></tr><tr><td>Inference from text</td><td>Nothing; the tool reads profiles, emails or writing samples</td><td>Predicting traits from language</td><td><a href='https://www.crystalknows.com/' target='_blank' rel='noopener'>Crystal</a></td></tr></tbody></table><p>The first two still ask the person to respond, so the result reflects something the candidate chose to tell you. The third infers personality without the candidate taking part, which is useful for tailoring a sales conversation and much harder to defend as a selection tool.</p>\n<h2 id='measure'>What they actually measure</h2><p>Most hiring tools are built on the Big Five model: openness, conscientiousness, extraversion, agreeableness and emotional stability. Traitify described its image based assessment as Big Five research delivered in a few minutes on mobile. Hogan separates what it calls the bright side of personality, how people behave at their best, measured by the HPI, from derailers that show up under stress. Harver positions its questionnaire as a way to understand how candidates approach work during pre selection.</p><p>Personality scores describe tendencies, not skills. A high conscientiousness score suggests a person tends to be organized; it does not show they can reconcile an account or close a ticket. That is why industrial psychologists recommend combining personality measures with job samples, structured interviews or cognitive tests rather than using them alone. Our explainer on <a href='/explainers/ai-assessment-tools/'>AI assessment tools</a> covers those other formats.</p>\n<h2 id='ai'>Where the AI adds something</h2><p>The questionnaire itself is decades old. What AI changes is the work around it: adaptive question order that shortens the test, scoring models trained on the traits of people who succeeded in a specific role, auto generated reports for hiring managers, and natural language summaries of results. Each of those can be checked. Ask the vendor what outcome the model was trained to predict, how many employees were in the training data, and whether the role you are hiring for resembles theirs.</p><p>Inference tools rely more heavily on AI because there are no answers to score. Crystal says its own study found 93.3% of 22,902 peer ratings judged its results accurate, a measure of whether colleagues agree with the label, not of whether the label predicts job performance.</p>\n<h2 id='law'>The legal questions employers face</h2><p>Using an automated tool to score candidates can bring it under hiring rules. New York City's <a href='https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page' target='_blank' rel='noopener'>Automated Employment Decision Tools</a> law requires a bias audit and candidate notice when such a tool substantially assists a hiring decision; see our explainer on <a href='/explainers/nyc-local-law-144-bias-audits/'>Local Law 144 bias audits</a>. In the European Union, the AI Act treats AI used to evaluate candidates as high risk and prohibits emotion recognition in the workplace, which rules out tools that claim to read personality from facial expressions; our <a href='/explainers/eu-ai-act-and-recruitment/'>EU AI Act explainer</a> has the details. In the US, employers also remain responsible under federal anti discrimination law and the ADA if a test screens out people with a disability or a protected group at a higher rate, which our page on <a href='/explainers/ai-bias-in-hiring/'>AI bias in hiring</a> discusses.</p>\n<h2 id='ask'>Five questions to ask before you buy</h2><ol><li>Does the candidate answer questions, or does the tool infer traits without their involvement?</li><li>What job outcome was the scoring model validated against, and can we see the technical report?</li><li>What adverse impact results do you have by sex and race or ethnicity, and how recent are they?</li><li>What accommodations are offered for candidates who cannot complete a timed or visual format?</li><li>Do candidates receive their own results?</li></ol><p>Vendors that answer all five in writing are usually the ones whose scores hold up.</p>\n<h2 id='candidates'>If you are the candidate</h2><p>Answer consistently and honestly. Most questionnaires include items that detect a pattern of answering to look ideal, and inconsistent answers lower confidence in the result more than an unremarkable profile does. If the format is hard to use because of a disability, ask the employer for an accommodation before you start.</p>",
+    "faq": [
+      {
+        "q": "What is an AI personality test?",
+        "a": "A personality assessment in which AI scores the answers, adapts the questions, or infers traits from text instead of asking the candidate. Most hiring tools use the Big Five traits."
+      },
+      {
+        "q": "Are AI personality tests accurate?",
+        "a": "Questionnaire based tools can predict some job outcomes when validated for the role. Tools that infer personality from public profiles have far less evidence for hiring use."
+      },
+      {
+        "q": "Can employers use personality tests in hiring?",
+        "a": "Yes, in most places, but automated scoring can trigger bias audit and notice rules in New York City and high risk obligations under the EU AI Act, and employers stay liable for discriminatory effects."
+      },
+      {
+        "q": "Which personality tests do employers use?",
+        "a": "Common examples include the Hogan Personality Inventory, Harver's Personality Questionnaire and Traitify's image based assessment, now part of Paradox."
+      },
+      {
+        "q": "Can I prepare for an AI personality test?",
+        "a": "There are no right answers to study. Answer consistently, think about your behavior at work rather than at home, and ask for an accommodation if the format is a barrier."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-assessment-tools/",
+        "label": "AI assessment tools"
+      },
+      {
+        "href": "/explainers/ai-bias-in-hiring/",
+        "label": "AI bias in hiring"
+      },
+      {
+        "href": "/explainers/nyc-local-law-144-bias-audits/",
+        "label": "NYC Local Law 144 bias audits"
+      },
+      {
+        "href": "/explainers/eu-ai-act-and-recruitment/",
+        "label": "EU AI Act and recruitment"
+      }
+    ]
   }
 ]
