@@ -485,7 +485,9 @@
    "keyword": "agentic ai in hr",
    "volume": 50,
    "noon_target": "/product/ai-sourcer",
-   "status": "queued"
+   "status": "published",
+   "slug": "agentic-ai-in-hr",
+   "date": "2026-11-27"
   },
 {
  "id": "rai-052",
