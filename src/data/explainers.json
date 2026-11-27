@@ -1946,5 +1946,60 @@
         "label": "EU AI Act and recruitment"
       }
     ]
+  },
+  {
+    "slug": "ai-job-search",
+    "title": "AI job search in 2026: matching, ghost job filters, assistant connectors and the scams to avoid",
+    "seoTitle": "AI Job Search Explained: Tools, Risks and Tips",
+    "description": "A plain English explainer of AI job search in 2026: how job board matching, ghost job risk labels like Enhancv's Job Search and assistant connectors work, what the BBB found about employment scams, and how employers are responding.",
+    "date": "2026-11-27",
+    "updated": "2026-11-27",
+    "minutes": 6,
+    "short": "The new tools mostly help you decide which postings to skip.",
+    "body": "<p>Forty seven percent. That is the share of U.S. job seekers who told Enhancv's 2026 ghost jobs study they had applied to a role that, it later turned out, never existed. It explains why the newest AI job search tools are less about finding more listings and more about deciding which listings deserve an evening of your time. This explainer covers what AI job search means in late 2026, which tools do what, where the risks are, and what changes on the recruiter's side when candidates search this way.</p><h2>What AI job search means</h2><p>AI job search is the use of machine learning or large language models at the start of a job hunt: describing the work you want in plain language instead of keywords, getting ranked matches, being warned about suspicious postings, and having an assistant track what you applied to. It is a separate step from writing the application itself, which our explainer on <a href='/explainers/ai-job-applications/'>AI job applications</a> covers, including auto apply bots.</p><h2>The four kinds of tool</h2><ul><li><b>Matching inside job boards.</b> Large boards have used algorithms to recommend jobs for years. In a January 2026 interview published by <a href='https://openai.com/index/indeed-maggie-hulce/'>OpenAI</a>, Indeed's chief revenue officer said the company has more than a hundred AI powered features across job search and hiring and had launched Career Scout, an agent that acts like a career coach for job seekers. In China, BOSS Zhipin operator Kanzhun told investors on November 25, 2026 that AI had improved its matching accuracy as monthly users reached 73.0 million (<a href='https://finance.yahoo.com/markets/stocks/articles/kanzhun-limited-announces-third-quarter-111000447.html'>Kanzhun results</a>).</li><li><b>Posting risk filters.</b> On November 24, 2026 Enhancv launched Job Search, a board that runs 25 checks on each of 7.5 million postings every hour and labels each one Low, Moderate or High ghost risk (<a href='https://www.tennessean.com/press-release/story/266942/enhancv-launches-job-board-that-flags-ghost-jobs-before-candidates-apply/'>Enhancv announcement</a>). The idea is simple: a posting that has been reposted for months, has no named team, or never shows up on the employer's own careers page is less likely to lead to an interview.</li><li><b>Assistant connectors.</b> Two days later Enhancv released a Resume MCP, a connector built on the Model Context Protocol that lets Claude, ChatGPT and other assistants work with a job seeker's Enhancv resume, job search results and application tracker in one place (<a href='https://www.einpresswire.com/article/959232898/enhancv-launches-resume-mcp-letting-job-seekers-tailor-their-real-resume-inside-claude-and-chatgpt'>EIN Presswire</a>). The company says the connector tells the assistant to use only facts the candidate supplied, a response to assistants inventing achievements.</li><li><b>General chat assistants.</b> Many people simply ask a chatbot to suggest job titles, list companies hiring in a city, or compare two offers. That is useful for brainstorming but the answers are only as current as the assistant's search results, so always click through to the employer's own site.</li></ul><h2>Why scam detection is now part of the job</h2><p>Fake listings have grown alongside AI tools. The Better Business Bureau's 2026 employment scam study counted 23,234 reports to its Scam Tracker in 2025, roughly double the 11,748 reported in 2024, with text message scams making up half of all reports and a median loss of $1,000 (<a href='https://press-herald.com/bbb-employment-scams-study-reveals-soaring-numbers/'>BBB study coverage</a>). Its red flags are worth memorizing: unprompted offers, a job with no interview, pay that is too good to be true, interviewers who will not turn on a camera, and any request for money before you are paid. The same fraud runs in the other direction, too, with fake candidates targeting employers, which we explain in <a href='/explainers/deepfake-job-candidates/'>deepfake job candidates</a>.</p><h2>What employers are doing about AI powered searching</h2><p>Recruiters feel the volume. Business Insider reported on November 25, 2026 that a remote engineering opening at Tines drew about 2,000 applications in under 24 hours, and that its recruiter began hiding a line of white text in job postings asking AI agents not to apply (<a href='https://www.businessinsider.com/tines-hides-message-in-job-postings-for-ai-agents-2026-11'>Business Insider</a>). Expect more of this: hidden instructions in postings, stricter screening questions, and more weight on referrals. Employers are also searching harder for people who are not job hunting at all, using <a href='https://noon.ai/product/ai-sourcer'>AI sourcing software</a> that finds candidates from public profiles and reaches them by email or text. For a job seeker, that means a complete, accurate public profile is part of a search strategy, not an afterthought.</p><h2>How to use AI for job search without wasting time</h2><ol><li><b>Describe the job, not the title.</b> Give the assistant the problems you want to work on, the industries you know and your location limits. Ask for adjacent titles you might be missing.</li><li><b>Verify every posting at the source.</b> Find the same role on the employer's careers page before you apply. If you cannot, treat it as a risk.</li><li><b>Keep the facts yours.</b> If an assistant drafts or tailors your resume, check every number. Employers increasingly screen for AI written applications, as our explainer on <a href='/explainers/ai-generated-resumes/'>AI generated resumes</a> describes.</li><li><b>Track and prune.</b> Use a tracker, AI powered or a spreadsheet, and drop roles with no response after two weeks instead of reapplying.</li><li><b>Protect your data.</b> Never share bank details, ID scans or Social Security numbers before a verified offer, and be wary of chat apps that ask you to move off the job platform.</li></ol><h2>The limits</h2><p>Matching scores are only as good as the data behind them, and a ghost risk label is an estimate, not proof. AI tools also cannot tell you whether a hiring manager has already picked an internal candidate. Use them to narrow the list, then spend your effort on the few applications where you can reach a real person.</p>",
+    "faq": [
+      {
+        "q": "What is AI job search?",
+        "a": "Using AI to describe the work you want in plain language, get ranked job matches, flag suspicious postings and track applications, before you write any application."
+      },
+      {
+        "q": "What is a ghost job?",
+        "a": "A posting for a role that is not actually open. Enhancv's 2026 study found 47% of U.S. job seekers had applied to one."
+      },
+      {
+        "q": "Are AI job search tools safe to use?",
+        "a": "Most are, but treat them as a filter. Confirm each job on the employer's own careers page and never pay or share bank details to get hired."
+      },
+      {
+        "q": "How common are job scams in 2026?",
+        "a": "The BBB counted 23,234 employment scam reports in 2025, about double 2024, with text message scams making up half."
+      },
+      {
+        "q": "Can ChatGPT or Claude search for jobs for me?",
+        "a": "They can suggest titles and companies and, through connectors such as Enhancv's Resume MCP, work with a job board and tracker. Always check the listing at the source."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/ai-job-applications/",
+        "label": "AI job applications"
+      },
+      {
+        "href": "/explainers/ai-generated-resumes/",
+        "label": "AI generated resumes"
+      },
+      {
+        "href": "/explainers/ats-resume-and-ai-screening/",
+        "label": "ATS resume screening"
+      },
+      {
+        "href": "/explainers/deepfake-job-candidates/",
+        "label": "Deepfake job candidates"
+      },
+      {
+        "href": "/explainers/ai-job-interview/",
+        "label": "AI job interviews"
+      }
+    ]
   }
 ]
