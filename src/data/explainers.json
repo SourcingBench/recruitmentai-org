@@ -2001,5 +2001,52 @@
         "label": "AI job interviews"
       }
     ]
+  },
+  {
+    "slug": "agentic-ai-in-hr",
+    "title": "Agentic AI in HR: what HR agents do, which suites ship them and the governance questions to settle first",
+    "seoTitle": "Agentic AI in HR Explained (2026): Uses and Risks",
+    "description": "A plain English explainer of agentic AI in HR in 2026: how agents differ from assistants, what Workday, SAP and recruiting vendors ship, the best uses, and the legal and access risks.",
+    "date": "2026-11-27",
+    "updated": "2026-11-27",
+    "minutes": 7,
+    "short": "Agents act on HR systems, so permissions and audit trails matter more than prompts.",
+    "body": "<p>Is it a chatbot, an automation rule or something new? Vendors now label almost every HR feature an agent, which makes the term harder to evaluate. In plain terms, agentic AI in HR means software that is given a goal, plans the steps, uses other systems to carry them out and checks the result, rather than answering one prompt at a time. This explainer covers what that looks like inside HR suites in late 2026, where it is useful, where the legal and governance risks sit, and what HR teams should ask before turning an agent loose on employee data.</p><h2>From assistant to agent</h2><p>IBM's <a href='https://www.ibm.com/think/topics/agentic-ai'>explainer on agentic AI</a> draws the line between an assistant that responds and an agent that pursues a goal with planning, memory and tool calling. A generative assistant drafts a job description when asked. An agent notices that a requisition was approved, drafts the posting, routes it for review, publishes it and schedules the first screens. We cover the distinction for hiring specifically in <a href='/explainers/agentic-ai-vs-generative-ai-in-recruiting/'>agentic AI vs generative AI in recruiting</a>.</p><h2>What the big HR suites ship</h2><ul><li><b>Workday.</b> Its <a href='https://www.workday.com/en-us/ai-agents.html'>AI agents page</a> lists HR agents for talent acquisition, organizational development, workforce management and payroll, orchestrated by Sana, which Workday describes as anticipating, advising and acting. Workday also lists an Agent System of Record for managing agents, and its <a href='https://newsroom.workday.com/'>newsroom</a> reported on November 23, 2026 that it completed the acquisition of C1.ai to become the identity governance layer for people and agents.</li><li><b>SAP.</b> SAP's <a href='https://www.sap.com/products/artificial-intelligence/ai-agents.html'>Joule Agents</a> page describes agents that execute multistep tasks across SAP and non SAP systems, using the Model Context Protocol and Agent2Agent protocols, with humans kept in control and actions traceable.</li><li><b>Recruiting specialists.</b> Paradox markets a Candidate Experience Agent and a conversational ATS for frontline hiring on <a href='https://www.paradox.ai/'>its site</a>, with integrations that text candidates from inside Workday and SAP SuccessFactors.</li></ul><h2>Where agents help HR teams most</h2><p>The best early uses share three traits: high volume, clear rules and an easy way to check the work.</p><ul><li><b>Recruiting coordination.</b> Screening applicants against stated requirements, scheduling interviews and sending status updates. Sourcing agents go a step further and look for people who never applied; tools like <a href='https://noon.ai/product/ai-sourcer'>Noon's AI Sourcer</a> search for matching candidates and reach out by email and SMS for the recruiter.</li><li><b>Employee service.</b> Answering policy questions, updating addresses and bank details, and opening cases when a request falls outside policy.</li><li><b>Payroll checks.</b> Comparing a pay run with previous periods and flagging anomalies before approval.</li><li><b>Onboarding.</b> Provisioning accounts, assigning training and chasing missing documents, which our <a href='/explainers/ai-onboarding/'>AI onboarding</a> explainer covers in more depth.</li></ul><h2>The risks are about authority, not accuracy</h2><p>An assistant that writes a weak paragraph wastes a minute. An agent with permission to reject applicants or change pay can cause real harm at scale. Three areas need rules before launch:</p><ol><li><b>Employment decisions.</b> In New York City, <a href='https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page'>Local Law 144</a> bars employers from using an automated employment decision tool unless it had a bias audit within the past year, the audit summary is public and candidates get notice. See our explainers on <a href='/explainers/nyc-local-law-144-bias-audits/'>bias audits</a>, the <a href='/explainers/colorado-ai-act-and-hiring/'>Colorado AI Act</a> and the <a href='/explainers/eu-ai-act-and-recruitment/'>EU AI Act</a>.</li><li><b>Identity and access.</b> Every agent needs its own credentials, scoped permissions and an audit trail, which is why HR suites are building agent registries and identity governance.</li><li><b>Vendor liability.</b> The <a href='/explainers/mobley-v-workday/'>Mobley v. Workday</a> case shows that screening software vendors can face discrimination claims too, not only employers.</li></ol><h2>Questions to ask before you deploy one</h2><p>What is the agent allowed to do without a human approving it? Which systems can it write to? How is each action logged, and who reviews the log? Can a candidate or employee reach a person when the agent gets it wrong? What happens to the agent's access when the vendor contract ends? If a vendor cannot answer these in writing, keep the agent in suggest mode until it can.</p><h2>What changes for HR jobs</h2><p>Agents shift HR work from doing transactions to supervising them. Coordinators spend less time on calendars and more on exceptions; HR business partners spend more time on judgment calls the agent escalates. Our broader explainer on <a href='/explainers/ai-in-hr/'>AI in HR</a> covers the non agent tools that most teams still use every day.</p>",
+    "faq": [
+      {
+        "q": "What is agentic AI in HR?",
+        "a": "Software that takes an HR goal, such as filling a requisition or answering a policy request, plans the steps and uses connected systems to carry them out, with people approving the decisions that matter."
+      },
+      {
+        "q": "Is agentic AI the same as an HR chatbot?",
+        "a": "No. A chatbot answers questions. An agent can take actions such as scheduling interviews, updating records or flagging a pay run, within the permissions it is given."
+      },
+      {
+        "q": "Which HR platforms offer AI agents?",
+        "a": "Workday lists agents for talent acquisition, workforce management and payroll; SAP offers Joule Agents; recruiting vendors such as Paradox sell candidate facing agents."
+      },
+      {
+        "q": "Do hiring laws apply to AI agents?",
+        "a": "Yes. Rules such as New York City Local Law 144 apply to automated employment decision tools regardless of whether the vendor calls them agents."
+      }
+    ],
+    "related": [
+      {
+        "href": "/explainers/agentic-ai-vs-generative-ai-in-recruiting/",
+        "label": "Agentic AI vs generative AI in recruiting"
+      },
+      {
+        "href": "/explainers/ai-in-hr/",
+        "label": "AI in HR"
+      },
+      {
+        "href": "/explainers/ai-recruiter/",
+        "label": "AI recruiters"
+      },
+      {
+        "href": "/explainers/nyc-local-law-144-bias-audits/",
+        "label": "NYC Local Law 144 bias audits"
+      }
+    ]
   }
 ]
