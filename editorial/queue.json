@@ -486,6 +486,16 @@
    "volume": 50,
    "noon_target": "/product/ai-sourcer",
    "status": "queued"
-  }
+  },
+{
+ "id": "rai-052",
+ "family": "ai-explainer",
+ "keyword": "ai job search",
+ "volume": 5400,
+ "noon_target": "/product/ai-sourcer",
+ "status": "published",
+ "slug": "ai-job-search",
+ "date": "2026-11-27"
+}
 ]
 }
