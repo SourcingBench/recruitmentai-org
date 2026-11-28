@@ -498,6 +498,16 @@
  "status": "published",
  "slug": "ai-job-search",
  "date": "2026-11-27"
+},
+{
+ "id": "rai-053",
+ "family": "ai-explainer",
+ "keyword": "ai resume builder",
+ "volume": 27100,
+ "noon_target": null,
+ "status": "published",
+ "slug": "ai-resume-builders",
+ "date": "2026-11-28"
 }
 ]
 }
